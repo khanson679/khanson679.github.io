@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Project 12 Extra Notes</title>
+  </head>
+  <body>
+    <h2>Project 12 Extra Notes</h2>
+    <h3>Recursive Functions<br>
+    </h3>
+    <p>I'd have one main recommendation: use wrapper functions. It's also
+      possible to do the work without multiple functions, but things are more
+      likely to go wrong or get really weird. Some hints:</p>
+    <ol>
+      <li>Decide what needs to be done only once per function call. This work
+        goes in the wrapper (user-callable) function, such as sine().</li>
+      <li> Where the repeated calculation begins, call the recursive function
+        with the appropriate initial parameters. So sine() can call sine_rec(),
+        for example. This will be declared in the .cpp file rather than the .h
+        file.</li>
+      <li>Things that change between recursive calls should probably be
+        parameters. Global variables might also work, but as mentioned in the
+        project notes, they should not be used to exchange information between
+        functions. If you go the parameter route then default parameters may be
+        useful. You may also need parameters for values that do not change
+        between recursive calls (but are parameters to the wrapper function).</li>
+      <li>The recursive function will call itself until it reaches a base case,
+        at which point it starts returning. Think about what to do to get from
+        one step to the next. When the function decides that the current call is
+        not a base case, it needs to take the return value of the recursive call
+        and do something with it, then return the new value.</li>
+    </ol>
+    <h3>Misc.</h3>
+    <p>Don't start by copying everything from the Project 5.&nbsp; Look at your
+      scoresheet first and make sure you don't repeat any mistakes in the
+      library or the driver. Open your old library alongside the new one, and
+      copy bits of code if needed. You need factorial() and power() to work
+      before you can do sine() and cosine().</p>
+    <p>If you had good test cases last time, you will be able to recycle most of
+      it. You might also want to give auxiliary testing functions a try, if you
+      didn't last time. Note that your functions will probably hang or crash on
+      smaller input values this time (remove those tests).</p>
+    <p>Last, a warning: do not try turning in your old iterative functions. If
+      you do, you might get a negative score.</p>
+    <p></p>
+    <hr><em>Last</em><em> edited 4/21/13<br>
+    </em>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+<131 adriatic:~/cse232ta >g++ output_formatting.cpp
+<132 adriatic:~/cse232ta >a.out
+
+***Demonstrating C++ output formatting***
+
+FP formatting with 'setiosflags' and 'resetiosflags'
+----------------------------------------------------
+Default output:     200
+With 'showpoint':   200.000
+With 'fixed':       200.000000
+With 'scientific':  2.000000e+02
+Reseting all flags: 200
+Setting same flags: 2.000000e+02
+
+FP formatting with independent manipulators
+-------------------------------------------
+Default:           200
+With 'showpoint':  200.000
+With 'fixed':      200.000000
+With 'scientific': 2.000000e+02
+
+Decimal precision with 'setprecision'
+-------------------------------------
+Current:              2.000000e+02
+With setprecision(2): 2.00e+02
+
+Field alignment with 'setiosflags' and 'resetiosflags'
+------------------------------------------------------
+Current:      >   2.00e+02<
+Left aligned: >2.00e+02   <
+Right aliged: >   2.00e+02<
+
+Field alignment with independent manipulators
+---------------------------------------------
+Current:      >   2.00e+02<
+Left aligned: >2.00e+02   <
+Right aliged: >   2.00e+02<
+
+Column formatting with 'setw'
+-----------------------------
+
+  Column1      Column2
+-----------  -----------
+   2.00e+02     2.00e+02 (right aligned)
+2.00e+02     2.00e+02    (left aligned)
+2.0000000000e+02  2.0000000000e+02 (values don't fit)
+
+***Demonstration Complete***
+
+<133 adriatic:~/cse232ta >

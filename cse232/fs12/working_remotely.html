@@ -1,0 +1,147 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+<meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>Working Remotely</title>
+  <link rel="stylesheet" type="text/css" href="style.css"></head>
+<body>
+<h1>Working Remotely</h1><p>
+You can access the CSE system remotely by logging into the server
+Adriatic (adriatic.cse.msu.edu) via SSH.</p><p>See the <a href="http://www.cse.msu.edu/%7Ecse232/General/system.hints">CSE
+232 System Hints</a> for some basic info on using SSH. The
+remainder of this page provides some more detailed info.</p><h2>SSH Basics</h2>
+<p>SSH itself is just a protocol -- an SSH client uses this
+protocol to access a computer running an SSH server.</p><p>Most&nbsp;Linux computers (including the CSE worksations),
+as well as MacOS X, have a command-line SSH client installed. Use the following command to log in to the remote computer:</p><p style="margin-left: 40px;">ssh
+(username@)address</p><p>Notes:</p><ul><li>If the username field is missing, the
+SSH client will use the same username that you are logged on with on
+your local computer.</li><li>The address can be an IP address or a hostname (like&nbsp;adriatic.cse.msu.edu).</li><li>If
+you are on the CSE network (for example, if you are using a lab
+computer), you can skip the ".cse.msu.edu" part and just type
+"adriatic" for the hostname.</li><li>All
+student-accessible CSE
+servers use the default SSH port (22). To access other servers, you may
+need to change it by adding a command line option: ssh address -p port.</li><li>Exit from any SSH login by entering "exit".</li></ul>
+
+<h2>SSH Clients for Windows</h2>
+<p>Some SSH clients for Windows include:</p>
+<ul>
+<li>SSHWin
+(available for CSE students at <font style="font-size: 11pt;" size="2"><a href="http://www.cse.msu.edu/facility/software/">http://www.cse.msu.edu/facility/software</a></font>)</li>
+<li>PuTTY (available at <font style="font-size: 11pt;" size="2"><a href="http://www.chiark.greenend.org.uk/%7Esgtatham/putty/">http://www.chiark.greenend.org.uk/~sgtatham/putty/)</a></font></li><li><font style="font-size: 11pt;" size="2">Xshell (free for students at <a href="http://www.netsarang.com/download/free_license.html">http://www.netsarang.com/download/free_license.html</a>)<br></font></li>
+</ul>
+<p>Personally, I use and recommend PuTTY.</p><p>The main advantage to
+SSHWin is its ability to open multiple sessions without typing in your
+password more than once.
+Unfortunately, the default background is white, and I have not been
+able to configure colored text to be readable on a black background
+using this program.</p><p>I have not used Xshell much, but it has a black background like PuTTY, and easily clones sessions like SSHWin.<br>
+</p>
+<h2>PuTTY Hints<br>
+</h2>
+<ol>
+<li><font style="font-size: 11pt;" size="2">Use
+&#8220;USERNAME@adriatic.cse.msu.edu&#8221; as the computer name and save a profile
+to avoid having to type in your username every time.</font></li><li><font style="font-size: 11pt;" size="2">See this page for some configuration recommendations: <a href="http://dag.wieers.com/blog/improving-putty-settings-on-windows">http://dag.wieers.com/blog/improving-putty-settings-on-windows</a>.<br></font></li></ol><ul>
+</ul>
+<h2> Running Graphical Linux Programs Remotely</h2>
+<p> In order to run graphical linux programs on a remote
+computer, you will need to install an X11 server on your local machine
+(X11 is the most basic component of any graphical Linux system).</p><p>On a graphical Linux system, you should be able to open graphical applications with no further issues.</p><p>On Mac, you may need to install X11 depending on which version you have. Get it at <a href="http://xquartz.macosforge.org/trac/wiki">http://xquartz.macosforge.org/trac/wiki</a>.<span style="font-weight: bold;"></span></p>
+<p><span style="font-weight: bold;"></span>For Windows,
+you can use the program Xming.<br></p>
+<h2>Using Xming on Windows<br>
+</h2>
+<h3>Setup</h3>
+<ol>
+<li>
+<font style="font-size: 11pt;" size="2">Install Xming &lt;<a href="http://sourceforge.net/projects/xming">http://sourceforge.net/projects/xming</a>&gt;.</font>
+</li>
+<li>
+<font style="font-size: 11pt;" size="2">Enable X11 tunneling.</font>
+<ol type="a">
+<li>
+<font style="font-size: 11pt;" size="2">In SSH: Edit &#8594; Settings &#8594; Profile Settings&#8594;
+Connections &#8594; Tunneling &#8594; Tunnel X11 connections</font>
+</li>
+<li>
+<font style="font-size: 11pt;" size="2">In PuTTY: Connection &#8594; SSH &#8594; X11 &#8594; Enable X11
+forwarding</font>
+</li>
+</ol>
+</li>
+<li>
+<font style="font-size: 11pt;" size="2">Save your settings so that you don't have to do
+this every time.</font>
+</li>
+</ol>
+<h3>Every time you log in</h3>
+<ol>
+<li value="1">
+ <font style="font-size: 11pt;" size="2">Start Xming (Not XLaunch). It's a background
+program with a tray icon.</font>
+</li>
+<li>
+<font style="font-size: 11pt;" size="2">Log in to Adriatic.</font>
+</li>
+<li>
+<font style="font-size: 11pt;" size="2">Type the command line name of the program you want
+to use (usually all lowercase), followed by any options and arguments, <b>ending
+with an ampersand (&amp;)</b>. This creates a new process for
+the program, and allows you to continue to use the terminal even while
+the program is running.</font>
+</li>
+</ol>
+<h2>Coding on Windows/Mac<br>
+</h2>
+<p>We do not recommend you write and store your code on your own
+computer, but there are reasons for which you might want to use an
+editor on Windows or Mac instead of on Adriatic remotely while storing and running your code on the CSE system. For example,
+when the connection is poor, there can be significant lag running even
+a text-based editor remotely.<br>
+</p>
+<p>I have two solutions for you. The first is cross-platform, and
+the second is Windows-specific.<br>
+</p>
+<p>Note that <b>you should not compile and test your code
+on your own computer</b>, because you will be graded based on how
+it executes on Adriatic, and only the CSE lab workstations are similar
+enough that you can safely assume that there will be no differences.<br>
+</p>
+<h3>FileZilla<br>
+</h3>
+<p>You can use the FTP/SFTP client <a href="http://filezilla-project.org/">FileZilla</a>,
+which is available for Windows, Mac, and Linux, to open and edit your
+files, and use your SSH client only for creating files and running code.<br>
+</p>
+<ol><li>Create a profile for logging in to Adriatic as in an SSH
+client.</li><li>Choose SFTP as the protocol and "Normal" as the
+authentication method.</li><li>Navigate to your project folder. Right click on
+the file, and choose "View/Edit". It should open in your default
+program for that file type.</li><li>Edit and save your file, then click inside the FileZilla
+window and upload the file. Now you can compile and execute your code
+in your SSH client.</li></ol>On Windows, the default program will almost certainly be the
+useless Notepad, <b>which is not compatible with Linux files</b>,
+so you will need to install a real editor, such as <a href="http://notepad-plus-plus.org/">Notepad++</a>.
+Open it, go to Edit -&gt; EOL Conversion, and choose "Unix Format".<br>
+
+
+<p>Now you have several choices.<br>
+</p>
+<ol>
+<li>Make your new editor the system default editor for .cpp and .h
+files.</li>
+<li>Set FileZilla's filetype associations in Edit -&gt;
+Settings -&gt; FileEditing -&gt; Filetype Associations.</li>
+<li>Tell FileZilla to use a custom editor for all files in Edit
+-&gt; Settings -&gt; FileEditing.</li>
+</ol>
+
+<h3>Notepad++ and NppFTP</h3>
+<p>Notepad++ also has a built-in FTP client, and can open files
+from your CSE account directly (without the extra steps of downloading
+and uploading in FileZilla).<br>
+</p>
+<p>Go to Plugins -&gt; NppFTP -&gt; Show NppFTP Window.
+Create a profile as in FileZilla, the open, edit, and save as with any
+other file. Use your SSH client to compile and run.<br>
+</p>
+</body></html>

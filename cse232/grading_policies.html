@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Grading Policies</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Grading Policies</h1>
+    <p> If your program meets the project specifications and follows the coding
+      standard, it's unlikely that you will lose more than a couple points for
+      random mistakes and oversights. Nonetheless, I know I appreciate hearing
+      this kind of stuff up front, so I will try to be explicit as possible
+      about how your projects will be scored.</p>
+    <p>Much of the information in this document is course-wide policy. I will
+      expand on what I think are the most important points, as well as specify
+      as clearly as possible what my policies are on some particular problems.<br>
+    </p>
+    <h2>Contents</h2>
+    <ol>
+      <li><a href="#basics">Scoring Basics</a></li>
+      <li><a href="#details">Scoring Details</a></li>
+      <li><a href="#feedback">Project Feedback</a></li>
+      <li><a href="#disputes">Grade Disputes</a><br>
+      </li>
+    </ol>
+    <h2><a name="basics"></a>Scoring Basics</h2>
+    Most of the projects in this course will be worth between 30-50 points each,
+    totaling to 40% of your course grade. Each project will be scored on the
+    following criteria:<br>
+    <ol>
+      <li>Following the <a href="http://www.cse.msu.edu/%7Ecse232/General/coding.standard">coding
+          standard</a></li>
+      <li>A functioning <a href="http://www.cse.msu.edu/%7Ecse232/General/intro.make">makefile
+          </a> (once we start using them)<br>
+      </li>
+      <li>Program correctness</li>
+      <li>Output formatting (if applicable)<br>
+      </li>
+      <li>Testing code (if applicable)<br>
+      </li>
+    </ol>
+    <p>Just writing the code in and of itself does not earn you any points. <b>If
+        your code does not compile, or crashes before producing any viable
+        output, you can only receive credit for categories (1) and (2).</b> See
+      <a href="#broken">Broken Projects</a> for details.<br>
+    </p>
+    <h3>Coding Standard<br>
+    </h3>
+    <p>Category (1) will be graded by deduction. For each criteria of the coding
+      standard that the program fails to meet, I will deduct points until none
+      remain for the category. In other words, you can meet several of the
+      criteria while receiving a score of 0 if, for example, if your code is
+      completely unindented, has no comments, etc.<br>
+    </p>
+    <p>The coding standard boils down to (a) formatting and (b) documentation.
+      These are basic programming skills, and our requirements are not
+      complicated, so there is no excuse for not following the coding standard.</p>
+    <p>In particular, please use the suggested format for file/function headers
+      unless you have an alternative that is equal or superior to ours.<br>
+    </p>
+    <h3>Makefiles<br>
+    </h3>
+    <p>If your makefile works and follows the course standard, you get full
+      credit for category (2). The makefiles for the projects in this course
+      will be almost identical, so this one should be a freebie. <br>
+    </p>
+    <p>Notes:</p>
+    <ul>
+      <li>Please include a brief file header with your name and project number
+        (otherwise, I can't distinguish between them easily). Use '#' for
+        comments in makefiles.</li>
+      <li>Please use the specified executable name (always "projectXX") and
+        compile your project the way we taught you.</li>
+    </ul>
+    <p></p>
+    <h3>Program Correctness</h3>
+    <p>For full credit in category (3), your program must meet all of the
+      project specifications. Within category (3), each specification will be
+      graded independently (to the extent that this is possible), so you can
+      earn full, partial, or no credit for each specification.</p>
+    <p>You need to test your programs thoroughly in order to ensure that they
+      produce good output for all normal input. You also need to include error
+      handling code to prevent special cases from crashing the program or
+      producing garbage output.<br>
+      <br>
+      See below for the policy on <a href="#partial_credit">partial credit</a>.<br>
+    </p>
+    <h3>Output Formatting<br>
+    </h3>
+    <p>For category (4), program output must always:<br>
+    </p>
+    <ul>
+    </ul>
+    <ol>
+      <li>Follow the project specifications<br>
+      </li>
+      <li>Display correctly in an 80 character wide terminal</li>
+      <li>Be labeled and formatted so that it is:</li>
+      <ol type="a">
+        <li>easily readable, and<br>
+        </li>
+        <li>understandable to a reader who has not seen the source code</li>
+      </ol>
+    </ol>
+    <ul>
+    </ul>
+    <p>I would like to give special emphasis to the last point. You may know
+      what your unlabeled output means, but your user doesn't, and it's not
+      their job to figure it out.<br>
+    </p>
+    <h3>Testing Code<br>
+    </h3>
+    <p>For category (5), testing code (usually a "driver" module) must always:</p>
+    <ul>
+    </ul>
+    <ol>
+      <li>Test all functions and logic paths in the main code</li>
+      <li>Test all reasonable categories of input</li>
+      <ul>
+        <li>For example, if you have a function uses the sine of some input
+          value, you must test input values from all four quadrants.<br>
+        </li>
+      </ul>
+      <li>Test all typical special cases</li>
+      <ul>
+        <li>This includes any input that is likely to crash the program or
+          produce nonsensical output.</li>
+        <li>As you do this, make sure you fix your code to handle any problems
+          you find!</li>
+      </ul>
+    </ol>
+    <ul>
+      <ul>
+      </ul>
+    </ul>
+    <p>Your testing code should change as you develop your program. Remove any
+      unnecessary tests at the end, but leave in enough to prove that you tested
+      thoroughly. Comment out any tests that crash the program.</p>
+    <h2><a name="details"></a>Scoring Details</h2>
+    <h3><a name="partial_credit"></a>Partial Credit</h3>
+    There are two kinds of partial credit you can receive for each project
+    specification:<br>
+    <ol>
+      <li>Partial credit for components that partially meet project
+        specifications</li>
+      <li>Partial credit for components that do not the project specifications,
+        but would if it weren't for a small programming mistake.</li>
+    </ol>
+    <p>For category (1), points will be assigned based on the degree to which
+      the component meets project specifications. Failure to handle special
+      cases will lose you fewer points than bad output for more typical input.<br>
+    </p>
+    <p>For category (2), you must understand that <span style="font-weight: bold;">I
+        am not obligated to try to find your mistakes in order to give you
+        partial credit for program components that do not work properly.</span>
+      That being said, I will usually try to do so for your benefit. Because of
+      this, it's in your best interest to make your code as readable as
+      possible.</p>
+    <p> In general, small problems will result in 0.5 to 1 point deductions, and
+      larger problems will result in the loss of a proportion of the total
+      points for the category.</p>
+    <p>There are two specific situations in which I definitely will <span style="font-weight: bold;">not</span>
+      search for your mistakes:</p>
+    <ol>
+      <li>If your testing code is poor or non-existent, or it is otherwise
+        obvious that you did not test your code properly</li>
+      <li>If your code is poorly formatted and/or poorly documented, making it
+        unnecessarily difficult for me to interpret it</li>
+    </ol>
+    <h3>Interdependent Code<br>
+    </h3>
+    <p>Often, a problem in one component of the program will ruin otherwise
+      correct output from other components of the program. Sometimes, the
+      effects of this are transparent enough that I can give you full credit for
+      the dependent components without any trouble.</p>
+    <p>However, when this is not the case, <span style="font-weight: bold;">I
+        am not obligated to try to "fix" your code and rerun our tests in order
+        to give the the maximum possible score for the dependent components.</span>
+      I may choose to do so if I believe it is warranted and easy to do so, but
+      it your responsibility to identify the most core components of your
+      program and make sure they work.</p>
+    <h3><a name="broken"></a>Broken Projects</h3>
+    <p>Per course-wide policy, if you turn in code that does not compile, or
+      crashes before producing any viable output, you can receive points only
+      for the "general requirements" criteria. In other words, you get a zero
+      for all project specifications. It is not possible for me to accurately
+      grade projects that do not run, so this is non-negotiable.</p>
+    <p>In practice, there is no reason for this to ever happen. One of the goals
+      of this course is for you to learn proper software development strategy,
+      the heart of which is incremental development. Please see <a href="https://www.msu.edu/%7Ehanson54/cse232ss13/software_dev_pointers.html">Software
+        Development Pointers</a> for details.<br>
+    </p>
+    <h3>Additional Penalties</h3>
+    <p>I may deduct additional points for programs that show truly horrible
+      design decisions, for example:</p>
+    <ul>
+      <li> Duplicate code</li>
+      <li>Failing to break complex code into multiple functions </li>
+      <li> Failing to break large programs with multiple distinct components
+        into multiple files </li>
+      <li> Putting implementation code in header files (except for short inline
+        functions)</li>
+      <li>#include-ing implementation files </li>
+    </ul>
+    <h3>Freebies</h3>
+    Occasionally, I may decide not to deduct points for some particular issue,
+    usually when I think something in the instructions was unclear. In this
+    case, I will generally write "-0" followed by a comment on the relevant
+    section of the affected score sheets.
+    <p> </p>
+    <h2><a name="feedback"></a>Project Feedback</h2>
+    <p>For each project, you will receive a scoresheet with comments via email.
+      I take these very seriously, and would appreciate it if you do as well. I
+      will give very detailed comments for the first couple projects in in order
+      to help you master C++ more quickly.<br>
+    </p>
+    <p>Scoresheets will usually be returned within one week of the project due
+      date, and almost always before the next project. If you believe there is a
+      problem with a scoresheet, please email me ASAP. If I made a mistake, I
+      will fix it and update your grade.<br>
+    </p>
+    <h2><a name="disputes"></a>Grade Disputes</h2>
+    <p> I try to grade as accurately and consistently as possible, but if you
+      believe I have (1) made a mistake, or (2) graded one of your projects
+      unfairly <span style="font-weight: bold;">compared to other students in
+        this section</span>, I will take another look.</p>
+    <p>However, I have no control over how the other TAs grade their students,
+      so I will not consider complaints along the line of "so-and-so didn't take
+      off points for [insert problem here]". In other words, all grading
+      decisions are final for the current project. You can still let me know
+      about these kinds of issues, but any changes I make will only affect
+      future projects.</p>
+    <p>If you believe that grading between the TAs is unequal in general, you
+      should inform Mr. McCullen directly.</p>
+    <h2>See Also</h2>
+    <ul>
+      <li><a href="https://www.msu.edu/%7Ehanson54/cse232ss13/grading_policies.html"></a><a
+          href="https://www.msu.edu/%7Ehanson54/cse232/faqs.html"></a><a href="section_policies.html">Section
+          Policies</a></li>
+      <li><a href="https://www.msu.edu/%7Ehanson54/cse232ss13/getting_help.html">
+        </a><a href="course_advice.html">Course Advice</a></li>
+    </ul>
+    <p> </p>
+    <hr><em>Last updated 1/15/13</em>
+    <p></p>
+  </body>
+</html>

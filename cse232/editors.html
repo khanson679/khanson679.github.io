@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Text Editors and IDEs</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Text Editors and IDEs<br>
+    </h1>
+    <p>Unlike word processors, text editors are designed for manipulating raw
+      text, without fonts, bullets, tables, and so on. You can program with any
+      basic text editor, but some editors will than others depending on your
+      needs and preferences.</p>
+    <p>IDEs typically contain at least a debugger and build automation tools in
+      addition to an editor. IDEs also tend to have much better
+      language-specific goodies than editors.<br>
+    </p>
+    <h2>Linux Editors<br>
+    </h2>
+    <p>There are several terminal editors installed on the CSE computers:</p>
+    <ul>
+      <li>Vim (or the original "vi")</li>
+      <li>Emacs</li>
+      <li>Nano</li>
+    </ul>
+    <p>You will learn how to use Vim in Project 1, but after that you are free
+      to use any editor or IDE (integrated development environment) you choose.</p>
+    <p>Many people love Vim and hate Emacs, or vis versa, so if you don't like
+      Vim, give Emacs a try (see the <a href="http://www.cse.msu.edu/%7Ecse232/General/">CSE
+        232 tutorials</a>). Note that the version of Vim installed on the CSE
+      computers is somewhat crippled in its functionality until you enable those
+      features by creating a <a href="vim.html">.vimrc file</a>. Nano is easy
+      to use, but not nearly as powerful as the other two editors (in
+      particular, its auto-indentation is very basic).</p>
+    <h2>Graphical Editors<br>
+    </h2>
+    <p>Both Vim and Emacs also have graphical versions that allow you to use the
+      mouse for cut/copy/paste, etc., but only the graphical version of Emacs is
+      currently available on the CSE machines.</p>
+    <p>There are also several purely graphical editors available:</p>
+    <ul>
+      <li>Gedit (Gnome)<br>
+      </li>
+      <li>Kwrite (KDE)<br>
+      </li>
+    </ul>
+    <p>Because both Gnome and KDE are installed on the CSE computers, you can
+      use programs from both desktop environments. Like Nano, Gedit has only
+      very basic auto-indentation (and very few built-in features in general),
+      but the editor has many plugins that you can download for additional
+      functionality. Kwrite is a bit more powerful.<br>
+    </p>
+    <h2>Linux IDEs<br>
+    </h2>
+    There are two IDEs available on the CSE computers:
+    <ul>
+      <li>Kate (simple)</li>
+      <li>Eclipse (powerful)</li>
+    </ul>
+    <p>Eclipse is what I used in CSE 335, and I recommend it for CSE 232 as
+      well, if you're interested in learning how to use it. There is no shortcut
+      in the menu on the CSE computers for some reason, so open a terminal and
+      enter "eclipse &amp;" (the ampersand runs the program in a new process so
+      you can close the terminal or use it for something else).<br>
+    </p>
+    <p>I have not used Kate much, but it's probably a good choice if you find
+      Gedit/Kwrite too simple and Eclipse too complex.<br>
+    </p>
+    <h2>Editor/IDE Configuration</h2>
+    <p>Whichever editor or IDE you choose, there are a couple features you will
+      definitely want to enable: syntax highlighting and auto-indentation.</p>
+    <ul>
+      <li>Syntax highlighting colors each "word" in your program according to
+        its function, making your code easier to read. <br>
+      </li>
+      <li>Simple auto-indentation just keeps the current level of indentation,
+        so you don't have to press tab so many times. Advanced auto-indentation
+        automatically indents and de-indents the current line based on the
+        language you are using. In C++, this means whenever you enter an opening
+        or closing brace.</li>
+    </ul>
+    You should also set your tab width to 2 or 4 spaces (8 is typically
+    unnecessary). You can use either real tabs or "soft tabs" (replaced by
+    spaces); just don't use both in the same file -- this causes the formatting
+    to get messed up when someone opens your code under a different tab width
+    than what you used.<br>
+    <p>I also find it much easier on the eyes to use color scheme with a dark
+      background, if possible. Depending on your choice of editor, you may also
+      be able to set up auto-completion and templates for function headers, etc.</p>
+    <p>I've written up a little bit about <a href="vim.html">configuring Vim</a>.<br>
+    </p>
+    <h2>Working Remotely</h2>
+    <p>If you log in to the CSE system remotely via SSH, you will be able to run
+      any terminal editor with no further complications. In this case, you'll
+      want to open an additional remote terminal to run your programs in. It's
+      also possible to use graphical editors and IDEs remotely, though the
+      connection will probably be too slow unless you're on campus or very
+      close.<br>
+    </p>
+    <p>See <a href="working_remotely.html">Working Remotely</a> for details.</p>
+    <hr><em>Last updated 12/17/12</em>
+    <p></p>
+  </body>
+</html>

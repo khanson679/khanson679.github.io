@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Software Development Pointers</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Software Development Pointers</h1>
+    <ol>
+      <li><strong>Always have code that compiles. </strong>
+        <ol>
+          <li>Start by writing core class and function declarations, and stubs
+            for all functions (including main). Write all of your file, class
+            and function headers now (you can change them later if necessary).
+            Write the makefile and make sure the project compiles before
+            beginning the real coding. </li>
+          <li>As you develop your code, compile VERY frequently, on the order of
+            every 3-10 lines. You don't necessarily have to test your code each
+            time, just make sure there are no compiler errors. (Having an extra
+            terminal open makes this easy.)</li>
+        </ol>
+      </li>
+      <li><strong>Practice <em>incremental development</em></strong>.<br>
+        <ol>
+          <li>Always have code that mostly works and does not crash or hang.</li>
+          <ol>
+            <li>This makes it possible to test each new addition simply by
+              running the program (or call the function).<br>
+            </li>
+            <li>If you can't finish the project, you can still potentially get
+              full credit for each component of the project that you did
+              complete.</li>
+            <li>Before making major changes, make a backup of the current file
+              or the entire project folder (depending on the scope of the
+              change).</li>
+          </ol>
+          <li>Don't try to solve complicated problems all at once. Get some of
+            the framework in place (initial steps, outer loops, etc) and make
+            sure those steps are working before continuing. </li>
+          <ol>
+            <li>If you do this, you can be fairly certain that any bugs that
+              come up are in the code you just wrote. Tracking down bugs is one
+              of the biggest time sinks in programming.</li>
+            <li>If you realize that you are doing something the wrong way, there
+              will be much less code to rewrite.</li>
+          </ol>
+          <li>Document your code as you go. </li>
+        </ol>
+        <ol>
+          <ol>
+            <li>Tell what you're going to do before you do it, for everything
+              except very trivial code. Verbalizing your plans will force you to
+              check that what you're doing makes sense. </li>
+          </ol>
+          <li>Do the majority of your testing as you go.
+            <ol>
+              <li>Again, this helps you avoid searching for a bug in some code
+                you wrote long ago.</li>
+              <li>Also, you're more likely to remember the relevant tests for
+                errors.<br>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+      <li><strong>Test every possibility. </strong>
+        <ol>
+          <li>Make sure every logic path (if-else, switch-case, loop conditions,
+            mid-loop breaks) works as intended. </li>
+          <li>Make sure your program works for a variety of input, not just a
+            couple cases.</li>
+          <ol>
+            <li>This time, you're not thinking about your code's structure, but
+              trying to find any input that might not work as expected.</li>
+          </ol>
+          <li>Check for input errors (e.g., bad input that doesn't necessarily
+            have a correct output). Even if your documentation states that some
+            input will have undefined output, you at least need to make sure
+            your program won't crash.</li>
+        </ol>
+      </li>
+    </ol>
+    <hr style="width: 100%; height: 2px;"><em>Last updated 12/29/12<br>
+    </em>
+    <p></p>
+  </body>
+</html>

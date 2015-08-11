@@ -1,0 +1,225 @@
+CSE 232 Lab 3 Notes
+
+As with most labs, these notes focus on concepts that might not
+be as clear in the course pack examples.
+
+
+
+1. == and =
+
+0 == false, all other values == true.
+
+The following is WRONG, but it will never throw an error.
+
+if (x = 3) {
+	...
+}
+
+The "if" body will always execute, since "x = 3" returns "3", which counts as
+"true".
+
+You must use operator "==" in order to test for equality.
+
+
+
+2. AND and OR
+
+"A && B" means A AND B. "A || B" means A OR B (OR both). "and" and "or" may
+not work on all compilers. "&" and "|" are bitwise operators.
+
+
+
+3. Parentheses
+
+Put parentheses around complex expressions.
+
+	if ((A > B) || (C > D)) {
+		...
+	}
+	
+	
+	
+4. If-else and "if-if"
+
+The following two sets of if statements do NOT do the same thing.
+
+	// block 1
+
+	if (X == A) {
+		...
+	}
+	if (Y > B) {
+		...
+	}
+	if (Y > C) {
+		...
+	}
+
+
+	// block 2
+
+	if (X == A) {
+		...
+	}
+	else if (Y > B) {
+		...
+	}
+	else if (Y > C) {
+		...
+	}
+
+In the first case, all three bodies can potentially be executed, while in the
+second, only one will be.
+
+
+
+5. Unnecessary "if"s
+
+The following three sets do the same thing, but you should always write it
+the last way. There is no reason to do it the first two ways.
+
+	// block 1 (***BAD***)
+	if (X <= A) {
+		...
+	}
+	if (X > A) {
+		...
+	}
+
+	// block 2 (***BAD***)
+	if (X <= A) {
+		...
+	}
+	else if (X > A) {
+		...
+	}
+
+	// block 3 (***GOOD***)
+	if (X <= A) {
+		...
+	}
+	else {
+		...
+	}
+
+
+
+6. Boundary conditions
+
+If you want every value in a range to match one case, be careful
+with < vs <= and > vs >=
+
+	// handles all positive numbers correctly
+	if (0 <= x && x <= 100) {
+		...
+	}
+	else if (x <= 200) {
+		...
+	}
+	else {
+		...
+	}
+	
+	
+
+7. Switch-Case
+
+Once the "switch" statement is evaluated, every case from the result to the
+end will be executed.
+
+	switch(x) {
+		case 3:
+			cout << "3" << endl;
+		case 2:
+			cout << "2" << endl;
+		case 1:
+			cout << "1" << endl;		
+		default:
+			cout << "done" << endl;
+	}
+	
+	/* if x == 3, then the output is:
+		3
+		2
+		1
+		done
+	*/
+
+You must have a "break" at the end of each case if you want only
+one case to be executed.
+
+	switch(x) {
+		case 3:
+			cout << "3" << endl;
+			break;
+		case 2:
+			cout << "2" << endl;
+			break;
+		case 1:
+			cout << "1" << endl;
+			break;
+		default:
+			cout << "not 1/2/3" << endl;
+			break; // not strictly necessary
+	}
+	
+Note that each "case" must be an integer value (char/short/int/unsigned), not
+a variable.
+
+
+
+8. While and For
+
+In C++, "for" is a shortcut for "while". the following two loops
+do the same thing.
+
+	int i = 0;
+	while (i < 10) {
+		cout << "i" << endl;
+		i++;
+	}
+	
+	for (int i = 0; i < 10; i++) {
+		cout << "i" << endl;
+	}
+
+When you write loops like these, always use the "for" version. Use "while"
+for middle-tested loops and other loops that don't fit the "for" format well.
+
+
+
+9. Loop conditions
+
+Standard practice is to start from 0, and use < in the end condition. For
+iterating through arrays, this is the only sane way to do it (arrays
+covered in lab 6).
+
+
+
+10. Top, bottom, and middle tested loops
+
+"While" and "for" are usually top-tested loops. Each iteration is
+
+	check condition (stop?) -> execute body
+	
+"Do-while" is rarely used, but does the reverse. Because of this, the
+body is always executed at least once.
+
+	do {
+		// body
+	} while (cond);
+	
+	// execute body -> check condition (stop?)
+	
+"Middle-tested" loops are also very common. Create an infinite loop
+with a break condition somewhere in the middle.
+
+	while (true) {  // OR: for(;;) {
+		// fetch data
+		
+		if (cond) break;
+		
+		// process data
+	}
+	
+See the course pack for lots of examples.

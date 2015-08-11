@@ -1,0 +1,29 @@
+body {
+	min-width: 780px;
+	max-width: 780px;
+}
+
+ul, ol, blockquote {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+ul li, ol li {
+	margin-bottom: .5em;
+}
+
+ol li {
+	list-style-type: decimal;
+}
+
+ol ol li {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol li {
+	list-style-type: lower-roman;
+}
+
+td {
+	padding: 2px 5px;
+}

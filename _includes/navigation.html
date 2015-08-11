@@ -1,0 +1,16 @@
+{% if page.url == "/" %}<li class="active">{% else %}<li>{% endif %}
+  <a href="{{ site.baseurl }}/">About</a>
+</li>
+
+{% assign sorted_pages = site.pages | sort:"title" %}
+{% for p in sorted_pages %}
+  {% if p.url != "/" and p.url != "/links/" %}
+  {% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
+    <a href="{{ site.baseurl }}{{ p.url }}">{{p.title}}</a>
+  </li>
+  {% endif %}
+{% endfor %}
+
+{% if page.url == "/links/" %}<li class="active">{% else %}<li>{% endif %}
+  <a href="{{ site.baseurl }}/links/">Links</a>
+</li>

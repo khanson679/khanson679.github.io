@@ -1,0 +1,38 @@
+% Document: trace_text
+% Last updated 10/19/12
+
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{gb4e}
+
+\usepackage{fixltx2e} % provides \textsubscript among some other minor fixes
+\usepackage{xspace}   % adds a space except when preceded by punctuation.
+
+% Name:    tr
+% Purpose: Makes a properly formatted trace with an optional index
+% Notes:   You can also easily make "i" the default subscript
+%          Thanks to Alan Munn for showing me this
+\newcommand*\tr[1][]{\textit{t\textsubscript{#1}}\xspace}
+
+\begin{document}
+
+\title{Trace Command Examples}
+\maketitle
+
+\begin{exe}
+\ex \textbf{That-trace effect}
+\begin{xlist}
+\ex Who do you think (that) Sue met \tr?
+\ex Who do you think (*that) \tr met Sue?
+\end{xlist}
+\end{exe}
+
+\begin{exe}
+\ex \textbf{That-trace and for-trace effects}
+\begin{xlist}
+\ex * Who_i do you think [\tr[i] that [\tr[i] bought the book] ].
+\ex * Who_i would you prefer [\tr[i] for [\tr[i] to buy the book] ].
+\end{xlist}
+\end{exe}
+
+\end{document}

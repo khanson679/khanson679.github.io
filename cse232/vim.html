@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Vim Configuration</title>
+  </head>
+  <body>
+    <h1>Vim Configuration</h1>
+    <h2>Basic Configuration</h2>
+    To get all of Vim's useful features (and replace the horrible default
+    settings):<br>
+    <ol>
+      <li>Edit your ".vimrc" file.<br>
+        <blockquote><code>$ cd<br>
+            $ vim .vimrc</code></blockquote>
+      </li>
+      <li>Now you're in Vim in command mode. Execute the following commands:<br>
+        <blockquote><code>:r $VIMRUNTIME/vimrc_example.vim<br>
+            :wq</code></blockquote>
+      </li>
+    </ol>
+    This will:<br>
+    <ul>
+      <li>Fix the backspace and arrow keys in insert mode</li>
+      <li>Enable syntax highlighting</li>
+      <li>Enable automatic indentation</li>
+    </ul>
+    <h2>Tab Configuration</h2>
+    To set the tab width to 2 or 4 characters (the default is 8 characters,
+    which is too big), add the following commands to the bottom of your .vimrc
+    file:<br>
+    <br>
+    <div style="margin-left: 40px;"><code>" Indentation settings<br>
+        set tabstop=2<br>
+        set shiftwidth=2</code><br>
+    </div>
+    <br>
+    To make Vim insert spaces ("soft tabstops") instead of real tabs ("hard
+    tabstops"), add the following:<br>
+    <br>
+    <div style="margin-left: 40px;"><code>" use soft tabstops<br>
+        set expandtab</code><br>
+    </div>
+    <br>
+    Which should you do? Honestly, it's a personal preference. You can change
+    the width of real tabs by changing your editor's settings, while spaces mean
+    that anyone can view your file as intended without changing any settings.
+    <p>IMPORTANT: makefiles require real tabs. If you choose to use spaces for
+      your code, you will need to temporarily change your settings when you edit
+      a make file. Use the following commands while in Vim:</p>
+    <blockquote><code>:set expandtab<br>
+        :set noexpandtab<br>
+      </code></blockquote>
+    <p>Or, you can just use another editor, like Nano (which also defaults to
+      real tabs) when editing makefiles.</p>
+    <hr><em>Last updated 12/17/12</em>
+    <p></p>
+  </body>
+</html>

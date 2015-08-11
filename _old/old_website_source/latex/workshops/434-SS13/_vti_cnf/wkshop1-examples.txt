@@ -1,0 +1,12 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|15 Oct 2013 21:26:08 -0000
+vti_extenderversion:SR|12.0.0.0
+vti_syncwith_afs.msu.edu\:21/web:TX|15 Oct 2013 16:06:25 -0000
+vti_syncofs_afs.msu.edu\:21/web:TW|15 Oct 2013 21:26:47 -0000
+vti_author:SR|Kenneth-Netbook\\Kenneth
+vti_modifiedby:SR|Kenneth-Netbook\\Kenneth
+vti_nexttolasttimemodified:TR|15 Oct 2013 21:25:39 -0000
+vti_timecreated:TR|15 Oct 2013 16:06:00 -0000
+vti_backlinkinfo:VX|latex/workshops/434-SS13/index.html
+vti_cacheddtm:TX|15 Oct 2013 16:06:25 -0000
+vti_filesize:IR|7299

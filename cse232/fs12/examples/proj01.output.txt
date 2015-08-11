@@ -1,0 +1,42 @@
+<30 lovejoy:~ >g++ proj02.angles.cpp
+<31 lovejoy:~ >a.out < test1
+
+Enter sides of triangle (cm): 
+
+Lengths entered: 3, 4, 5
+
+Angle A:   0.64 rad (36.87 deg)
+Angle B:   0.93 rad (53.13 deg)
+Angle C:   1.57 rad (90.00 deg)
+
+Perimeter: 12.00 cm
+Area:      6.00 sq cm
+
+<32 lovejoy:~ >a.out < test2
+
+Enter sides of triangle (cm): 
+
+Lengths entered: 8.5, 8.5, 8.5
+
+Angle A:   1.05 rad (60.00 deg)
+Angle B:   1.05 rad (60.00 deg)
+Angle C:   1.05 rad (60.00 deg)
+
+Perimeter: 25.50 cm
+Area:      31.29 sq cm
+
+<33 lovejoy:~ >a.out < test3
+
+Enter sides of triangle (cm): 
+
+Lengths entered: 2, 10, 10
+
+Angle A:   0.20 rad (11.48 deg)
+Angle B:   1.47 rad (84.26 deg)
+Angle C:   1.47 rad (84.26 deg)
+
+Perimeter: 22.00 cm
+Area:      9.95 sq cm
+
+<34 lovejoy:~ >
+

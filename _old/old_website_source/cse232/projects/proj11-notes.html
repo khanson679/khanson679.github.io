@@ -1,0 +1,122 @@
+<html>
+  <head>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+    <title>Project 11 Extra Notes</title>
+  </head>
+  <body>
+    <h2>Project 11 Extra Notes</h2>
+    <h3>Preliminaries</h3>
+    <h3></h3>
+    <p>Project 11 is an end user program. The basic rules are the same as with
+      Project 5:</p>
+    <ol>
+      <li>Break the program into functions and modules</li>
+      <li>Use appropriate file organization</li>
+    </ol>
+    <p></p>
+    <p>As with the last such project, you have considerable freedom in choosing
+      the design of your project, but at the same time it's extremely easy to
+      get stuck if you fail to do so carefully. A warning: you will lose points
+      for exceptionally bad program design.</p>
+    <p>You may want to review the <a href="proj05-notes.html">notes for Project
+        5</a> before continuing. Ask ASAP if you are unsure about what you're
+      doing.</p>
+    <h3>STL Containers and Algorithms</h3>
+    <p>You will almost certainly want to make a class representing a
+      municipality. This would also be a good name for the class, although it's
+      a bit long. You can also use a struct if you prefer. Either way, any
+      functions that operate on a single data record should go in this module.</p>
+    <p>You must use an STL container to represent the table of data records.
+      Vector, List, and Deque are all usable, but they are not equally
+      appropriate, so think before you make your choice. You may NOT use an
+      array. STL containers are far easier to use anyway.</p>
+    <p>You should use the STL algorithms as much as possible. If you're having
+      trouble using the "for_each" algorithm, you can just use "for" loops
+      instead, preferably using iterators, operator[] as a last resort. However,
+      you should NOT write your own sorting algorithm.</p>
+    <h3>Program Design</h3>
+    <p></p>
+    <p>The biggest decision you have to make is whether to wrap your STL
+      container in a class including functions that operate on the entire table.
+      If you do this, you'll be locked into a fully object-oriented programming
+      style, which we haven't had much practice with in this class. You will
+      also have to be careful in how you design the I/O portion of the program.
+      The file input portion would be appropriate to include in the class, but
+      the user input portion would not. Because of these problems, you will most
+      likely want to use a bare STL container and write a procedural "support"
+      module like those you've seen throughout the course.</p>
+    <p>The other major decision you need to make is how to separate the input
+      processing from the table operations. The easiest method is to have a
+      "driver" module that fully interprets the user's commands, and to put
+      everything else in other modules.</p>
+    <p>You can put the entire user input loop in one function. Alternatively,
+      you can branch off into auxiliary functions after reading the first word
+      on a line, which can potentially make the code easier to read by
+      eliminating deep indentation (which you are supposed to do, according to
+      the coding standard). Whatever you do, file input and table processing
+      should not be in the same function as the user input loop.</p>
+    <p>Access to the table can be problematic. The best practice is to construct
+      the table as a local object, and pass it as a parameter to all other
+      functions. However, if every function that operates on the table is in the
+      same module, then you can potentially use a global variable in that
+      module.</p>
+    <h3>Input and Output</h3>
+    <p>You will need to make an "ifstream" in order to read from the file. You
+      can use "cin" for user input, "cout" for all reports, and "cerr" for error
+      messages.</p>
+    <p>You must have well formatted output. The user should never see a wall of
+      text with no space. At the very least, you should insert a blank line
+      after every block of output, and you can make it prettier at the very end.</p>
+    <p>Try to make use of headings like these:</p>
+    <div style="margin-left: 40px;"><code>***** Heading *****</code><br>
+      <br>
+      <code>----- Heading -----</code><br>
+      <br>
+      <code>Heading</code><br>
+      <code>-------</code><br>
+      <code></code></div>
+    <p>If you use colons, you will usually want to put a blank line before and
+      after.</p>
+    <div style="margin-left: 40px;"><code>Heading:</code><code><br>
+        <br>
+      </code><code>-</code><code><br>
+      </code><code>| <br>
+        | Block</code><code><br>
+        |<br>
+      </code><code>-</code><code><br>
+      </code><code><br>
+      </code><code>Heading</code><code>:<br>
+        <br>
+      </code><code><code>-</code><code><br>
+        </code><code>| <br>
+          | Block</code><code><br>
+          |<br>
+        </code><code>-</code><code></code></code></div>
+    <p>As usual, tables should be aligned with column headings, and lines should
+      not exceed 80 characters. You know the drill.</p>
+    <div style="margin-left: 40px;"> </div>
+    <p style="margin-left: 40px;"></p>
+    <h3>Error Messages</h3>
+    <p>As with last time, you should print error messages when operations fail.
+      You must print enough information that the user will know what went wrong.
+      Don't end the program unless there really is no alternative.</p>
+    <p>See the project notes file regarding what assumptions you can make about
+      the input format.</p>
+    <h3>Attack Plan</h3>
+    <p>I shouldn't need to tell you this at this point in the semester, but the
+      most most critical commands to implement are INPUT and ALL. Don't worry
+      about names containing whitespace or sorting the table -- just get it to
+      read and print the simple test file.</p>
+    <p>You can start from the top down (user input), or the bottom up
+      (municipality class). Top-down is probably better, since you can test your
+      user input logic without the table or a lot of extra test code. Add
+      features one at a time once you have the basics working.</p>
+    <h3>Testing</h3>
+    <p>There is no test module to turn in this time, but it would still be wise
+      to develop a series of test cases as you go, testing each new feature you
+      add, and finally, error handling.</p>
+    <p></p>
+    <hr><em>Last</em><em> edited 4/14/13<br>
+    </em>
+  </body>
+</html>

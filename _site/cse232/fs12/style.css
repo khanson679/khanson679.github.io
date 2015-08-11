@@ -1,0 +1,10 @@
+ul, ol
+{
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+ul li, ol li
+{
+	margin-bottom: .5em;
+}

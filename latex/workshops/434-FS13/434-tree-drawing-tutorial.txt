@@ -1,0 +1,394 @@
+﻿LIN 434 Computer Tree Drawing Workshop (FS13)
+Tutorial
+By Kenneth Hanson
+Last Modified 10/15/13
+
+https://www.msu.edu/~hanson54/latex/workshops/
+
+Answers to exercises can be found on the workshop website.
+
+
+
+----- 0. Intro -----
+
+This workshop covers the following topics:
+	1. Creating bracketed trees using a text editor (Sublime Text)
+	2. Rules for the PHP Tree Drawer (doing all that it is capable of)
+	3. Rules for the LaTeX Previewer (doing just as much as the PHP site)
+
+Most of what we'll cover for #1/#2 will transfer to actual LaTeX, with some
+minor (but annoying) differences.
+
+Do all of your work in another text file, and copy each example or exercise
+tree into the web previewer when your want to draw it.
+
+Notes:
+	-- The editor will automatically create matching brackets in certain
+	contexts; if it doesn't know where to put it, it won't try.
+	-- When you reach a closing bracket, you can type the same character the
+	move the cursor through it, or use the arrow keys
+	-- Be careful to match the opening and closing brackets correctly. When you
+	place the cursor by a bracket, the editor will highlight its partner (if
+	any).
+
+
+
+----- 1. Simple Bracketed Trees -----
+
+We'll start simple X-bar trees using the PHP Tree Drawer. 
+
+Simple sentence -- each terminal node has one label.
+
+	(1) [TP [DP monkeys] [T' [T PRES] [VP [V like] [DP bananas]]]]
+
+Terminal nodes with multiple words automatically make a triangle.
+
+	(2) [TP [DP crazy monkeys] [T' [T PRES] [VP [V like] [DP purple bananas]]]]
+
+A node can have any number of children, so you can use ternary structures.
+
+	(3) [TP [DP John] [T' [T PAST] [VP [V give] [DP a cupcake] [PP to Mary]]]]
+	
+The colors will be messed up if you leave out the labels, but you can also
+turn the colors off entirely.
+	
+Exercise 1:
+	Modify the previous tree and complete the structure of the DPs/PPs. Use
+	the letter 'e' to label empty nodes.
+
+Exercise 2:
+	Create the tree for "Every monkey wants a yellow banana".
+
+
+	
+----- 2. Indented Trees -----
+	
+We can make an indented tree to show structure. Use "enter" and move the
+subject and VP to a new line and "tab" to indent.
+
+The editor will keep the current level of indentation when you press "enter".
+Continue the process of converting the linear format until each child is
+indented by one more level than its parent.
+
+	(4)
+	[TP
+		[DP crazy monkeys]
+		[T'	[T PRES] [VP [V like] [DP purple bananas]]]]
+	
+	[TP
+		[DP crazy monkeys]
+		[T'
+			[T PRES]
+			[VP [V like] [DP purple bananas]]]]
+	
+	[TP
+		[DP crazy monkeys]
+		[T'
+			[T PRES]
+			[VP
+				[V like]
+				[DP purple bananas]]]]
+
+You also give each closing bracket its own line (the typical format used in
+programming languages like C and C++).
+
+	(5)
+	[TP
+		[DP crazy monkeys]
+		[T'
+			[T PRES]
+			[VP
+				[V like]
+				[DP purple bananas]
+			]
+		]
+	]
+
+This makes it easier to see that the brackets are matched, and it also makes
+it easier to modify the tree, but the result takes up much more vertical
+space. In this tutorial, I will leave the brackets on the last "content" line.
+
+Exercise 3:
+	Copy the bracketed tree from the previous exercise and indent it.
+
+
+
+----- 4. Modifying Bracketed Trees -----
+
+Now, let's add some adjuncts to a tree. First, let's indent the tree from exercise (1).
+
+	(7)
+	[TP
+		[DP
+			[D e]
+			[NP John]]
+		[T'
+			[T PAST]
+			[VP
+				[V give]
+				[DP
+					[D a]
+					[NP cupcake]]
+				[PP
+					[P to]
+					[DP
+						[D e]
+						[NP Mary]]]]]]
+
+When writing trees from scratch, it's common leave small subtrees (such as
+short DPs) all on one line. This makes the resulting tree more compact.
+
+	(8)
+	[TP
+		[DP	[D e] [NP John]]
+		[T'
+			[T PAST]
+			[VP
+				[V give]
+				[DP	[D a] [NP cupcake]]
+				[PP
+					[P to]
+					[DP	[D e] [NP Mary]]]]]]
+
+You could also move T to the T' line, and P to the PP line, but let's keep it
+like this for now in order to maximize clarity.
+
+It's time to add the adjunct. Copy example (8) into your work file. Place the
+cursor right after the closing bracket of the VP, press enter to create a new
+line, and back up to the indentation of VP. Then add the PP "for her birthday".
+
+	(9)
+	[TP
+		[DP	[D e] [NP John]]
+		[T'
+			[T PAST]
+			[VP
+				[V give]
+				[DP	[D a] [NP cupcake]]
+				[PP
+					[P to]
+					[DP	[D e] [NP Mary]]]]
+
+			]]
+
+	[TP
+		[DP	[D e] [NP John]]
+		[T'
+			[T PAST]
+			[VP
+				[V give]
+				[DP	[D a] [NP cupcake]]
+				[PP
+					[P to]
+					[DP	[D e] [NP Mary]]]]
+			[PP
+				[P for]
+				[DP
+					[D her]
+					[NP birthday]]]]]
+
+The tree is not quite finished. Now we need to add the new VP that is formed
+by adjoining the new PP. Select both the VP and PP by clicking and dragging,
+and indent them by pressing tab. Then, add the new VP around them.
+				
+	(10)
+	[TP
+		[DP	[D e] [NP John]]
+		[T'
+			[T PAST]
+				[VP
+					[V give]
+					[DP	[D a] [NP cupcake]]
+					[PP
+						[P to]
+						[DP	[D e] [NP Mary]]]]
+				[PP
+					[P for]
+					[DP
+						[D her]
+						[NP birthday]]]]]
+
+	[TP
+		[DP	[D e] [NP John]]
+		[T'
+			[T PAST]
+			[VP
+				[VP
+					[V give]
+					[DP	[D a] [NP cupcake]]
+					[PP
+						[P to]
+						[DP	[D e] [NP Mary]]]]
+				[PP
+					[P for]
+					[DP
+						[D her]
+						[NP birthday]]]]]]
+
+You can also unindent a block of text by pressing shift-tab. Try removing the
+adjunct and the outer VP, and use shift-tab to unindent the inner VP.
+
+
+
+----- 5. More Complex Sentences -----
+
+Now let's try some other syntactic structures. First, a couple sentences with
+modals and the Neg and Aux projections.
+
+Exercise 4:
+	Draw the tree for "The cupcake might not have been eaten."
+	("might" is in T, "not" is Neg, "have" and "been" are Aux).
+
+Next, embedded clauses. "That" complements are CPs. Assume infinital clauses
+are TPs. Use PRO for the subject of an infinitival clause.
+
+Excercise 5:
+	Draw the tree for "Bill thinks [that Mary ate the cupcake]".
+	("that" is a C)
+
+Exercise 6:
+	Draw the tree for "Tommy wants [PRO to be a syntactician]".
+	("to" is a T)
+
+
+
+----- 6. Movement -----
+
+The only way to do movement with the PHP drawer is to write the structure of 
+he moved element in its final position, and put traces in the lower positions.
+Turn off automatic indexing and use manual indexes by appending "_1", "_2",
+etc. to moved elements and their traces.
+
+	(11)
+	[CP
+		[DP what_1]
+		[C'
+			[C [T did_2] [C e]]
+			[TP
+				[DP the king]
+				[T'
+					[T t_2]
+					[VP
+						[V eat]
+						[DP t_1]]]]]]
+
+Exercise 7:
+	Draw the tree for "Where does Chomsky get his ideas from?"
+
+
+
+----- 5. LaTeX and vP-----
+
+To create trees using LaTeX, you need the package "qtree".
+
+LaTeX is much more strict than the PHP drawer:
+
+	1. The bracketed tree must be directly preceded by "\Tree"
+	2. All node labels must start with a period
+	3. All closing brackets must be directly preceded by whitespace.
+
+A simple example:
+	
+	(12)
+	\Tree
+	[.TP
+		[.DP [.D a ] [.NP [.AP wild ] [.NP Pikachu ] ] ]
+		[.T'
+			[.T PAST ]
+			[.VP appeared ] ] ]
+	
+In order to get rid of the lines between terminal nodes and their labels, you
+can connect the label to the node with a "\\", which creates a manual newline.
+
+	(13)
+	\Tree
+	[.TP
+		[.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
+		[.T'
+			[.T\\PAST ]
+			[.VP\\appeared ] ] ]
+
+You can get nicer "bars" by appending "\1" to a label. Use "\textsc{...}" to
+get small caps.
+
+	(14)
+	\Tree
+	[.TP
+		[.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
+		[.T\1
+			[.T\\\textsc{PAST} ]
+			[.VP\\appeared ] ] ]
+	
+A few examples with v+V. First, the simple structure, then movement with
+traces, and finally movement with arrows.
+
+	(15)
+	% John rolled the ball down the hill
+	\Tree
+	[.TP
+		[.DP\\John ]
+		[.T\1
+			[.T\\PAST ]
+			[.VP
+				[.V\\roll ]
+				[.DP
+					[.D\\the ]
+					[.NP\\ball ] ]
+				[.PP 
+					[.P\\down ]
+					[.DP
+						[.D\\the ]
+						[.NP\\hill ] ] ] ] ] ]
+
+	(16)
+	% John rolled the ball down the hill (incl. v+V and traces)
+	\Tree
+	[.TP
+		[.DP\\John_1 ]
+		[.T\1
+			[.T\\PAST ]
+			[.vP
+				[.DP\\t_1 ]
+				[.v\1
+					[.v 
+						[.V\\roll_2 ]
+						[.v ] ]
+					[.VP
+						[.DP
+							[.D\\the ]
+							[.NP\\ball ] ]
+						[.V\1
+							[.V\\t_2 ]
+							[.PP 
+								[.P\\down ]
+								[.DP
+									[.D\\the ]
+									[.NP\\hill ] ] ] ] ] ] ] ] ]
+
+	(17)
+	% John rolled the ball down the hill (incl. v+V and movement)
+	% also requires packages "pstricks" and "tree-dvips"
+	\Tree
+	[.TP
+		[.DP\\\node{DP2}{John} ]
+		[.T\1
+			[.T\\PAST ]
+			[.vP
+				[.DP\\\node{DP1}{t_i} ]
+				[.v\1
+					[.v 
+						[.V\\\node{V2}{roll} ]
+						[.v ] ]
+					[.VP
+						[.DP
+							[.D\\the ]
+							[.NP\\ball ] ]
+						[.V\1
+							[.V\\\node{V1}{t_j} ]
+							[.PP 
+								[.P\\down ]
+								[.DP
+									[.D\\the ]
+									[.NP\\hill ] ] ] ] ] ] ] ] ]
+	\anodecurve[b]{DP1}[b]{DP2}{1in}
+	\anodecurve[b]{V1}[b]{V2}{1in}

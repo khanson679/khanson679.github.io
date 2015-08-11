@@ -1,0 +1,839 @@
+﻿# MSU JPN 402 Article/Drama Vocab and Kanji			
+# Compiled in Anki format by Kenneth Hanson, Spring 2013			
+# Last updated 6/16/12			
+# To import in Anki, delete the line number column and export as a Unicode (UTF-8) tab-delimited text file			
+# Note: Kanji that aren't in the main vocab are listed last for each article/clip			
+# Note: Anki will not import facts with 'duplicate items' -- vocab that appear in multiple articles will only be imported once.			
+			
+# Item	Reading	Meaning	Card Tags
+			
+# Article 1: Shuushoku			
+就職する	しゅうしょく（する）	to get employed (full-time)	article01, vocab-know, kanji-r
+戦線	せんせん	battlefront	article01, vocab-opt
+寒風	かんぷう	冷（つめ）たい風（かぜ）	article01, vocab-opt
+兆し	きざし	indication; sign	article01, vocab-opt
+売り手	う（り）て	＝売る人　⇔　買い手	article01, vocab-know
+市場	しじょう	(conceptual) market     Cf.市場 (いちば)	article01, article02, vocab-know
+一変	いっぺん	＝一度に変わること	article01, vocab-rec
+景気	けいき	condition of economy   Cf. 経済	article01, vocab-know, kanji-r
+急激な	きゅうげき（な）	＝急な	article01, vocab-rec
+悪化	あっか	＝悪くなること	article01, vocab-know, kanji-rw
+内定	ないてい	job offer before one’s graduation	article01, vocab-know, kanji-r
+取り消す	と（り）け（す）	to cancel	article01, vocab-know, kanji-rw
+相次ぐ	あいつ（ぐ）	＝次々に起こる	article01, vocab-rec
+厚生労働省	こうせいろうどうしょう	Ministry of Health, Labor, and Welfare	article01, article02, vocab-rec
+実態	じったい	actual condition	article01, article04, vocab-know, kanji-r
+調査する	ちょうさ（する）	＝調べる, to investigate	article01, vocab-know, kanji-r
+業績	ぎょうせき	business performance	article01, vocab-rec
+不振	ふしん	slackness	article01, vocab-rec
+業務	ぎょうむ	business practice	article01, vocab-rec
+縮小	しゅくしょう	＝小さくすること; shrinkage	article01, vocab-rec
+加える	くわ（える）	to add	article01, vocab-know, kanji-rw
+経営	けいえい	operation of business	article01, vocab-know, kanji-r
+危機	きき	＝危ないこと; danger	article01, vocab-know
+N的（な）	てき（な）	-ous; -ful; etc. (changing noun to adj.)	article01, vocab-know
+状況	じょうきょう	situation	article01, drama11-3, vocab-know, kanji-rw
+信用	しんよう	social credit; business confidence	article01, vocab-know
+維持する	いじ（する）	to maintain	article01, vocab-rec
+採用	さいよう	recruitment; adaptation of idea	article01, vocab-know
+活動	かつどう	activity	article01, article07, vocab-know, kanji-rw
+企業	きぎょう	＝会社	article01, vocab-know, kanji-r
+指摘する	してき（する）	to point out	article01, vocab-know
+首都圏	しゅとけん	Tokyo, Kanagawa, Saitama, and Chiba	article01, vocab-opt
+私大	しだい	＝私立（しりつ private）大学	article01, vocab-rec
+指導	しどう	guidance	article01, vocab-rec
+担当者	たんとうしゃ	person in change	article01, vocab-know
+職業	しょくぎょう	occupation	article01, vocab-know
+進路	しんろ	path (after graduation)	article01, vocab-know
+事務	じむ	administrative work	article01, vocab-know
+不況	ふきょう	recession	article01, vocab-know, kanji-r
+事態	じたい	case; situation	article01, vocab-rec
+初	はつ	＝初めて　  Cf. 始める	article01, vocab-know
+対応	たいおう	response	article01, vocab-know, kanji-rw
+受ける	う（ける）	to receive; accept	article01, vocab-know
+ハローワーク		National Employment Service Agency	article01, vocab-opt
+(Xを) 通じて	つう（じて）	＝通（とお）して; through X	article01, vocab-know
+年度	ねんど	fiscal year（usually 4月～3月）	article01, vocab-rec
+報告する	ほうこく（する）	to report	article01, vocab-know, kanji-r
+(Xを) 上回る	うわまわ（る）	to exceed	article01, vocab-rec
+若年者	じゃくねんしゃ	＝若者	article01, vocab-opt
+雇用	こよう	＝採用	article01, article02, vocab-rec
+対策	たいさく	countermeasure	article01, vocab-know
+～室	しつ	(lit. 部屋) a group in an organization	article01, vocab-rec
+合理的（な）	ごうりてき（な）	logical; reasonable	article01, vocab-know, kanji-rw
+撤回	てっかい	recall	article01, vocab-opt
+罰則	ばっそく	punishment	article01, vocab-opt
+強制力	きょうせいりょく	enforcing power	article01, vocab-know
+最終	さいしゅう	＝最後の	article01, vocab-know, kanji-rw
+手段	しゅだん	means	article01, vocab-know
+労働審判	ろうどうしんぱん	labor tribunal	article01, vocab-opt
+民事裁判	みんじさいばん	civil trial	article01, vocab-opt, kanji-r
+争う	あらそ（う）	to fight in court; Cf. けんかする	article01, vocab-rec
+弁護団	べんごだん	group of attorneys	article01, vocab-rec
+リストラ		restructuring	article01, vocab-know
+開設する	かいせつ（する）	＝開く	article01, vocab-know
+無料	むりょう	＝ただ; free	article01, vocab-know, kanji-rw
+応じる	おう（じる）	＝対応する	article01, vocab-know
+#			
+軽い	かるい	light (weight)	article01, vocab-old, kanji-rw
+労働	ろうどう	labor	article01, article03, vocab-old, kanji-rw
+現在	げんざい	now, present time	article01, vocab-old, kanji-r
+裁判	さいばん	trial, judgment	article01, vocab-know, kanji-r
+			
+			
+			
+# Article 2: Eigo Kouyougo			
+公用語	こうようご	official language	article02, vocab-know, kanji-rw
+賛否両論	さんぴりょうろん	＝賛成と反対、両方の意見がある	article02, vocab-opt
+眉間にしわを寄せる	みけん（に）（しわを）よ（せる）	to make a line between the eyebrows; to furrow one’s brow	article02, vocab-know
+本社	ほんしゃ	cooperate headquarters	article02, vocab-rec
+光景	こうけい	＝風景; scene	article02, vocab-rec
+最大手	さいおおて	＝一番大きい会社	article02, vocab-rec
+方針	ほうしん	policy	article02, vocab-know, kanji-r
+打ち出す	う（ち）だ（す）	to come up with a policy; solution	article02, vocab-know
+円高	えんだか	＝円が高くなること; strong yen	article02, vocab-know, kanji-rw
+買収	ばいしゅう	acquisition of a company; buy out	article02, vocab-rec
+後押しする	あと（おしする）	to back up; boost up	article02, vocab-rec
+生き残る	い（き）のこ（る）	to survive	article02, , kanji-rw
+新興	しんこう	＝新しい	article02, vocab-rec
+成長	せいちょう	development	article02, vocab-know, kanji-rw
+#市場	しじょう	market	article02, vocab-know
+欠かせない	か（かせない）	lit. cannot lack; vital; essential	article02, vocab-know
+待ったなし	ま（ったなし）	cannot wait; must do something now	article02, vocab-rec
+製造業	せいぞうぎょう	manufacturing industry	article02, vocab-rec
+移転	いてん	relocation	article02, vocab-know, kanji-r
+拍車がかかる	はくしゃ（がかかる）	to accelerate; spur	article02, vocab-opt
+(Xを) 移す	うつ（す）	＝移転する　　Cf. (Xが) 移る	article02, vocab-know, kanji-r
+可能性	かのうせい	possibility	article02, vocab-know, kanji-rw
+縮小する	しゅくしょう（する）	to shrink; reduce; scale-down	article02, vocab-know, kanji-r
+進出する	しんしゅつ（する）	to break into a new market; to move into a new territory	article02, vocab-know
+研究開発部門	けんきゅうかいはつぶもん	research & development division	article02, vocab-rec
+新卒	しんそつ	新しい卒業生; new graduates	article02, vocab-rec
+採用する	さいよう（する）	to recruit (personnel); adapt (idea)	article02, vocab-know
+教授	きょうじゅ	professor	article02, vocab-know
+経営学	けいえいがく	business administration	article02, vocab-know
+(Xが) 縮む	ちぢ（む）	＝縮小する　　Cf. (Xを) 縮める	article02, vocab-know, kanji-r
+拡大する	かくだいする	to expand	article02, vocab-know, kanji-r
+背景	はいけい	background	article02, vocab-know
+機会	きかい	opportunity	article02, vocab-know, kanji-r
+当然	とうぜん	＝当たり前; as a matter of fact	article02, vocab-know, kanji-r
+語る	かた（る）	＝言う、話す	article02, vocab-know, kanji-rw
+(Xが) 進む	すすむ	X is advanced (tr.)  Cf. (Xを) 進める	article02, vocab-know, kanji-rw
+#雇用	こよう	employment	article02, vocab-rec
+懸念	けねん	＝心配; concern	article02, vocab-opt
+#厚生労働省	こうせいろうどうしょう	Ministry of Health, Labor, & Welfare	article02, vocab-opt
+率	りつ	percentage	article02, vocab-know
+悪化する	あっか（する）	＝悪くなる	article02, vocab-know, kanji-rw
+さらに		＝もっと	article02, vocab-know
+恐れ	おそ（れ）	fear	article02, vocab-know
+役割	やくわり	role; task; responsibility	article02, vocab-know, kanji-r
+(Xが) 得意な	とくい（な）	to be good at X	article02, vocab-know
+不利な	ふり（な）	disadvantageous  ⇔ 有利（ゆうり）な	article02, vocab-know, kanji-rw
+はっきり		clearly	article02, vocab-know
+すばやく		＝はやく	article02, vocab-know
+正確な	せいかく（な）	accurate	article02, vocab-know, kanji-r
+不可欠な	ふかけつ（な）	＝欠かせない	article02, vocab-know
+大切な	たいせつ（な）	＝大事な、重要な; important	article02, vocab-know, kanji-rw
+面	めん	aspect; side	article02, vocab-know
+#指摘する	してき（する）	to point out	article02, vocab-know
+			
+			
+			
+# Article 3: Localization			
+直訳	ちょくやく	direct translation	article03, vocab-rec
+工夫	くふう	ingenuity	article03, vocab-know
+苦労	くろう	＝大変なこと; hardship	article03, vocab-know
+同様	どうよう	＝同じように	article03, vocab-rec
+翻訳	ほんやく	translation　　Cf. 通訳	article03, vocab-know, kanji-r
+台詞	せりふ	script; line	article03, vocab-opt
+幅広い	はばひろ（い）	wide range of	article03, vocab-rec
+素材	そざい	material; subject matter	article03, vocab-rec
+網羅する	もうら（する）	to include everything	article03, vocab-opt
+多岐にわたる	たき（にわたる）	＝幅広（はばひろ）い; 色々な	article03, vocab-opt
+一連の	いちれん（の）	a series of	article03, vocab-rec
+作業	さぎょう	＝仕事; actual work; steps in work	article03, vocab-know
+変更する	へんこう（する）	＝変える (Tr.)   Cf. 変化する	article03, vocab-know
+総合する	そうごう（する）	to generalize	article03, vocab-know, kanji-r
+現地化	げんちか	localization	article03, vocab-know
+X職	しょく	＝Xの仕事	article03, vocab-rec
+(Xに) 携わる	たずさ（わる）	＝関（かか）わる	article03, vocab-opt
+北米	ほくべい	＝北アメリカ	article03, vocab-rec
+単に	たん（に）	＝ただ; just, simply	article03, vocab-know
+違和感	いわかん	a sense of discomfort; difference	article03, vocab-rec
+堪能する	たんのうする	＝楽しむ	article03, vocab-opt
+発売する	はつばい（する）	＝売り始める	article03, vocab-know, kanji-rw
+主人公	しゅじんこう	main character	article03, vocab-know
+(Xが) 響く	ひび（く）	＝聞こえる	article03, vocab-opt
+Xが伝わる	（つた）わる	X gets through (Intr.)    Cf. 伝える	article03, vocab-know, kanji-rw
+頭を抱える	かか（える）	＝悩（なや）む	article03, vocab-rec
+Xいわく		＝Xが言うには; according to X	article03, vocab-rec
+理屈が通る	りくつ（が）とお（る）	to make the logic understood (Intr.)；Cf. 理屈を通す (Tr.)；	article03, vocab-know
+答え	こた（え）	answer	article03, vocab-know, kanji-rw
+用意する	ようい（する）	＝準備（じゅんび）する; prepare	article03, vocab-know, kanji-rw
+いかにも		＝本当に、とても	article03, vocab-know
+哲学	てつがく	philosophy	article03, vocab-know
+欧米	おうべい	ヨーロッパとアメリカ	article03, vocab-know
+前述	ぜんじゅつ	mentioned before	article03, vocab-rec
+生命	せいめい	＝命; life	article03, vocab-know
+大樹	たいじゅ	＝大きい木	article03, vocab-opt
+(Xに) 由来する	ゆらい（する）	to be derived; to be trace back to	article03
+御神木	ごしんぼく	holy tree	article03, vocab-opt
+しめ縄	（しめ）なわ	holy rope	article03, vocab-opt
+飾る	かざ（る）	to decorate	article03, vocab-know
+神道	しんとう	Shintoism	article03, vocab-know
+信者	しんじゃ	believer	article03, vocab-know, kanji-rw
+抵抗感	ていこうかん	sense of resistance	article03, vocab-rec
+設定	せってい	setting	article03, vocab-know, kanji-r
+よって		＝だから、このような理由で	article03, vocab-know
+論理的	ろんりてき	logical	article03, vocab-know, kanji-r
+省く	はぶ（く）	to omit; skip	article03, vocab-rec
+観念的	かんねんてき	ideological	article03, vocab-opt
+限る	かぎ（る）	to limit	article03, vocab-know, kanji-r
+主語	しゅご	subject	article03, vocab-rec
+述語	じゅつご	predicate (verb, adjective, Nだ)	article03, vocab-rec
+目的語	もくてきご	object	article03, vocab-rec
+登場人物	とうじょうじんぶつ	＝キャラクター	article03, vocab-know, kanji-r
+V-stemがち [1]		＝よくV; tend to do… 	article03, vocab-know
+口数	くちかず	how often/much one speaks	article03, vocab-rec
+V -negativeず		＝V-negativeない	article03, vocab-opt
+Xを伝える	つた（える）	to tell; communicate; pass on N	article03, vocab-know, kanji-rw
+推測する	すいそく（する）	to guess	article03, vocab-know
+重要な	じゅうよう（な）	＝大切な、大事な	article03, article05, vocab-know, kanji-rw
+苦笑する	くしょう（する）	＝こまって笑う	article03, vocab-rec
+成功	せいこう	success	article03, vocab-know, kanji-rw
+縁の下の力持ち	えん（の）した（の）ちからも（ち）	a person who works behind the scenes (proverb)	article03, vocab-opt
+#			
+小説	しょうせつ	novel	article03, vocab-old, kanji-rw
+実に	じつに	actually, truly	article03, vocab-old, kanji-rw
+消費者	しょうひしゃ	consumer	article03, vocab-old, kanji-rw
+性格	せいかく	character; personality	article03, vocab-old, kanji-rw
+#労働	ろうどう	labor	article03, vocab-old, kanji-r
+判断	はんだん	judgement	article03, vocab-old, kanji-r
+			
+			
+			
+# Article 5: Prius			
+末	まつ	＝終わり	article04, vocab-know
+販売	はんばい	＝売る	article04, vocab-know
+自動車	じどうしゃ	＝車; automobile	article04, vocab-know, kanji-rw
+三代目	さんだいめ	the third generation	article04, vocab-know
+仕様	しよう	specific	article04, vocab-rec
+追加する	ついか（する）	to add	article04, vocab-know, kanji-r
+設定する	せってい（する）	to set up	article04, vocab-know, kanji-r
+価格	かかく	＝値段（ねだん）; price	article04, article06, vocab-know, kanji-r
+円台	えんだい	… yen level	article04, vocab-rec
+後半	こうはん	last half	article04, vocab-know
+見込む	みこ（む）	＝予測（よそく）する;  to estimate; anticipate	article04, vocab-rec
+ニッケル		nickel	article04, vocab-opt
+水素	すいそ	hydrogen	article04, vocab-opt
+電池	でんち	battery	article04, vocab-know, kanji-rw
+出力	しゅつりょく	to output; generate power	article04, vocab-opt
+リチウム		lithium	article04, vocab-opt
+イオン		ion	article04, vocab-opt
+載せる	のせる	＝乗せる;  put on something 	article04, vocab-rec
+家庭用	かていよう	household use	article04, article06, vocab-know
+ボルト		volt	article04, vocab-know
+電源	でんげん	electric power supply	article04, vocab-know
+充電する	じゅうでん（する）	to charge (electrically)	article04, vocab-know
+燃費	ねんぴ	fuel cost	article04, vocab-know
+#実態	じったい	actual condition	article04, vocab-know, kanji-r
+(Xを) もとに		based on X	article04, vocab-know
+国土交通省	こくどこうつうしょう	Ministry of Land, Infrastructure, Transport and Tourism	article04, vocab-opt
+計算する	けいさん（する）	to calculate	article04, vocab-know, kanji-rw
+（方）式	ほうしき	formula	article04, vocab-know
+X当たり	あ（たり）	per X	article04, vocab-know
+以降	いこう	＝以後; after that	article04, vocab-rec
+併用する	へいよう（する）	＝両方使う	article04, vocab-rec
+通常の	つうじょう（の）	usual; normal	article04, vocab-know
+距離	きょり	distance	article04, vocab-know, kanji-r
+場合	ばあい	when; in case of	article04, vocab-know, kanji-r
+二酸化炭素	にさんかたんそ	carbon dioxide	article04, vocab-know
+排出する	はいしゅつ（する）	to emit	article04, vocab-know
+量	りょう	amount	article04, vocab-know, kanji-rw
+(Xで) 済む	す（む）	to require X only	article04, vocab-know, kanji-r
+市販	しはん	sale at a market	article04, vocab-rec
+欧州	おうしゅう	Europe	article04, vocab-know
+法人	ほうじん	＝企業、会社	article04, vocab-rec
+団体	だんたい	organization	article04, vocab-rec
+対象	たいしょう	target	article04, article08, vocab-know, kanji-r
+当初から	とうしょ（から）	＝最初から	article04, vocab-rec
+大幅に	おおはば（に）	to a large degree; substantially	article04, vocab-rec
+(Xを) 増やす	ふ（やす）	to increase X　Cf. (Xが) 増える	article04, vocab-know
+#			
+発表	はっぴょう	presentation	article04, vocab-old, kanji-rw
+予定	よてい	plan	article04, vocab-old, kanji-rw
+走る	はしる	to run	article04, vocab-old, kanji-rw
+始める	はじめる	to start (vt)	article04, vocab-old, kanji-rw
+増やす	ふやす	to increase (vt)	article04, vocab-old, kanji-rw
+家庭	かてい	home; family	article04, vocab-old, kanji-r
+交通	こうつう	traffic	article04, vocab-old, kanji-r
+			
+			
+			
+# Article 5: Keitai			
+携帯 (電話)	けいたい（でんわ）	cell phone	article05, vocab-know
+過半数	かはんすう	more than half; majority	article05, vocab-know, kanji-r
+通	つう	the counter for mails	article05, vocab-know
+全国調査	ぜんこくちょうさ	national survey	article05, vocab-know
+所有する	しょゆう（する）	＝所持（しょじ）する、持つ	article05, vocab-rec
+送信する	そうしん（する）	メールを送る; to send an E-mail 	article05, vocab-know, kanji-rw
+受信する	じゅしん（する）	受け取る; to receive an E-mail 	article05, vocab-know, kanji-rw
+深夜	しんや	midnight	article05, vocab-know, kanji-r
+それぞれ		＝各; each; respectively	article05, vocab-know
+(Xに) 達する	たっする	to reach X	article05, vocab-know
+協議会	きょうぎかい	committee, association	article05, vocab-rec
+(Xに) 関する	かん（する）	＝Xについて（の）; regarding X	article05, vocab-know, kanji-rw
+意識	いしき	conscious; awareness; opinion	article05, vocab-know
+(Xが) 明らかになる	あき（らか）になる	X becomes clear; X is revealed (Intr.)   Cf. (Xを) 明らかにする (Tr.)	article05, vocab-rec
+(Xが) 届く	とど（く）	X is delivered (Intr.); Cf. (Xを) 届ける(Tr.)	article05, vocab-know, kanji-rw
+(Xに) 親しむ	した（しむ）	to familiarize with X	article05, vocab-know, kanji-r
+(Xが) 増える	ふ（える）	X increases  (Intr.) ; Cf. (Xを) 増やす (Tr.)	article05, vocab-know, kanji-rw
+裏付ける	うらづ（ける）	to back up; support	article05, vocab-opt
+作法	さほう	manners; etiquette	article05, vocab-rec
+早期	そうき	early stage	article05, vocab-rec
+教育	きょういく	education	article05, vocab-know, kanji-rw
+ますます		increasingly; more and more	article05, vocab-know
+#重要な	じゅうよう（な）	＝大切な; 大事な; important	article05, vocab-know, kanji-rw
+利用	りよう	＝使うこと; use	article05, vocab-know, kanji-rw
+約	やく	approximately; about	article05, vocab-know
+保護者	ほごしゃ	guardian	article05, vocab-know
+回答	かいとう	＝答え; answer	article05, vocab-rec
+まとめる		to collect; put together	article05, vocab-know
+＃割	わり	# times 10%　　例：3割 = 30%	article05, vocab-know
+40代	だい	in one’s 40s	article05, vocab-know
+自宅	じたく	＝自分の家	article05, vocab-know, kanji-r
+低年齢層	ていねんれいそう	group of earlier age	article05, vocab-opt
+#拡大する	かくだい（する）	＝大きくなる; 広がる; expand	article05, vocab-know, kanji-r
+かまわず		without regard; regardless	article05, vocab-know
+やり取り	（やり）と（り）	communication; correspondence	article05, vocab-rec
+返信する	へんしん（する）	＝返す; to return an E-mail 	article05, vocab-know, kanji-rw
+(Xを) 手放す	てばな（す）	to let go of; relinquish	article05, vocab-rec
+(Xに) 依存する	いぞん（する）	to depend on X	article05, vocab-know, kanji-r
+傾向	けいこう	tendency	article05, vocab-know, kanji-r
+(Xが) 現れる	あらわ（れる）	s.t. appears; becomes visible	article05, vocab-know
+顕著	けんちょ	remarkable; striking	article05, vocab-opt
+メル友	メルとも	＝メール友達, including those whom one has never met face-to-face	article05, vocab-rec
+(Xに) 上る	のぼ（る）	to go up to X	article05, vocab-know
+裏掲示板	うらけいじばん	lit. back-side of bulletin board; unofficial electric bulletin board on which people post comments on a specific topic	article05, vocab-opt
+書き込み	か（き）こ（み）	electric writing	article05, vocab-know, kanji-r
+許可	きょか	permission	article05, vocab-know, kanji-r
+相談する	そうだん（する）	to consult; seek advice	article05, vocab-know, kanji-r
+#			
+調査	ちょうさ	survey, investigation	article05, vocab-old, kanji-rw
+			
+			
+			
+# Article 6: Denshi Shoseki			
+猛追	もうつい	hectic chase	article06, vocab-opt
+電子書籍	でんししょせき	digital book	article06, vocab-know
+同時に	どうじ（に）	at the same time	article06, vocab-know
+#発売する	はつばい（する）	to start to sell	article06, vocab-know
+閲覧する	えつらん（する）	to browse	article06, vocab-rec
+多機能	たきのう	multi-function	article06, vocab-know
+端末	たんまつ	(electric) terminal	article06, vocab-know
+専用	せんよう	exclusive use	article06, vocab-know, kanji-r
+想定価格	そうていかかく	nominal price	article06, vocab-rec
+#家庭	かてい	household	article06, vocab-know
+携帯	けいたい	portable	article06, vocab-know
+店頭販売	てんとうはんばい	＝店で売ること	article06, vocab-opt
+購入する	こうにゅう（する）	＝買う	article06, vocab-know, kanji-r
+申込書	もうしこみしょ	application form	article06, vocab-know
+郵送	ゆうそう	＝郵便で送ること; send by mail	article06, vocab-know
+申込用紙	もうしこみようし	＝申込書	article06, vocab-know
+(Xに) 特化する	とっか（する）	to specialize in X (product)	article06, vocab-rec
+文庫本	ぶんこぼん	paperback book (15x10 cm)	article06, vocab-know
+(XをYに）抑える	おさ（える）	to hold; keep X in the rage of Y	article06, vocab-know, kanji-r
+保存する	ほぞん（する）	to save (data)	article06, vocab-know
+充電	じゅうでん（する）	to charge (electrically)	article06, vocab-know, kanji-r
+本棚	ほんだな	bookshelf	article06, vocab-know
+感覚	かんかく	sense	article06, vocab-know
+手軽な	てがる（な）	quick and easy	article06, vocab-know
+#担当者	たんとうしゃ	person in charge	article06, vocab-know
+成否	せいひ	＝成功するかしないか	article06, vocab-rec
+握る	にぎる	to hold; grip	article06, vocab-know
+充実	じゅうじつ	fulfillment	article06, vocab-know, kanji-r
+購読	こうどく	subscription (paper, magazine, etc.)	article06, vocab-know
+自動的に	じどうてき（に）	automatically	article06, vocab-know
+定期（的に）	ていきてき（に）	at fixed intervals; on a regular schedule	article06, vocab-know
+配信	はいしん	delivery (electric data)	article06, vocab-know
+特徴	とくちょう	characteristic	article06, vocab-know, kanji-r
+(Xに) 対応する	たいおうする	to respond to X	article06, vocab-know
+従来にない	じゅうらい（にない）	unprecedented	article06, vocab-rec
+強調する	きょうちょう（する）	to emphasize	article06, vocab-know
+年内	ねんない	before the end of the year	article06, vocab-know
+ツタヤ		日本で一番大きいレンタルビデオの会社	article06, vocab-opt
+運営する	うんえい（する）	to manage; operate	article06, vocab-know
+合弁会社	ごうべんがいしゃ	joint company	article06, vocab-rec
+設立する	せつりつ（する）	to establish	article06, vocab-know, kanji-rw
+ガラパゴス島	（ガラパゴス）とう	Galapagos Islands	article06, vocab-know
+勝手に	かって（に）	to do… on one’s own; without permission	article06, vocab-know, kanji-rw
+進化する	しんか（する）	to evolve; advance	article06, vocab-know
+上級副社長	じょうきゅうふくしゃちょう	senior vice president	article06, vocab-know
+事業	じぎょう	＝ビジネス	article06, vocab-know
+位置づける	いち（づける）	to place; position	article06, vocab-know
+凸版印刷	とっぱんいんさつ	大手の印刷会社 (printing firm)	article06, vocab-opt
+KDDI		大手の電話・インターネットサービスプロバイダー	article06, vocab-opt
+共同で	きょうどう（で）	in cooperation; collaboration	article06, vocab-know
+X向け	む（け）	for X; targeting X	article06, vocab-know, kanji-rw
+立ち上げる	た（ち）あ（げる）	to start up; launch	article06, vocab-know
+圧倒的（な）	あっとうてき（な）	overwhelming	article06, vocab-know
+人気を誇る	にんき（を）ほこ（る）	＝人気がある	article06, vocab-know
+牙城	がじょう	stronghold	article06, vocab-opt
+(Xを) 崩す	くずす	to destroy; break into pieces; Cf. (Xが) くずれる	article06, vocab-know
+#			
+申し込む	もうしこむ	to apply for	article06, vocab-old, kanji-rw
+予約	よやく	reservation	article06, vocab-old, kanji-rw
+重さ	おもさ	weight	article06, vocab-old, kanji-rw
+読書	どくしょ	reading	article06, vocab-old, kanji-rw
+～冊	～さつ	[counter for books]	article06, vocab-old, kanji-rw
+島	しま	island	article06, vocab-old, kanji-rw
+位置	いち	position	article06, vocab-old, kanji-rw
+書籍	しょせき	book	article06, vocab-old, kanji-r
+機能	きのう	function	article06, vocab-old, kanji-r
+#価格	かかく	price; value; cost	article06, vocab-old, kanji-r
+雑誌	ざっし	magazine	article06, vocab-old, kanji-r
+副	ふく	assistant; associate; vice-	article06, vocab-know, kanji-r
+			
+			
+			
+# Article 7: Puchibora			
+山口県立	やまぐちけんりつ	Yamaguchi Prefectural	article07, vocab-rec
+応援する	おうえん（する）	to support; to encourage	article07, vocab-know, kanji-r
+連絡する	れんらく（する）	to contact	article07, drama10-1, vocab-know, kanji-r
+不安（な）	ふあん（な）	nervous; worried	article07, vocab-know, kanji-rw
+発信する	はっしん（する）	to send out	article07, vocab-rec
+通称	つうしょう	nickname; a.k.a.	article07, vocab-opt
+福祉	ふくし	welfare	article07, vocab-rec
+入部する	にゅうぶ（する）	＝部(club)に入る	article07, vocab-rec
+発達	はったつ	development	article07, vocab-know, kanji-r
+障害	しょうがい	handicap; obstacle	article07, vocab-know
+支援	しえん	＝助け;  help; support	article07, vocab-rec
+相手	あいて	the other person; partner	article07, vocab-know, kanji-rw
+#活動	かつどう	activity	article07, vocab-know, kanji-rw
+掲示板	けいじばん	bulletin board	article07, vocab-know
+提供する	ていきょう（する）	to provide	article07, vocab-know
+企画	きかく	project; planning	article07, vocab-know, kanji-r
+力を入れる	ちから（を）い（れる）	to put effort in; focus on	article07, vocab-know
+施設	しせつ	institution	article07, vocab-rec
+子育て	こそだ（て）	child-raising	article07, vocab-know, kanji-rw
+体験	たいけん	1) physical experience 2) trial experience   Cf. 経験	article07, vocab-know, kanji-rw
+参加者	さんかしゃ	participant	article07, vocab-know, kanji-rw
+雰囲気	ふんいき	atmosphere	article07, vocab-know, kanji-r
+次々（と）	つぎつぎ（と）	one after another	article07, vocab-know
+N同士	どうし	everyone is N; like-minded	article07, vocab-know, kanji-r
+好評	こうひょう	good reputation; well-received	article07, vocab-rec
+実習	じっしゅう	practical training	article07, vocab-know
+講義	こうぎ	lecture	article07, vocab-know, kanji-r
+単位	たんい	unit of credit	article07, vocab-know
+第一歩	だいいっぽ	the first step	article07, vocab-know
+#設立する	せつりつ（する）	to establish	article07, vocab-know
+高齢者	こうれいしゃ	＝お年より; elderly people	article07, vocab-rec
+常時	じょうじ	＝いつも	article07, vocab-opt
+募集	ぼしゅう	recruitment; wanted	article07, vocab-know, kanji-r
+依頼	いらい	＝頼（たの）むこと; request	article07, vocab-rec
+#受ける	う（ける）	to receive	article07, vocab-know
+#			
+情報	じょうほう	information	article07, vocab-old, kanji-rw
+必要な	ひつような	necessary	article07, vocab-old, kanji-rw
+説明会	せつめいかい	information session; briefing; explanatory meeting	article07, vocab-know, kanji-rw
+遊ぶ	あそぶ	to play	article07, vocab-old, kanji-rw
+障害者	しょうがいしゃ	(physically) handicapped person; disabled person	article07, vocab-know, kanji-r
+誘う	さそう	to invite	article07, vocab-old, kanji-r
+			
+			
+			
+# Article 8: Neet			
+不全	ふぜん	incompetence	article08, vocab-rec
+(Xを) 映す	うつ（す）	to reflect; project X	article08, vocab-opt
+義務	ぎむ	mandatory; duty; obligation	article08, vocab-know
+進学する	しんがく（する）	to proceed to higher education	article08, vocab-know
+訓練	くんれん	training	article08, vocab-know
+(Xを) 指す	さ（す）	to point at X; mean X	article08, vocab-know
+政権	せいけん	administration	article08, vocab-know, kanji-r
+(Xに) 迫る	せま（る）	to close up to X	article08, vocab-opt
+事例	じれい	case	article08, vocab-rec
+版	ばん	version	article08, vocab-know, kanji-r
+定義付ける	ていぎづ（ける）	＝定義する; to define	article08, vocab-know
+学歴	がくれき	academic background	article08, vocab-know
+#対象	たいしょう	target ; Cf.対照(contrast)	article08, vocab-know, kanji-r
+通学	つうがく	＝学校に行くこと	article08, vocab-know
+家事	かじ	domestic work	article08, vocab-know, kanji-rw
+無業者	むぎょうしゃ	＝職業が無い者	article08, vocab-opt
+#位置づける	いち（づける）	to position	article08, vocab-rec
+(Xに) のぼる		to go up; climb up to X	article08, vocab-rec
+推計	すいけい	estimation	article08, vocab-rec
+階級	かいきゅう	class	article08, vocab-rec
+排除する	はいじょ（する）	to oust	article08, vocab-rec
+差別する	さべつ	to discriminate	article08, vocab-know, kanji-rw
+層	そう	(lit. layer) demographic population	article08, vocab-opt
+比べる	くら（べる）	to compare	article08, vocab-know, kanji-r
+分析	ぶんせき	analysis	article08, vocab-know
+分類する	ぶんるい（する）	to categorize	article08, vocab-rec
+図	ず	chart	article08, vocab-know
+刹那的	せつなてき	living for a moment (bad meaning)	article08, vocab-opt
+非行	ひこう	delinquency	article08, vocab-rec
+型	かた、がた	type	article08, vocab-know
+共通	きょうつう	common	article08, vocab-know, kanji-rw
+自己	じこ	＝自分	article08, vocab-rec
+実現	じつげん	realization	article08, vocab-know
+追求	ついきゅう	pursuit	article08, vocab-rec
+喪失	そうしつ	loss	article08, vocab-opt
+(Xが) 長引く	ながび（く）	X is prolonged (Intr.)	article08, vocab-rec
+望む	のぞ（む）	to wish	article08, vocab-know
+X通り	とお（り）/ どお（り）	as N; as one wishes; instructs; etc.	article08, vocab-know
+ままならない		＝出来ない	article08, vocab-rec
+現実	げんじつ	reality	article08, drama10-4, vocab-know, kanji-rw
+接点	せってん	contact	article08, vocab-rec
+極端（に）	きょくたん（に）	extremely	article08, vocab-rec
+ひきこもり		people who seclude oneself home	article08, vocab-know
+含む	ふく（む）	＝含める; to include	article08, vocab-know, kanji-rw
+養う	やしな（う）	to feed financially	article08, vocab-rec
+余裕がある	よゆう（がある）	to be able to afford; to have leeway	article08, vocab-know, kanji-r
+前提	ぜんてい	premise	article08, vocab-rec
+Xならでは		＝Xに特徴的な characteristic of X	article08, vocab-know
+過敏（な）	かびん（な）	sensitive	article08, vocab-rec
+#新卒	しんそつ	＝新しく卒業すること、した人	article08, vocab-opt
+偏る	かたよ（る）	to be disproportionally emphasized	article08, vocab-opt
+失敗	しっぱい	failure	article08, vocab-know, kanji-rw
+(Xが) つながる		X is linked; connected (Intr.); Cf. (Xを) つなげる (Tr.)	article08, vocab-know
+実践的	じっせんてき	practical	article08, vocab-opt
+即戦力	そくせんりょく	(lit. fight-ready) work-ready	article08, vocab-opt
+求める	もと（める）	to want	article08, vocab-know
+実情	じつじょう	＝実態	article08, vocab-rec
+まっさら		＝真っ白　	article08, vocab-opt
+状態	じょうたい	condition; state	article08, vocab-know
+給料	きゅうりょう	salary; payroll	article08, vocab-know
+定年	ていねん	retirement	article08, vocab-know, kanji-r
+高度経済成長	こうどけいざいせいちょう	high economic growth	article08, vocab-know
+構築	こうちく	construction   (abstract)	article08, vocab-opt
+素地	そじ	base material	article08, vocab-opt
+#			
+#存在	そんざい	existence	article08, vocab-old, kanji-rw
+自信	じしん	self-confidence	article08, article10, drama12-1, vocab-old, kanji-rw
+合う	あう	to come together; fit; match	article08, vocab-old, kanji-rw
+覚える	おぼえる	to remember	article08, vocab-old, kanji-rw
+複雑な	ふくずつな	complex; complicated	article08, vocab-old, kanji-r
+#不況	ふきょう	recession; depression	article08, vocab-know, kanji-r
+挑戦	ちょうせん	challenge	article08, vocab-know, kanji-r
+			
+			
+			
+# Article 9: Gothloli			
+ゴスロリ		Gothic-Lolita	article09, vocab-rec
+おとぎ話	（おとぎ）ばなし	fairy tale	article09, vocab-know
+闊歩する	かっぽ（する）	to swagger	article09, vocab-opt
+彷彿とさせる	ほうふつ（とさせる）	to be reminiscent of	article09, vocab-opt
+街角	まちかど	street corner	article09, vocab-rec
+コスプレ		costume play	article09, vocab-know
+特異な	とくい（な）	strange      Cf. 特別な、特殊な	article09, vocab-opt
+略す	りゃく（す）	to abbreviate	article09, vocab-know
+もともとは		originally	article09, vocab-know
+退廃的（な）	たいはいてき	decadent	article09, vocab-rec
+変化する	へんか（する）	to change	article09, vocab-know, kanji-rw
+定か	さだ（か）	＝確（たし）か; certain	article09, vocab-rec
+基調	きちょう	base tone	article09, vocab-rec
+悪魔	あくま	devil	article09, vocab-rec
+十字架	じゅうじか	cross	article09, vocab-rec
+少女趣味	しょうじょしゅみ	girlish taste	article09, vocab-opt
+要するに	よう（するに）	＝つまり; in short	article09, vocab-know, kanji-rw
+思想	しそう	ideology	article09, vocab-know
+混ぜ合わせる	ま（ぜ）あ（わせる）	to mix	article09, vocab-know
+独自	どくじ	unique	article09, vocab-rec
+やや		＝少し	article09, vocab-rec
+こよなく		＝心から; 本当に; deeply	article09, vocab-opt
+お姫様	（お）ひめさま	princess　⇔　王子（おうじ）様	article09, vocab-know, kanji-r
+衣装	いしょう	costume	article09, vocab-rec
+袖を通す	そで（を）とお（す）	to wear	article09, vocab-rec
+高揚する	こうよう（する）	to feel high	article09, vocab-rec
+普段	ふだん	＝いつも; ordinary day 	article09, , kanji-r
+ごく		as common as	article09, vocab-rec
+服装	ふくそう	clothes; fashion	article09, vocab-know
+(Xが) 集う	つど（う）	＝集まる	article09, vocab-rec
+姿	すがた	one’s figure; physical appearance	article09, drama12-4, vocab-know, kanji-rw
+豹変する	ひょうへん（する）	to change drastically	article09, vocab-opt
+心がける	こころ（がける）	to keep in mind; try to	article09, vocab-know, kanji-rw
+上品（な）	じょうひん（な）	chic　⇔　下品（げひん）な	article09, vocab-know, kanji-rw
+一際	ひときわ	conspicuously	article09, vocab-rec
+目立つ	めだ（つ）	to stand out	article09, vocab-know, kanji-rw
+着飾る	きかざ（る）	to dress up	article09, vocab-rec, kanji-r
+完璧（な）	かんぺき（な）	perfect	article09, vocab-know, kanji-r
+仕上げる	しあ（げる）	to finish up	article09, vocab-know
+Xだけに		especially because X	article09, vocab-know
+好奇の目	こうき（の）め	stare with curiosity	article09, vocab-opt
+#V-stemがち [2]		V-stemやすい、よくVする	article09, vocab-know
+偏見	へんけん	prejudice	article09, vocab-know, kanji-r
+意志	いし	will; purpose	article09, vocab-know, kanji-r
+一般受けする	いっぱんう（けする）	to have mass appeal; approval	article09, vocab-rec
+客観的（な）	きゃっかんてき	objective	article09, vocab-know, kanji-r
+カチューシャ		headband	article09, vocab-rec
+お揃い	お（そろ）い	matching	article09, vocab-rec
+ポシェット		purse; handbag	article09, vocab-rec
+タイツ		tights; pantyhose	article09, vocab-rec
+全体的（な）	ぜんたいてき	all-around; totally	article09, vocab-know
+統一する	とういつ（する）	to integrate	article09, vocab-know, kanji-r
+まとう		＝着る	article09, vocab-opt
+隙	すき	(lit. opening) unguarded-ness	article09, vocab-opt
+乙女心	おとめごころ	girls’ mind	article09, vocab-opt
+(Xを) 満たす	み（たす）	to fulfill X	article09, vocab-know, kanji-r
+物足りない	ものた（りない）	feeling short on; not enough	article09, vocab-know
+#			
+現代	げんだい	modern era; the present day	article09, vocab-old, kanji-rw
+物語	ものがたり	story	article09, vocab-old, kanji-rw
+基本的	きほんてき	basic; fundamental	article09, vocab-old, kanji-rw
+人形	にんぎょう	doll	article09, vocab-old, kanji-rw
+独自の	どくじの	original; peculiar; characteristic; proprietary	article09, vocab-old, kanji-rw
+負ける	まける	to lose	article09, vocab-old, kanji-r
+趣味	しゅむ	hobby	article09, vocab-old, kanji-r
+			
+			
+			
+# Documentary: Ichigoichie			
+まわりの目を気にする		to be worried how one is perceived by others	documentary, vocab-opt
+あこがれる		to long; yarn; admire	documentary, vocab-opt
+否定する	ひてい	to disallow	documentary, vocab-opt
+勇気を持つ	ゆうき	to have courage	documentary, vocab-opt
+弱い	よわい	weak	documentary, vocab-opt
+筋金入り	すじがねはいり	hard-core	documentary, vocab-opt
+聖地	せいち	sacred place	documentary, vocab-opt
+エチケット		etiquette　	documentary, vocab-opt
+試着する	しちゃくする	＝着てみる	documentary, vocab-opt
+抵抗	ていこう	resistance	documentary, vocab-opt
+ほめる		to praise; compliment　　	documentary, vocab-opt
+みにくい		ugly	documentary, vocab-opt
+微妙	びみょう	＝ちょっと…　　	documentary, vocab-opt
+地元	じもと	＝出身地　	documentary, vocab-opt
+手を抜く	てをぬく	to skimp; slack off	documentary, vocab-opt
+おこづかい		allowance　	documentary, vocab-opt
+通信制高校	つうしんせいこうこう	correspondence high school courses	documentary, vocab-opt
+ほこりまみれになる		to be covered with dust	documentary, vocab-opt
+単純な	たんじゅん	simple and pure	documentary, vocab-opt
+おびえる		to be scared	documentary, vocab-opt
+#自信	じしん	confidence	documentary, vocab-opt
+通販	つうはん	＝通信販売（つうしんはんばい） mail order	documentary, vocab-opt
+圧倒される	あっとうされる	to be overwhelmed	documentary, vocab-opt
+フリフリ		＝フリルがたくさんある	documentary, vocab-opt
+後悔	こうかい	regret　　	documentary, vocab-opt
+迷惑をかける	めいわくをかける	to cause trouble	documentary, vocab-opt
+我慢する	がまんする	to bear　　	documentary, vocab-opt
+#信者	しんじゃ	believer	documentary, vocab-opt
+もたない		cannot sustain	documentary, vocab-opt
+試す	ためす	to try	documentary, vocab-opt
+手作り	てづくり	handmade　　	documentary, vocab-opt
+きつい		1) tight (clothes); 2) harsh-sounding	documentary, vocab-opt
+実行に移す	じっこうにうつす	to move into action　　	documentary, drama10-2, vocab-know
+壁	かべ	wall	documentary, vocab-opt
+縛る	しばる	to tie; bind	documentary, vocab-opt
+背中を押す	せなかをおす	to push one’s back	documentary, vocab-opt
+ぶどう畑	ぶどうばたけ	vineyard	documentary, vocab-opt
+お気に入り	おきにはいり	favorite	documentary, vocab-opt
+平気	へいき	＝大丈夫（だいじょうぶ）	documentary, vocab-opt
+一歩をふみだす	いっぽをふみだす	to take a step forward	documentary, vocab-opt
+			
+			
+			
+# drama10-1			
+お見合い	おみあい	formal marriage interview	drama10-1, vocab-know, kanji-rw
+(Xを) 継ぐ	つぐ	to succeed (someone in a business or inheritance)	drama10-1, vocab-know
+(XをＹに) 勧める	すすめる	to recommend X to Y	drama10-1, vocab-know
+婚約	こんやく	engagement	drama10-1, vocab-know, kanji-rw
+いい加減な	いいかげんな	unreliable; irresponsible	drama10-1, vocab-know
+実家	じっか	one's parents' home	drama10-1, vocab-know, kanji-rw
+素直な	すなおな	1) with no protest or stubbornness; 2) expressing one’s true feelings	drama10-1, vocab-know
+心配をかける	しんぱいをかける	to make someone worried	drama10-1, vocab-know, kanji-rw
+お宅	おたく	あなたの家（敬語）	drama10-1, vocab-know
+様子	ようす	state; appearance	drama10-1, vocab-know, kanji-rw
+#連絡する	れんらくする	to contact	drama10-1, vocab-know
+事情	じじょう	situation (personal)	drama10-1, vocab-know, kanji-rw
+			
+			
+			
+# drama10-2			
+結果	けっか	result	drama10-2, vocab-know, kanji-rw
+薬指	くすりゆび	third finger	drama10-2, vocab-know, kanji-rw
+正式に	せいしきに	formally	drama10-2, vocab-know, kanji-rw
+ビクビク		being afraid of	drama10-2, vocab-know
+ちゃんと／きちんと		properly; thoroughly; accurately	drama10-2, vocab-know
+喜ぶ	よろこぶ	to be delighted	drama10-2, vocab-know
+(Xが) 揃う	そろう	to become complete; to be all present	drama10-2, vocab-know
+騙す	だます	to deceive	drama10-2, vocab-know
+無視する	むしする	disregard; ignore	drama10-2, vocab-know
+(Xに) 向く	むく	1) to turn toward; 2) to be suited for　	drama10-2, vocab-know, kanji-rw
+世代	せだい	generation (family)	drama10-2, vocab-know, kanji-rw
+救急車	きゅうきゅうしゃ	ambulance	drama10-2, vocab-know, kanji-rw
+			
+			
+			
+# drama10-3			
+心臓	しんぞう	heart (medical term)	drama10-3, vocab-know
+湯のみ	ゆのみ	teacup	drama10-3, vocab-know
+センスがいい		to have a good taste	drama10-3, vocab-know
+手術	しゅじゅつ	surgical operation	drama10-3, vocab-know
+(Xに) 成功する	せいこうする	to succeed in X	drama10-3, vocab-know, kanji-rw
+発作	ほっさ	seizure	drama10-3, vocab-know, kanji-rw
+落ち込む	おちこむ	to feel down	drama10-3, vocab-know, kanji-rw
+祈る	いのる	to pray	drama10-3, vocab-know, kanji-rw
+(Xが) 気になる	きになる	ちょっと心配する、興味がある	drama10-3, vocab-know, kanji-rw
+混乱	こんらん	disorder; chaos	drama10-3, vocab-know
+少しずつ	すこしずつ	little by little	drama10-3, vocab-know, kanji-rw
+不器用な	ぶきような	clumsy　	drama10-3, vocab-know
+			
+			
+			
+# drama10-4			
+(Xを) 経営する	けいえいする	to manage (a company; store)	drama10-4, vocab-know
+権利	けんり	right	drama10-4, vocab-know, kanji-rw
+正直な	しょうじきな	うそをつかない; honest	drama10-4, vocab-know, kanji-rw
+欠点	けってん	shortcoming; 弱点 ⇔ 長所　	drama10-4, vocab-know, kanji-rw
+(Xを) 克服する	こくふくする	to overcome	drama10-4, vocab-know
+(Xを) 支える	ささえる	to support (s.o. or s.t. fragile)　	drama10-4, vocab-know
+#現実	げんじつ	reality	drama10-4, vocab-know, kanji-rw
+譲る	ゆずる	to yield; give in	drama10-4, vocab-know
+(Xに) ついて行く	ついていく	to accompany; to follow	drama10-4, vocab-know, kanji-rw
+想像する	そうぞうする	to imagine　	drama10-4, vocab-know, kanji-rw
+ウキウキ		cheerful; buoyant　	drama10-4, vocab-know
+あり得ない	ありえない	impossible; it can’t happen	drama10-4, vocab-know
+			
+			
+			
+# drama11-1			
+落ち着く	おちつく	to calm down	drama11-1, vocab-know, kanji-rw
+(Xに) 腹が立つ	はらがたつ	(Xを) 怒る （話し言葉）	drama11-1, vocab-know
+(Xを) 見捨てる	みすてる	to abandon	drama11-1, vocab-know, kanji-rw
+返事	へんじ	reply; answer; response	drama11-1, vocab-know, kanji-rw
+(Xに/と) 相談する	そうだんする	to consult X	drama11-1, vocab-know
+温める	あたためる	to warm; to heat　	drama11-1, vocab-know, kanji-rw
+夕べ	ゆうべ	昨夜 （話し言葉）	drama11-1, vocab-know, kanji-rw
+着替える	きがえる	to change one's clothes	drama11-1, vocab-know
+後悔する	こうかいする	to regret　	drama11-1, vocab-know
+しっかりする		be fast on one's feet; to hang in there	drama11-1, vocab-know
+評価	ひょうか	evaluation	drama11-1, vocab-know, kanji-rw
+改めて	あらためて	another time; again　	drama11-1, vocab-know
+			
+			
+			
+# drama11-2			
+行儀が悪い	ぎょうぎがわるい	bad-mannered	drama11-2, vocab-know
+両手	りょうて	both hands	drama11-2, vocab-know, kanji-rw
+(Xを) はずす	はずす	to unfasten; to undo; to remove  Cf. Xがはずれる	drama11-2, vocab-know
+苦しい	くるしい	painful; difficult	drama11-2, vocab-know, kanji-rw
+(Xを) 救う	すくう	to rescue; to help	drama11-2, vocab-know
+悩む	なやむ	to be worried; to be troubled	drama11-2, vocab-know, kanji-rw
+(Xを) 確認する	かくにんする	to confirm	drama11-2, vocab-know
+たまに（は）		once in a while	drama11-2, vocab-know
+(Xを) 手に入れる	てにいれる	to obtain	drama11-2, vocab-know, kanji-rw
+詳しい	くわしい	detailed	drama11-2, vocab-know
+出産	しゅっさん	giving birth	drama11-2, vocab-know, kanji-rw
+命	いのち	(mortal) life　	drama11-2, vocab-know, kanji-rw
+			
+			
+			
+# drama11-3			
+(Xと) 戦う	たたかう	to fight against X	drama11-3, vocab-know, kanji-rw
+(Xから) 独立する	どくりつする	to become independent from X	drama11-3, vocab-know, kanji-rw
+(Xを) 雇う	やとう	to employ	drama11-3, vocab-know
+(Xを) 誘う	さそう	to invite	drama11-3, vocab-know
+むしろ		rather　	drama11-3, vocab-know
+#状況	じょうきょう	situation (objective)	drama11-3, vocab-know
+突然	とつぜん	suddenly	drama11-3, vocab-know
+存在	そんざい	existence	article08, drama11-3, vocab-know, kanji-rw
+(人は物が) 気に入る	きにいる	to like X; 人 is pleased; satisfied with 物	drama11-3, vocab-know, kanji-rw
+（お）見舞い	おみまい	1) visiting a sick person; 2) get-well letter; gift	drama11-3, vocab-know
+(Xに) 負ける	まける	to lose; to be defeated by X　	drama11-3, vocab-know, kanji-rw
+他人	たにん	unrelated person; outsider	drama11-3, vocab-know, kanji-rw
+			
+			
+			
+# drama11-4			
+(Xが) 冷める	さめる	X becomes cool	drama11-4, vocab-know, kanji-rw
+原因	げんいん	cause	drama11-4, vocab-know, kanji-rw
+幸せ	しあわせ	happiness	drama11-4, vocab-know, kanji-rw
+奪う	うばう	to snatch away; to dispossess	drama11-4, vocab-know
+黙る	だまる	何も言わない; to be silent	drama11-4, vocab-know
+預かる	あずかる	to keep X for a while	drama11-4, vocab-know, kanji-rw
+封	ふう	seal	drama11-4, vocab-know
+頼む	たのむ	to ask a favor	drama11-4, vocab-know, kanji-rw
+(Xに) 感謝する	かんしゃする	to thank X	drama11-4, vocab-know
+なつかしい		missed; nostalgic	drama11-4, vocab-know
+おせっかい（を焼く）	おせっかい（をやく）	to put one’s nose into others' business	drama11-4, vocab-know
+(Xが) 詰まる	つまる	X is packed; X is blocked; Cf. Xをつめる	drama11-4, vocab-know
+			
+			
+			
+# drama12-1			
+(人を) 引き止める	ひきとめる	to hold back someone	drama12-1, vocab-know, kanji-rw
+辛い	つらい	painful (emotionally); heart-breaking	drama12-1, vocab-know
+入院	にゅういん	hospitalization	drama12-1, vocab-know, kanji-rw
+(Xを) つぶす		1) to smash; 2) to shut down business  Cf. Xがつぶれる	drama12-1, vocab-know
+安心する	あんしんする	to feel at ease; to feel relieved　	drama12-1, vocab-know, kanji-rw
+悲しむ	かなしむ	to be sad; to mourn ← 悲しい	drama12-1, vocab-know, kanji-rw
+勇気	ゆうき	courage	drama12-1, vocab-know
+確かに	たしかに	surely; certainly	drama12-1, vocab-know, kanji-rw
+#自信	じしん	self-confidence	drama12-1, vocab-know, kanji-rw
+(Xが) 傷つく	きずつく	X is hurt Cf. Xを傷つける	drama12-1, vocab-know
+(Xを) 囲む	かこむ	to surround	drama12-1, vocab-know
+魅力	みりょく	charm; appeal	drama12-1, vocab-know
+			
+			
+			
+# drama12-2			
+(Xを/QUOTEと) 伝える	つたえる	to tell; communicate	drama12-2, vocab-know, kanji-rw
+（お）久しぶり	おひさしぶり	It has been a long time.	drama12-2, vocab-know
+(Xが) 倒れる	たおれる	1) X falls; 2) X falls ill  Cf. Xを倒す	drama12-2, vocab-know
+(Xを) 愛する	あいする	to love	drama12-2, vocab-know
+(Xを) 失う	うしなう	to lose (more poetic thanなくす)　	drama12-2, vocab-know, kanji-rw
+無事な	ぶじな	safe; undamaged　	drama12-2, vocab-know, kanji-rw
+(XとYを) (XをYと/に) 比べる	くらべる	to compare	drama12-2, vocab-know, kanji-rw
+(Xを) 乗り越える	のりこえる	to overcome	drama12-2, vocab-know
+(Xを/QUOTEと)保証する	ほしょうする	to guarantee	drama12-2, vocab-know
+(XをYに) 任せる	まかせる	to entrust X (e.g. a task) to Y; to leave X to Y	drama12-2, vocab-know
+必ず	かならず	絶対に	drama12-2, vocab-know, kanji-rw
+#(Xを) 移す	うつす	to transfer X  Cf. Xが移る	drama12-2, vocab-know
+			
+			
+			
+# drama12-3			
+(Xを) 超える	こえる	to exceed	drama12-3, vocab-know
+(Xを) 推薦する	すいせんする	to recommend　	drama12-3, vocab-know
+上司	じょうし	boss	drama12-3, vocab-know, kanji-rw
+部下	ぶか	junior staff　	drama12-3, vocab-know, kanji-rw
+元々	もともと	originally　　	drama12-3, vocab-know, kanji-rw
+臆病な	おくびょうな	coward; timid　	drama12-3, vocab-know
+まっすぐ		straight; straightforward	drama12-3, vocab-know
+名づける	なづける	名前をつける	drama12-3, vocab-know
+迷う	まよう	1) to lose one’s way; 2) to waver	drama12-3, vocab-know, kanji-rw
+宝物	たからもの	treasure	drama12-3, vocab-know
+(Xを) 投げる	なげる	to throw	drama12-3, vocab-know, kanji-rw
+(Xを) 育てる	そだてる	to raise X  Cf. Xが育つ	drama12-3, vocab-know, kanji-rw
+			
+			
+			
+# drama12-4			
+拍手	はくしゅ	clapping hands; applause	drama12-4, vocab-know
+代表する	だいひょうする	to represent	drama12-4, vocab-know, kanji-rw
+(お) 礼	おれい	expression of gratitude	drama12-4, vocab-know
+妻	つま	my wife	drama12-4, vocab-know
+(XがYと/に)ぶつかる		X collides against Y; X bumps into Y;  X conflicts Y  Cf. XをYにぶつける	drama12-4, vocab-know
+(Xを/QUOTEと) 願う	ねがう	to wish	drama12-4, vocab-know, kanji-rw
+#姿	すがた	figure; shape; appearance	drama12-4, vocab-know, kanji-rw
+ワクワクする		to be excited	drama12-4, vocab-know
+新婚旅行	しんこんりょこう	honeymoon	drama12-4, vocab-know, kanji-rw
+はめをはずす		to cut loose; to act without restraint	drama12-4, vocab-know
+気をつけて	きをつけて	1) Have a safe trip. 2) Be careful.	drama12-4, vocab-know, kanji-rw
+席	せき	seat	drama12-4, vocab-know, kanji-rw
+			
+			
+			
+# Onomatope			
+ぎりぎり		with limited time/space/quantity; no time/room to spare	onomatope, vocab_know
+ぐったり		so exhaused you can barely move	onomatope, vocab_know
+ごくごく		gulping repetitively	onomatope, vocab_know
+さくさく		1. crispiness; 2. light, repetitive sound of sand-like substance being moved; 3. quick, steady progress that leads to completion of a task	onomatope, vocab_know
+ずきずき		throbbing pain	onomatope, vocab_know
+すくすく		1. quickly, rapidly; 2. healthy and sound	onomatope, vocab_know
+すっきり		refreshed mood following the end of a problem or nuisance	onomatope, vocab_know
+さっぱり		physiologically refreshed (not necessarily at the end of a problem)	onomatope, vocab_know
+すべすべ		a surface that is smooth/pleasing to the touch	onomatope, vocab_know
+すりすり		rubbing a part of one's body on something as a display of affection	onomatope, vocab_know
+べたべた		1. clinging easily to objects from melting or becoming wet; 2. pasting or spreading something all over; 3. people who cling to others	onomatope, vocab_know
+もりもり		heaps of muscle/energy; eating hartily	onomatope, vocab_know
+わくわく		excited because of some pleasant expectation	onomatope, vocab_know

@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>Project 5 Extra Notes</title>
+    <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  </head>
+  <body>
+    <h2>Project 5 Extra Notes</h2>
+    <h3>Program Design</h3>
+    <p>You must break your program into multiple functions. The simplest
+      organization for this project is to have "main" call several other
+      functions in turn for each step of the processing. You can pass your data
+      to each function as parameters. We highly discourage you from relying on
+      global variables except for symbolic constants.</p>
+    <p>Any duplicate code should also be moved to smaller auxiliary functions.</p>
+    <h3>Symbolic Constants</h3>
+    <p>You should not be hard-coding numbers in this project. It was okay in
+      Project 3 only because each value was only used once and had little
+      independent meaning.</p>
+    <p>You can create global symbolic constants in two ways:</p>
+    <div style="margin-left: 40px;"><code>// const</code><code>ant</code><code></code><br>
+      <code>const TYPE NAME</code><code> = VALUE;</code><br>
+      <br>
+      <code>// macro</code><code></code><br>
+      <code>#define NAME VALUE</code></div>
+    <p>Technically, the second method results in slightly faster code, since the
+      preprocessor literally substitutes the name with the text, with a result
+      as if the numbers were hard-coded. But normal constants are also
+      acceptable, and if you want to declare a constant for a single block, you
+      should use them instead of macros.</p>
+    <h3>File Organization</h3>
+    <p>Here is the basic principle: you have one interface (.h) file for each
+      source (.cpp) file <strong>that defines functions</strong><strong> called
+        from outside </strong><strong>the file</strong>. Files that are not
+      accessed by any other, such as the "driver" modules in most projects in
+      this class, do not need an interface file (though there are reasons you
+      might still use one).</p>
+    <p>This project is just small enough that you can probably get away with one
+      file. In this case, you can put all your declarations at the top of the
+      file, followed by "main", then the rest of the function definitions.</p>
+    <p>However, it would be a good idea to get used to designing multi-file
+      programs. One good strategy is to put just "main" in your driver, and put
+      your other functions in a "support" module.</p>
+    <p>You almost certainly need to create a record for the data from one
+      weather station. This results in a slightly weird situation: if you want
+      to use the same record in multiple files, you need to declare it in an
+      interface file and include that file in each source file that uses the
+      record. If you write any functions that operate <strong>on a single
+        record</strong>, those go in the corresponding source file. Otherwise,
+      you don't need one.</p>
+    <p>To be be clear:</p>
+    <ul>
+      <li>my_record.h -- contains the record declaration</li>
+      <li>my_record.cpp -- contains functions that operate on a single record</li>
+    </ul>
+    <p>Functions that operate on a single record should not be combined with
+      those that operate on an array of records. The former go in <em>my_record.cpp</em>,
+      while the latter go in <em>support.cpp</em>.</p>
+    <p><em>Note: In th</em><em>is project, </em><em>if you have no functi</em><em>ons
+        that operate on a single record, you can go ahead and include the record
+        declaration </em><em>in "</em><em>support.h</em><em>", </em><em>since
+        we know the driver will include that header. But I still don't recommend
+        this, since most of the time trying to reduce the number of files just
+        creates problems.</em><span style="font-style: italic;"></span></p>
+    <p>In summary, this is the largest set of files you should consider using
+      for this project:</p>
+    <ul>
+      <li>driver.cpp</li>
+      <li>support.cpp</li>
+      <li>support.h</li>
+      <li>my_record.cpp (substituted with the name of record)</li>
+      <li>my_record.h (substituted with the name of record)</li>
+    </ul>
+    <p>Finally, just a reminder that you should not have any #include-s in your
+      interface file unless the contents of those interface file intself uses
+      things from the included modules.</p>
+    <h3>Incremental Development</h3>
+    <p>The absolute first thing you should do after choosing a basic design and
+      getting things set up is to get the program to read the file and print the
+      table. Don't worry about the calculations until that works. If your input
+      or table output crash or get in an infinite loop, the rest cannot be
+      graded.</p>
+    <h3>Output Formatting</h3>
+    <p>You must use real table formatting this time. Remember (a) column
+      headings, (b) appropriate length columns, and (c) keep the whole thing
+      smaller than 80 characters in width. You can abbreviate headings if you
+      need to. There are course pack examples, and my <a href="https://www.msu.edu/%7Ehanson54/cse232/examples/">output
+        formatting example</a> shows all the syntax.</p>
+    <h3>Error Checking</h3>
+    <p>You will need extensive error checking that works according to the
+      project spec's. Note that you must (a) print a specific and informative
+      error message for each case and (b) stop execution if applicable.</p>
+    <p>You can use "exit()" or "return" to halt, depending on your project
+      design. In general you should not use "exit()" in libraries, because it
+      prevents the user from choosing how to handle an error. But because this
+      is an end user program, it's okay.</p>
+    <h3>Compiler Warnings</h3>
+    <p>Remember to always clean up all compiler warnings. If you get any, you
+      are almost certainly doing something unsafe. You can add -Wall (all
+      warnings) to each compilation command in your makefile to see all
+      warnings.</p>
+    <p></p>
+    <hr><em>Last</em><em> edited 12/19/12<br>
+    </em>
+  </body>
+</html>

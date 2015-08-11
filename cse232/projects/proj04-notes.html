@@ -1,0 +1,100 @@
+<html>
+  <head>
+    <title>Project 4 Extra Notes</title>
+  </head>
+  <body>
+    <h2>Project 4 Extra Notes<br>
+    </h2>
+    <ol>
+    </ol>
+    <h3>Quick Hints and Reminders</h3>
+    <ol>
+      <li>Do not copy the interface (.h) file into your account. You should use
+        the path to the original in your code. Because the interface file will
+        not change, you do not need to include it in your makefile.</li>
+      <li>You absolutely cannot use operator== to compare against NAN
+        (technically you can for INFINITY)</li>
+      <li> Use &#8220;finite&#8221; as shown in the demo program to test for NAN and
+        INFINITY</li>
+      <li>To return NAN and INFINITY, write the names in all caps.</li>
+      <li>You need to use symbolic constants (for PI, epsilon, etc.) either from
+        the cmath library or created by yourself.</li>
+    </ol>
+    <h3>Incremental Development</h3>
+    <ol>
+      <li>Some of the functions depend on other functions. Therefore, there is
+        no point in writing the dependent functions until the functions they
+        rely on are working.</li>
+      <li>For some functions, it will be hard to handle all possible input
+        values on your first attempt. For example, "modulo" must handle negative
+        values, and in the same way that "fmod" from cmath does. First, get it
+        to work just for positive values.</li>
+    </ol>
+    <h3>Testing Principles</h3>
+    <ol>
+    </ol>
+    This is the first project with a &#8220;driver&#8221; module for testing. You will need
+    many test cases for each function.<br>
+    Test cases fall into two categories:<br>
+    <ol>
+      <li>Error conditions (where output is undefined)</li>
+      <ul>
+        <li>The function needs to (a) not fail, and (b) return some specific
+          error value (e.g. as defined by project specifications).</li>
+      </ul>
+      <li>Normal conditions</li>
+      <ul>
+        <li>The function needs to (a) not fail, and (b) return the correct
+          result.</li>
+        <li>You need to test various values throughout the range of valid
+          values.</li>
+        <ul>
+          <li>ex. In functions with parameters of type "double", you must test
+            large and small, positive and negative input.</li>
+        </ul>
+        <ul>
+          <li>ex. In "sine" and "cosine", you need to test each values from each
+            quadrant of the unit circle.</li>
+        </ul>
+      </ul>
+    </ol>
+    <h3> Testing Modules ("Drivers")</h3>
+    Absolutely required:<br>
+    <ol>
+      <li>You must label your output. It must be clear what the function, input,
+        and output are.</li>
+      <li>You must format it so that it is easy to read -- break the output into
+        sections for each function\</li>
+    </ol>
+    <p>At the very minimum, you will need to do something like this for every
+      test:</p>
+    <p style="margin-left: 40px;"><code>cout &lt;&lt; "fac</code><code>torial("
+        &lt;&lt; </code><code>15 &lt;&lt; ") = " &lt;&lt; factorial(15)
+        &lt;&lt; endl;</code></p>
+    Recommended (for now):<br>
+    <ol>
+      <li>You should compare the output of your functions with output from the
+        &#8220;cmath&#8221; library. Otherwise, you're just guessing that the results are
+        correct.</li>
+      <li>You can use "setw()" from "iomanip" to create columns. Note that you
+        must use "setw()" before every field individually.</li>
+    </ol>
+    <h3>Testing Functions</h3>
+    You will find it massively helpful to create auxiliary testing functions
+    like this:<br>
+    <br>
+    <div style="margin-left: 40px;"><code>void testFactorial(int x) {</code><code><br>
+      </code><code>&nbsp; </code><code>cout &lt;&lt; "fac</code><code>torial("
+        &lt;&lt; </code><code>x &lt;&lt; ") = " &lt;&lt; factorial(x) &lt;&lt;
+        endl;<br>
+        }<br>
+      </code></div>
+    <code></code><br>
+    <code></code>Then, you can just call these auxiliary functions repeatedly in
+    order to test your library functions, rather than<br>
+    copying and pasting the whole output line.<br>
+    <p></p>
+    <hr><em>Last</em><em> edited 2/5/13<br>
+    </em>
+  </body>
+</html>

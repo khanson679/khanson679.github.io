@@ -1,0 +1,119 @@
+CSE 232 SS13 Lab 6 Notes
+
+1. Arrays
+
+Always declared like this:
+
+  TYPE NAME[SIZE];
+
+From that point on, you can access elements in the array using indices 0
+to SIZE - 1. You should almost always use a symbolic constant to hold
+the size of your array.
+
+  const int size = 10;
+  int array[size];
+  
+  array[0] = 10; //first element
+  array[size - 1] = 100; //last element
+  
+In some cases, you might want to create a large array, but only have part
+of it "used" at any time. In this case, use two variables.
+
+  const int MAX = 10;
+  int size = 0;
+  int array[MAX];
+  
+Now, every time you add an item, you can increase the size, up to MAX.
+
+To iterate through every element, use a for loop.
+
+  for (int i = 0; i < size; i++) {
+    // do something with array[i]
+  }
+
+  
+  
+2. Array Parameters
+
+Array parameters are weird. Both paramaters below can be used to pass arrays.
+
+  void f(int array1 [], int * array2) {...}
+  
+Technically, the second is a pointer to an integer. But, arrays are implemented
+in C/C++ using pointers, so anny array can be passed as a pointer, and any
+pointer can be passed as an array. To make things clear, you should always
+use [] when an array is intended.
+
+GOTCHA ALERT
+
+When you give an array as an argument, just give the name itself. Outside
+of function parameters, [] always means "index operator".
+
+  int array[10];
+  
+  f(array);   // GOOD
+  f(array[]); // BAD
+
+This is similar to '&', which means "reference parameter" when used in
+parameters, and "address of" otherwise.
+
+
+  
+3. Records
+
+Use "struct" in C++. "struct" and "class" are nearly identical in function,
+but you should only use the word "class" for actual classes.
+
+When you declare a record, you are declaring a type. Once the type is declared,
+you can use it to declare variables of that type. Each one you create is
+a new, separate record.
+
+  // from Lab 6
+  struct Student
+  {
+    char Name[20];
+    int Score;
+  };
+  
+  Student student1; // student object
+  Student student2; // another student object
+  
+  
+  
+4. Combos of Arrays and Records
+
+You can, and often will make arrays of records or records containing arrays,
+or even more than two levels. Going left to right, each use of the index
+operator gives you a member of an array, and each use of the dot operator
+gives you a member of a record (or class).
+
+  // array of records
+  Student students[size];
+  
+  // initialize all students using input loop
+  for(int i = 0; i < size; i++) {
+    Student temp;
+    
+    cin >> temp.name;
+    // ...
+    
+    if (!cin.good) break;
+    
+    students[i] = temp;
+  }
+  
+  // record containing arrays (needs to be outside all functions)
+  struct Class {
+    char courseName[20];
+    char instructorName[20];
+    Student students[30];
+  };
+  
+  // accessing arrays in records
+  Class class1;  
+  class1.students = students; // names in two different scopes
+  
+  // accessing records in arrays in records
+  (int i = 0; i < size; i++) {
+    cout << class1.Students[i].name << "  " << class1.Students[i].score << endl;
+  }

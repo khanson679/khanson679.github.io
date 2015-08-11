@@ -1,0 +1,524 @@
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>C++ Coding Style Guide</title>
+  </head>
+  <body>
+    <h1>C++ Coding Style Guide</h1>
+    This page provides some additional notes and examples to help you write you
+    programs according to the <a href="http://www.cse.msu.edu/%7Ecse232/General/coding.standard">CSE
+      232 coding standard</a>. Most of what I've written here is standard
+    advice, but there is room for flexibility as long as you are consistent in
+    what you do and follow the policies in the course coding standard.<br>
+    <h2>Contents</h2>
+    <ul>
+      <li><a href="#headers">File/Function Headers</a></li>
+      <li><a href="#naming">Naming Conventions</a></li>
+      <li><a href="#ws">Indentation, Whitespace, and Expressions<br>
+        </a></li>
+      <li><a href="#comments">Comments</a></li>
+      <li><a href="#logic"><span style="color: #0000ee;"><span style="text-decoration: underline;">If-Else
+              and Switch-Case Formatting</span></span></a></li>
+      <li><a href="#io">I/O Code Formatting</a><br>
+      </li>
+    </ul>
+    <h2><a name="headers"></a>File/Function Headers<br>
+    </h2>
+    <h3>Function Header Fields</h3>
+    <p>This is the main component of the coding standard that is specific to CSE
+      232. Follow the conventions in the course pack examples, which use 6
+      fields:</p>
+    <ol>
+      <li>Name<br>
+      </li>
+      <li>Purpose<br>
+      </li>
+      <li>Receive (you can also call this "Parameters")</li>
+      <li>Return</li>
+      <li>Input<br>
+      </li>
+      <li>Output<br>
+      </li>
+    </ol>
+    <p>"Purpose" can be omitted if the name of the function, combined with the
+      other fields, make it completely obvious what the function does. The other
+      fields can be omitted only if you would have written "None" as the value.</p>
+    <p>For class constructors and destructors, you can replace the "name" of the
+      function (which is the same as the class name) with "default constructor",
+      "value constructor", "copy constructor", or "destructor".<br>
+    </p>
+    <p>The "Purpose" field should fully explain everything another programmer
+      needs to know in order to use your function, except&nbsp; information that
+      would be redundant with the other fields. For very short functions, you
+      may not need any additional comments in the function body if your
+      "Purpose" description is thorough. For most functions, you will need
+      inline comments (right before the relevant code) with implementation
+      details <a href="#comments">(see below)</a>.</p>
+    <p>In the "Receive" field, don't just give the types of each parameter, give
+      the name and purpose of each. The "Return" field should include values
+      returned through reference parameters, as well as normal return values.</p>
+    <p>The "Input" and "Output" fields should be used only for terminal and file
+      I/O, not for parameters or return values.<br>
+    </p>
+    <h2><a name="naming"></a>Naming Conventions</h2>
+    <ol>
+    </ol>
+    <h3>Name Choice<br>
+    </h3>
+    <p>In a nutshell, use meaningful names. Single letter variable names are
+      never acceptable except for indices and iterators, which are commonly
+      named 'i', 'j', and 'k'.<br>
+    </p>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Bad<br>
+            </strong> </td>
+          <td><strong>Good<br>
+            </strong> </td>
+        </tr>
+        <tr>
+          <td>A, B, C<br>
+          </td>
+          <td>sideA, sideB, sideC<br>
+          </td>
+        </tr>
+        <tr>
+          <td>H, W<br>
+          </td>
+          <td>height, width<br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Abbreviations, on the other hand, are fine (ex. "stackPtr" = "stack
+      pointer").<br>
+    </p>
+    <p>Do not use the name "temp" except for variables that really are used for
+      temporary storage of a value and nothing else, such as in the swap
+      algorithm.</p>
+    <blockquote><code>/* Ex. Swap Algorithm */<br>
+        <br>
+        int x, y;<br>
+        ...<br>
+        <br>
+        // swap x and y<br>
+        int temp;<br>
+        temp = x;</code><br>
+      <code>x = y;</code><br>
+      <code>y = temp;</code></blockquote>
+    <p>If you find yourself calling things "temp1", "temp2", etc., then you
+      definitely need better names.<br>
+    </p>
+    <h3>Style</h3>
+    <p>The most important thing here is to be consistent. However, there are
+      some common conventions for C++:<br>
+    </p>
+    <p></p>
+    <table>
+      <tbody>
+        <tr>
+          <td><strong>Name Category<br>
+            </strong></td>
+          <td><strong>Example<br>
+            </strong></td>
+          <td><strong>Alternate Style</strong><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Variables and functions: </td>
+          <td> someVariable, someFunction </td>
+          <td>some_variable, some_function<br>
+          </td>
+        </tr>
+        <tr>
+          <td>Classes, structs, enumerations<br>
+          </td>
+          <td>ClassName, StructName, EnumName<br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+        <tr>
+          <td>Constants<br>
+          </td>
+          <td>SOME_CONSTANT<br>
+          </td>
+          <td><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Note that arrays and objects count as variables.</p>
+    <p>If you follow these conventions, you will be able to use names like this:</p>
+    <blockquote><code>/* Ex. Class and Variable Names */<br>
+        <br>
+        class Student {...};<br>
+        <br>
+        ...<br>
+        <br>
+        const int NUM_STUDENTS = 20;<br>
+        <br>
+        Student students[NUM_STUDENTS]; //array of students<br>
+        ...<br>
+        <br>
+        for (int i = 0; i &lt; NUM_STUDENTS; i++) {<br>
+        &nbsp; Student student; // temp student for input<br>
+        &nbsp; cin &gt;&gt; student;<br>
+        &nbsp; students[i] = student;<br>
+        }<br>
+      </code></blockquote>
+    <h2><a name="ws"></a>Indentation, Whitespace, and Expressions<br>
+    </h2>
+    <h3>Indentation<br>
+    </h3>
+    <p>Use 2 or 4 spaces per level of indentation, or hard tabs.</p>
+    <p>Do not mix spaces with real tabs -- the indentation will be ruined when
+      others with different tab settings try to view your code, print it to the
+      terminal, etc. If you use multiple editors, configure them to do the same
+      thing so this doesn't happen.<br>
+    </p>
+    <p>See <a href="https://www.msu.edu/%7Ehanson54/cse232/vim.html">Vim
+        Configuration</a> for auto-indentation in Vim. For other editors, look
+      at the settings/options.</p>
+    <h3>Long Expressions</h3>
+    <p>When a single expression won't fit in a single line, you can extend it to
+      the next line. Increase the indentation when you do so.</p>
+    <blockquote><code>x = the + sum + of + an + extremely</code><br>
+      <code>&nbsp; + long + expression + that + </code><code>extends</code><br>
+      <code>&nbsp; + over + multiple + lines;</code></blockquote>
+    <p>In general, you should avoid splitting a single calculation into multiple
+      steps, especially if the entire calculation will fit on one line. However,
+      it might make sense to do so if the results are those intermediate steps
+      are also used elsewhere, or the code will be clearer that way, such as
+      when each sub-calculation represents a meaningful value.<br>
+      <code></code></p>
+    <h3>Whitespace Within a line<br>
+    </h3>
+    <p>Basically, use space to improve readability. Add space between operators
+      and operands, commas, and semicolons, and colons. Add space on the outside
+      of parentheses and brackets (though see an exception below).<br>
+    </p>
+    <blockquote><strong>Examples from
+        http://geosoft.no/development/cppstyle.html</strong><br>
+      <br>
+      <code>a = (b + c) * d;&nbsp; <i class="not">// NOT: a=(b+c)*d<br>
+          <br>
+        </i>while (true) { &nbsp;&nbsp; <i class="not">// NOT: while(true)</i>{<br>
+        &nbsp; ...<br>
+        <br>
+        doSomething(a, b, c, d);&nbsp; &nbsp; <i class="not">// NOT:
+          doSomething(a,b,c,d);</i><br>
+        <br>
+        case 100
+        :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp; <i class="not">// NOT: case 100:<br>
+          <br>
+        </i> for (i = 0; i &lt; 10; i++) {&nbsp; <i class="not">// NOT:
+          for(i=0;i&lt;10;i++){<i> </i></i><br>
+        &nbsp; <i class="not"><i>...</i></i></code></blockquote>
+    <p>The main exception is with parentheses around while/for conditions and
+      function parameters, where you can have space inside the parentheses, or
+      no space at all, as long as you are consistent.<br>
+    </p>
+    <blockquote><code>f(x, y, z);</code><code>&nbsp;&nbsp; // no space around
+        parentheses<br>
+      </code><code>f( x, y, z ); // space inside parentheses</code><code><br>
+      </code><code>f (x, y, z)</code><code>;&nbsp; // space outside parentheses</code><br>
+    </blockquote>
+    <h3>Parentheses<br>
+    </h3>
+    <p>In compound arithmetic expressions, you will sometimes get the best
+      results by omitting spaces in around *, /, and % when you have several
+      terms being added or subtracted. This is preferable to adding parentheses
+      that do not change order of operations.</p>
+    <blockquote><code>Ex. a = b*c + d/e - f%g&nbsp; // NOT: </code><code>a = (b
+        * c) + (d / e) - (f % g)</code></blockquote>
+    <p>In Boolean expressions, however, you should add parentheses around
+      sub-expressions.</p>
+    <blockquote>
+      <p><code>Ex. if ((x + 2*y &gt; z) || (p &lt; q))</code></p>
+    </blockquote>
+    <p>Each pair of parentheses will then contain at most one comparative
+      operator.</p>
+    <h3>Between Lines</h3>
+    <p>Add one blank line between each logical block of code.</p>
+    <blockquote>
+      <p><strong>Example from http://geosoft.no/development/cppstyle.html</strong></p>
+      <code>Matrix4x4 matrix = new Matrix4x4();<br>
+        <br>
+        double cosAngle = Math.cos(angle);<br>
+        double sinAngle = Math.sin(angle);<br>
+        <br>
+        matrix.setElement(1, 1, cosAngle);<br>
+        matrix.setElement(1, 2, sinAngle);<br>
+        matrix.setElement(2, 1, -sinAngle);<br>
+        matrix.setElement(2, 2, cosAngle);<br>
+        <br>
+        multiply(matrix);<br>
+      </code></blockquote>
+    <p>Add at least one blank line (preferably two) between functions and other
+      file components.</p>
+    <blockquote><code>/* Ex. Function Spacing */<br>
+        <br>
+        using namespace std;<br>
+        <br>
+        #include &lt;header1&gt;<br>
+        #include "header2"<br>
+        <br>
+        const int CONST_1 = 100;<br>
+        const int CONST_2 = 200;<br>
+        const int CONST_3 = 300;<br>
+        <br>
+        <br>
+        /*<br>
+        &nbsp;* function1 header<br>
+        &nbsp;*/<br>
+        void function1() {<br>
+        &nbsp; ...<br>
+        }<br>
+        <br>
+        <br>
+        /*<br>
+        &nbsp;* function2 header<br>
+        &nbsp;*/<br>
+        int function2(int param1, int param2) {<br>
+        &nbsp; ...<br>
+        }</code><br>
+    </blockquote>
+    However, don't ever double space your code. This is just as useless as no
+    spacing, and just creates the need for more scrolling.
+    <h2><a name="comments"></a>Comments</h2>
+    <h3>Variable Declarations</h3>
+    <p>Describe the purpose of every variable, with units if applicable, unless
+      it is absolutely obvious from the name and type alone what the variable is
+      for. Align the comments as much as possible.<br>
+    </p>
+    <blockquote><code>int var1;&nbsp;&nbsp;&nbsp; // describe<br>
+        int var2;&nbsp;&nbsp;&nbsp; // describe<br>
+        double var3; // describe<br>
+        double var4; // describe</code><br>
+    </blockquote>
+    <blockquote> </blockquote>
+    <p></p>
+    <h3>Inline Comments</h3>
+    Put a descriptive comment before each logical block of code.
+    Use&nbsp;&nbsp;&nbsp; //&nbsp;&nbsp;&nbsp; comments rather
+    than&nbsp;&nbsp;&nbsp; /* ... */ &nbsp;&nbsp; comments.<br>
+    <blockquote><code>// do X<br>
+        ...<br>
+        ...<br>
+        <br>
+        // do Y<br>
+        ...<br>
+        ...</code><br>
+    </blockquote>
+    <p>In some case, you may be able to get away with just one comment for a
+      couple blocks.</p>
+    <blockquote><code>// do X<br>
+        ...<br>
+        ...<br>
+        <br>
+        ...<br>
+        ...<br>
+      </code> </blockquote>
+    <p>If you need multiple lines for a comment, start each with another //.
+      Don't let your comments go past 80 characters per line.<br>
+    </p>
+    <blockquote><code>// some really&nbsp; ..........<br>
+        // long comment ..........</code></blockquote>
+    <p></p>
+    <p>Use off-side comments very sparingly (other than in variable
+      declarations). Inline comments should almost always precede the code they
+      describe.</p>
+    <p>If-else statements are a little tricky, but most of the time a block
+      comment will do the job.</p>
+    <blockquote><code>if (X) {<br>
+        &nbsp; // do Y<br>
+        &nbsp; ...<br>
+        }<br>
+        else {<br>
+        &nbsp; //do Z<br>
+        &nbsp; ...<br>
+        }</code><br>
+    </blockquote>
+    <p>See below for more on logic formatting.</p>
+    <p>Add additional comments whenever what you're doing is not obvious.
+      However, do NOT just translate the syntax.</p>
+    <blockquote><code>/* BAD Examples */<br>
+        <br>
+        Thing thing = new Thing(); // make a new Thing<br>
+        <br>
+        X += Y; // add Y to X<br>
+        <br>
+        if (X &gt; Z) { // if x is greater than z<br>
+        &nbsp; ...<br>
+        }</code><br>
+    </blockquote>
+    Instead, make sure it's clear WHY you are doing what you're doing. Only omit
+    comments when what you are doing is completely self-evident, such as in a
+    short function with a good "purpose" field in its header.<br>
+    <h3><code></code>Long Functions</h3>
+    <p>Break long chunks of code into sections with mini-headers.</p>
+    <blockquote><code>int longFunction() {<br>
+      </code>
+      <blockquote><code>// init variables<br>
+          ...<br>
+          <br>
+          //<br>
+          // Section 1<br>
+          //<br>
+          <br>
+          // Block A<br>
+          ...<br>
+          ...<br>
+          <br>
+          // Block B<br>
+          ...<br>
+          ...<br>
+          <br>
+          .<br>
+          .<br>
+          .<br>
+          <br>
+          //<br>
+          // Section 2<br>
+          //<br>
+          <br>
+          // Block C<br>
+          ...<br>
+          ...<br>
+          <br>
+          .<br>
+          .<br>
+          .<br>
+        </code></blockquote>
+      <code>}</code></blockquote>
+    <h2><a name="logic"></a>If-Else and Switch-Case Formatting</h2>
+    <p>For if-else, you generally have two choices for comments:<br>
+    </p>
+    <div style="margin-left: 40px;"><code>// Describe the purpose of the whole
+        if-else</code><code><br>
+      </code><code>if (cond)</code><code> </code><code>{</code><code><br>
+      </code><code>&nbsp; SHORT BLOCK</code><code><br>
+      </code><code>}</code><code><br>
+      </code><code>else</code><code> </code><code>{</code><code><br>
+      </code><code>&nbsp; SHORT BLOCK</code><code><br>
+        }</code><code><br>
+      </code><code><br>
+        // Optional: </code><code>purpose </code><code>of the whole if-else</code><code><br>
+      </code><code>if (cond)</code><code> {</code><code><br>
+      </code><code>&nbsp; // do X</code><code><br>
+        &nbsp; MEDIUM BLOCK<br>
+      </code><code>}</code><code><br>
+      </code><code>else {</code><code><br>
+      </code><code>&nbsp; // do Y</code><code><br>
+        &nbsp; </code><code>MEDIUM BLOCK</code><code><br>
+        }</code><br>
+    </div>
+    <p>As with sequential logic, your comment for an if-else or switch-case
+      block could be the purpose of the code, or an explanation of what it
+      means, such as the name of a formula or the English wording of a
+      calculation. When they are long, you will probably need more than one
+      comment per block.</p>
+    <p>If you choose to use bracket-less if-else (only possible when each block
+      is only one statement), the same rules apply.</p>
+    <p style="margin-left: 40px;"><code>// Optional: </code><code>purpose </code><code>of
+        the whole if-else</code><code><br>
+      </code><code>if (cond)</code><code></code><code><br>
+      </code><code>&nbsp; // do X</code><code><br>
+        &nbsp; ONE STATEMENT</code><code><br>
+      </code><code>else</code><code><br>
+      </code><code>&nbsp; // do Y</code><code><br>
+        &nbsp; </code><code>ONE STATEMENT</code><code><br>
+      </code></p>
+    <p>Switch case also works the same way. If the cases are long, you should
+      add space between them, since brackets around case bodies are optional
+      (except when you declare variables within a case).<br>
+    </p>
+    <div style="margin-left: 40px;"><code>// Optional: purpose of </code><code>entire
+        switch-case</code><code><br>
+      </code><code>switch (var) {</code><code><br>
+      </code>
+      <div style="margin-left: 40px;"><code>case 1:</code><code><br>
+        </code>
+        <div style="margin-left: 40px;"><code>// do X</code><code><br>
+          </code><code> ...</code><code><br>
+          </code><code> break;</code><code><br>
+          </code> </div>
+        <code><br>
+        </code><code> case 2:</code><code><br>
+        </code>
+        <div style="margin-left: 40px;"><code>// do Y</code><code><br>
+          </code><code> ...</code><code><br>
+          </code><code> break;</code><code><br>
+          </code> </div>
+        <code><br>
+        </code><code> default:</code><code><br>
+        </code>
+        <div style="margin-left: 40px;"><code>// do Z</code><code><br>
+          </code><code> ...</code><code><br>
+          </code> </div>
+        <div style="margin-left: 40px;"><code> break;</code><code><br>
+          </code> </div>
+      </div>
+      <code> }</code></div>
+    <blockquote> </blockquote>
+    <code></code>
+    <h2><a name="io"></a>I/O Code Formatting</h2>
+    <p>C++ has a somewhat strange syntax for I/O, but it actually works pretty
+      well.</p>
+    <p>In general, you can include multiple output items in a single "cout"
+      statement. Put spaces around &lt;&lt; and &gt;&gt;, just like any other
+      operator.<br>
+    </p>
+    <blockquote>
+      <p><code>cout &lt;&lt; "The roots are: " &lt;&lt; A &lt;&lt; ", " &lt;&lt;
+          B &lt;&lt; ", and " &lt;&lt; C &lt;&lt; endl;</code><br>
+      </p>
+    </blockquote>
+    <p>You can also extend a single "cout" statement over multiple lines. Do
+      this whenever a single line of output takes more than one line of code to
+      generate, or when you output several lines one after another. When you do
+      this, increase the indentation all lines after the first.<br>
+    </p>
+    <blockquote><code>cout &lt;&lt; "\nStatistics for this sample:" &lt;&lt;
+        endl<br>
+        &nbsp; &lt;&lt; "&nbsp; Maximum: " &lt;&lt; max &lt;&lt; endl<br>
+        &nbsp; &lt;&lt; "&nbsp; Minimum: " &lt;&lt; min &lt;&lt; endl<br>
+        &nbsp; &lt;&lt; "&nbsp; Mean:&nbsp;&nbsp;&nbsp; " &lt;&lt; mean &lt;&lt;
+        endl<br>
+        &nbsp; &lt;&lt; "&nbsp; Median:&nbsp; " &lt;&lt; median &lt;&lt; endl
+        &lt;&lt; endl;</code><br>
+    </blockquote>
+    <p>You can also make the output easier to visualize by giving empty lines in
+      the output their own line in the code.</p>
+    <blockquote><code>cout &lt;&lt; endl<br>
+        &nbsp; &lt;&lt; "Statistics for this sample:" &lt;&lt; endl</code><br>
+      <code> &nbsp; &lt;&lt; "&nbsp; Maximum: " &lt;&lt; max &lt;&lt; endl</code><br>
+      <code> &nbsp; &lt;&lt; "&nbsp; Minimum: " &lt;&lt; min &lt;&lt; endl</code><br>
+      <code> &nbsp; &lt;&lt; "&nbsp; Mean:&nbsp;&nbsp;&nbsp; " &lt;&lt; mean
+        &lt;&lt; endl</code><br>
+      <code> &nbsp; &lt;&lt; "&nbsp; Median:&nbsp; " &lt;&lt; median &lt;&lt;
+        endl<br>
+        &nbsp; &lt;&lt; endl;</code><br>
+    </blockquote>
+    <p>It's usually safe (but potentially confusing) if you embed actual
+      calculations in output code, but there are some cases where you will need
+      to calculate the results beforehand, store them in variables, and embed
+      the stored results in the output code.<br>
+    </p>
+    <p>Note that if you do use embedded calculations, it's particularly
+      important to use "endl" at the end of each line, rather that the newline
+      character ('\n'). If you don't and your program crashes or hangs during
+      any calculation embedded in the output code, nothing will be output, so
+      you won't be able to tell which calculation failed.<br>
+    </p>
+    <blockquote>
+      <p></p>
+    </blockquote>
+    <p></p>
+    <hr><em>Last modified 3/13/13</em><br>
+  </body>
+</html>

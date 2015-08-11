@@ -1,0 +1,58 @@
+CSE 232 Lab 2
+
+1. Type Sizes
+
+Size of integer data objects (in bytes)
+
+  short:        2
+  int:          4
+  long:         8
+
+Size of floating point data objects (in bytes)
+
+  float:        4
+  double:       8
+
+Size of other data objects (in bytes)
+
+  char:         1
+  bool:         1
+  void*:        8
+ 
+ 
+2. Typecasting
+ 
+For our purposes, "(int) 3.5" (C notation) the same as "int(3.5)" (function notation). You will not enounted any differences in 232.
+
+
+3. Increment/Decrement
+
+x++ or ++x alone same as "x = x + 1;"
+x-- or --x alone same as "x = x - 1;"
+
+But they are different on the right side of assignment.
+
+y = x++; same as
+	y = x;
+	x = x + 1;
+	
+y = ++x; same as
+	x = x + 1;
+	y = x;
+	
+	
+4. Variable Initialization
+
+int x = 3; same as
+	int x;
+	x = 3;
+	
+Usually better to use the initialization notation.
+
+
+5. CamelCase
+
+variables and functions: someObject, someFunction
+class names:             ClassName
+
+You may see other conventions, but I recommend these ones, which are used in both C++ and Java.

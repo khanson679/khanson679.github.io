@@ -1,0 +1,62 @@
+/**** Repeated Includes -- Example that will throw an error****/
+
+/* Class A */
+
+class A{
+//...
+};
+
+
+/* Class B */
+
+#include “classA.h”
+
+class B{
+//...
+};
+
+
+/* User */
+
+#include “a.bad.h”
+#include “b.bad.h” //you will get an error
+
+int main() {return 0;}
+
+
+
+
+/**** Include Guards -- How to fix it ****/
+
+/* Class A Fixed*/
+
+#ifndef A_
+#define A_
+
+class A{
+//...
+};
+
+#endif
+
+
+/* Class B Fixed */
+
+#ifndef B_
+#define B_
+
+#include “classA.h”
+
+class B{
+//...
+};
+
+#endif
+
+
+/* User */
+
+#include “a.good.h”
+#include “b.good.h” //no error this time
+
+int main() {return 0;}
