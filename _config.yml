@@ -2,8 +2,6 @@ name: "Kenneth Hanson - Michigan State University"
 shortname: "Kenneth Hanson"
 description: "Kenneth Hanson's MSU Homepage"
 
-baseurl: "/"
-
 permalink: pretty
 highlighter: pygments
 
