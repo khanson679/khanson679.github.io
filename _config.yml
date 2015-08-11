@@ -2,7 +2,7 @@ name: "Kenneth Hanson - Michigan State University"
 shortname: "Kenneth Hanson"
 description: "Kenneth Hanson's MSU Homepage"
 
-baseurl: "/~hanson54"
+baseurl: "/"
 
 permalink: pretty
 highlighter: pygments
@@ -10,7 +10,3 @@ highlighter: pygments
 markdown: rdiscount
 rdiscount:
   extensions: [smart]
-
-ftp_host: 'afs.msu.edu'
-ftp_dir: '/afs/msu/user/h/a/hanson54/web'
-ftp_passive: false
