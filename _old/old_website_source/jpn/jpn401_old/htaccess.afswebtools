@@ -1,4 +1,0 @@
-# Created by AFS Web Tools
-AuthName "MSU NetID"
-AuthType Basic
-require valid-user
