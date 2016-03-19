@@ -84,4 +84,4 @@ Below is a brief CV. Also available is a [detailed resume (PDF)][1].
 * AAJT Japanese National Honor Society College Chapter (2014)
 
 
-[1]: {{ site.baseurl }}/files/kenneth-hanson-resume.pdf
+[1]: /files/kenneth-hanson-resume.pdf

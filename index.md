@@ -30,4 +30,4 @@ Email me at my first initial + last name + 679 at gmail dot com.
 [cse232]: http://www.cse.msu.edu/~cse232
 [marimba]: http://en.wikipedia.org/wiki/Marimba
 [jp]: http://www.japaneseprofessor.com
-[Research]: {{ site.baseurl }}/research
+[Research]: /research
