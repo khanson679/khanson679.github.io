@@ -4,7 +4,3 @@ description: "Kenneth Hanson's Homepage"
 
 permalink: pretty
 highlighter: pygments
-
-markdown: rdiscount
-rdiscount:
-  extensions: [smart]
