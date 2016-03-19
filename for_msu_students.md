@@ -1,5 +1,5 @@
 ---
-title: Pages for MSU Students
+title: For MSU Students
 layout: default
 date: 5/19/2014
 ---
