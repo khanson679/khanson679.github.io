@@ -14,7 +14,7 @@ Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][r
   * Additional Major in Japanese.
   * Minor in Computer Science.
 * Linguistic Society of America 2013 Summer Linguistic Institute, Ann Arbor, MI (06/2013--07/2013)  
-  Non-degree Student
+  Participant
 
 
 ## Experience
