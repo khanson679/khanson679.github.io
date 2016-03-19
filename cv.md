@@ -4,7 +4,7 @@ layout: default
 date: 3/10/2016
 ---
 
-Below is a brief CV. Also available is a [detailed resume (PDF)][1].
+Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
 
 
 ## Education
@@ -74,9 +74,11 @@ Below is a brief CV. Also available is a [detailed resume (PDF)][1].
 * MSU Engineering Summer Undergraduate Research Experience -- Grantee (05/2012--07/2012)
 * Mitsui USA Foundation USA/Community Scholarship for Youth For Understanding Summer Japan Study Abroad Program (06/2009--07/2009)
 
+
 ### Presentation Awards
 
 * Michigan State Undergraduate Linguistics Conference (MSULC) Award Winner (04/2014)
+
 
 ### Honor Societies
 
@@ -84,4 +86,4 @@ Below is a brief CV. Also available is a [detailed resume (PDF)][1].
 * AAJT Japanese National Honor Society College Chapter (2014)
 
 
-[1]: /files/kenneth-hanson-resume.pdf
+[resume]: /files/kenneth-hanson-resume.pdf
