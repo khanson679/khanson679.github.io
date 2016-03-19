@@ -4,7 +4,7 @@ layout: default
 date: 3/10/2016
 ---
 
-Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
+Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][resume].
 
 
 ## Education
