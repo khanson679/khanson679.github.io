@@ -1,0 +1,17 @@
+- text: About
+  url: /
+- text: CV/Resume
+  url: /cv/
+- text: Research
+  url: /research/
+- text: For MSU Students
+  url: /for_msu_students/
+- text: Hobbies
+  url: /hobbies/
+  subitems:
+    - text: Computer Stuff
+      url: /hobbies/computer_stuff/
+    - text: Music
+      url: /hobbies/music/
+- text: Links
+  url: /links/
