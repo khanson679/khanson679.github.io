@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 3/19/2016
+date: 2016-03-19
 ---
 
 You've reached the homepage of...

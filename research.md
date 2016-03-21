@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 3/19/2016
+date: 2016-03-19
 ---
 
 I'm primarily interested in natural language syntax (sentence structure) from a variety of perspectives: theoretical, historical, psycholinguistic, and computational. I'm also interested in Japanese linguistics. Below are some recent projects.

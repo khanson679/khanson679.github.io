@@ -1,7 +1,7 @@
 ---
 title: Links
 layout: default
-date: 5/19/2014
+date: 2014-05-19
 ---
 
 ## Other Personal Sites

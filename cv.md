@@ -1,7 +1,7 @@
 ---
 title: Resume/CV
 layout: default
-date: 3/10/2016
+date: 2016-03-10
 ---
 
 Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][resume].
