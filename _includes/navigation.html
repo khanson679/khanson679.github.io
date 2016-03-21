@@ -1,16 +1,35 @@
-{% if page.url == "/" %}<li class="active">{% else %}<li>{% endif %}
-  <a href="{{ site.baseurl }}/">About</a>
-</li>
+{% comment %}
+From:
+http://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-with-jekyll/
+{% endcomment %}
 
-{% assign sorted_pages = site.pages | sort:"title" %}
-{% for p in sorted_pages %}
-  {% if p.url != "/" and p.url != "/links/" %}
-  {% if p.url == page.url %}<li class="active">{% else %}<li>{% endif %}
-    <a href="{{ site.baseurl }}{{ p.url }}">{{p.title}}</a>
-  </li>
-  {% endif %}
+{% assign currurl = page.url %}
+
+{% for item in include.nav %}
+    
+    {% if (currurl == item.url) or
+            (currurl contains item.url and item.url != "/") %}
+        {% assign active = 'active' %}
+    {% else %}
+        {% assign active = '' %}
+    {% endif %}
+
+    {% if item.subitems %}
+        <li class="dropdown {{ active }}">
+            <a href="{{ item.url }}" >
+                {{ item.text }} 
+            </a><a href="{{ item.url }}" class="dropdown-toggle" data-toggle="dropdown">
+            <b class="caret"></b>
+            <ul class="dropdown-menu">
+                {% include navigation.html nav=item.subitems %}
+            </ul>
+        </li>
+    {% else %}
+        <li class="{{ active }}">
+            <a href="{{ item.url }}">
+                {{ item.text }}
+            </a>
+        </li>
+    {% endif %}
+    
 {% endfor %}
-
-{% if page.url == "/links/" %}<li class="active">{% else %}<li>{% endif %}
-  <a href="{{ site.baseurl }}/links/">Links</a>
-</li>
