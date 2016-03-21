@@ -1,7 +1,7 @@
 ---
 title: Test
 layout: default
-date: 5/19/2014
+date: 2016-03-21
 ---
 
 # Heading 1
