@@ -1,10 +1,10 @@
 ---
-title: Resume/CV
+title: CV/Resume
 layout: default
-date: 2016-03-10
+date: 2019-12-09
 ---
 
-Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][resume].
+Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
 
 
 ## Education
@@ -34,7 +34,7 @@ Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][r
 
 ## Publications
 
-* J\. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson. Collaborative Effort towards Common Ground in Situated Human Robot Dialogue. 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany, March 3-6, 2014.
+* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson. Collaborative Effort towards Common Ground in Situated Human Robot Dialogue. 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany, March 3-6, 2014.
 
 
 ## Presentations
@@ -78,12 +78,6 @@ Below is a brief CV. Also available is a [detailed resume (PDF, slightly old)][r
 ### Presentation Awards
 
 * Michigan State Undergraduate Linguistics Conference (MSULC) Award Winner (04/2014)
-
-
-### Honor Societies
-
-* Phi Beta Kappa (2014)
-* AAJT Japanese National Honor Society College Chapter (2014)
 
 
 [resume]: /files/kenneth-hanson-resume.pdf
