@@ -122,6 +122,7 @@ are quite a few:
  installers running at inopportune moments). It's also a much nicer
  programming environment. (This is less relevant for Mac users, since
  Mac OS X is based on Unix.)
+ 
 3. **To have the ability to fully customize your system**. This is
  related to \#2. For example, you may dislike some aspects of the
  default user interface for your OS, but since many graphical desktop
@@ -138,6 +139,7 @@ are quite a few:
  usable system. (The same goes for old Macs). Often, the most you
  would need to revive a 10-year-old computer is a \$30-40 memory
  upgrade.
+ 
 5. **Because you believe in the value of free and open-source software
  generally**. Commercial software companies don't always act in their
  customers' best interests, so supporting free, high quality
