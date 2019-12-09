@@ -1,21 +1,28 @@
 ---
 title: Computer Stuff
 layout: default
-date: 2016-03-21
+date: 2019-12-09
 ---
 
 ## Operating Systems and Desktop Environments
 
-I'm currently running variants of Ubuntu as my primary (or only) OS on both of my machines: Kubuntu 15.10 on my desktop at home and Linux Mint 17.3 KDE (based on Ubuntu 14.04 LTS) on my work laptop.
+I'm currently running [Kubuntu] as my primary OS.
+Kubuntu is a version of [Ubuntu][] using the [KDE Plasma desktop environment][kde], which is fully-featured, customizable, and surprisingly well-performing.
 
-I've used Windows most purposes other than programming work up until 2015.
-This page contains some useful resources for both operating systems (to be added as I think of them).
+I used Windows 7 for most purposes other than programming up until 2015, when I switched to using Linux full time (initially Linux Mint followed by Kubuntu). Based on my experiences, I encourage other Windows 7 refugees to give Kubuntu a try.
 
-Contents
+[kubuntu]: http://kubuntu.org
+[ubuntu]: https://ubuntu.com
+[kde]: http://kde.org/
 
-1. [Recommended Free Software](#TOC-Recommended-Free-Software)
-2. [Recommended Firefox Add-ons](#TOC-Recommended-Firefox-Add-ons)
-3. [Getting Started with Linux](#TOC-Getting-Started-with-Linux)
+
+The remainder of page contains some useful resources for Linux and Windows.
+
+**NOTE: Some of the content on this page is out of date.**
+
+1. [Recommended Free Software](#recommended-free-software)
+2. [Recommended Firefox Add-ons](#recommended-firefox-add-ons)
+3. [Getting Started with Linux](#getting-started-with-linux)
 
 
 ## Recommended Free Software
@@ -31,8 +38,8 @@ Notes:
 - Some programs may have Mac/Linux/Android versions even if not noted
  here, especially if they are new or poorly marketed.
 - On Linux, many of these kinds of programs are simply unnecessary as
- your distribution will include an adequate tool in the default
- install.
+ your distribution will likely include an adequate tool in the default
+ installation.
 
 {:.table}
 | Program | Description | Availability |
