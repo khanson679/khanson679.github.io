@@ -19,7 +19,7 @@ Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
 
 ## Experience
 
-* JET Programme (08/2014--Present)  
+* JET Programme (08/2014--08/2018)  
   Assistant English Teacher
 
 * MSU Dept. of Linguistics and Languages (09/2012--05/2014)  
