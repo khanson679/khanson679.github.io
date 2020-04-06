@@ -1,9 +1,8 @@
 ---
-title: CV/Resume
+title: CV
 layout: default
 date: 2019-12-09
 ---
-
 
 
 ## Education
