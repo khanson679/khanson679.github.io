@@ -1,7 +1,7 @@
 ---
 title: CV
 layout: default
-date: 2019-12-09
+date: 2020-04-04
 ---
 
 
@@ -9,10 +9,8 @@ date: 2019-12-09
 
 * Michigan State University, East Lansing, MI (01/2011--05/2014)  
   B.A. in Linguistics, GPA 4.0 / 4.0
-  * Additional Major in Japanese.
-  * Minor in Computer Science.
-* Linguistic Society of America 2013 Summer Linguistic Institute, Ann Arbor, MI (06/2013--07/2013)  
-  Participant
+  * Additional Major in Japanese
+  * Minor in Computer Science
 
 
 ## Experience
