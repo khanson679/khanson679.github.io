@@ -4,7 +4,6 @@ layout: default
 date: 2019-12-09
 ---
 
-Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
 
 
 ## Education
@@ -78,6 +77,3 @@ Below is a brief CV. Also available is a [detailed resume (PDF)][resume].
 ### Presentation Awards
 
 * Michigan State Undergraduate Linguistics Conference (MSULC) Award Winner (04/2014)
-
-
-[resume]: /files/kenneth-hanson-resume.pdf
