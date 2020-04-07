@@ -66,6 +66,7 @@ date: 2020-04-05
 
 ### Funded Awards
 
+* Stony Brook University Graduate Council Fellowship (02/2020)
 * MSU Board of Trustees Scholarship Award (05/2014)
 * MSU College of Arts and Letters Outstanding Senior Achievement Award (05/2014)
 * MSU College of Arts and Letters Undergraduate Research Initiative -- Grantee (05/2013--05/2014)
