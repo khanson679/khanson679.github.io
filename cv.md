@@ -7,25 +7,26 @@ date: 2020-04-05
 
 ## Education
 
-* Michigan State University, East Lansing, MI (01/2011--05/2014)  
-  B.A. in Linguistics, GPA 4.0 / 4.0
+* **B.A. in Linguistics** (01/2011--05/2014)  
+  Michigan State University, East Lansing, MI
   * Additional Major in Japanese
   * Minor in Computer Science
+  * GPA 4.0 / 4.0
 
 
 ## Experience
 
-* JET Programme (08/2014--08/2018)  
-  Assistant English Teacher
+* **Assistant English Teacher** (08/2014--08/2018)  
+  JET Programme
 
-* MSU Dept. of Linguistics and Languages (09/2012--05/2014)  
-  Research Assistant for Cristina Schmitt, PhD and Alan Munn, PhD
+* **Undergraduate Research Assistant** (09/2012--05/2014)  
+  For Cristina Schmitt, PhD and Alan Munn, PhD, MSU Dept. of Linguistics and Languages
 
-* MSU Language and Interaction Research Lab (LAIR) (05/2012--06/2013)  
-  Research Assistant for Joyce Chai, PhD
+* **Undergraduate Research Assistant** (05/2012--06/2013)  
+  For Joyce Chai, PhD, MSU Language and Interaction Research Lab (LAIR)
 
-* MSU Dept. of Computer Science and Engineering (Spring 2012, Fall 2012, Spring 2013)  
-  Teaching Assistant for CSE 232 (Introduction to Programming II)
+* **Undergraduate Teaching Assistant** (Spring 2012, Fall 2012, Spring 2013)  
+  For CSE 232 (Introduction to Programming II), MSU Dept. of Computer Science and Engineering
 
 
 ## Publications
@@ -54,10 +55,11 @@ date: 2020-04-05
 
 ## Other Activities
 
-* q Undergraduate Association for Linguistics at Michigan State (02/2012--05/2014)  
-  Vice President, Secretary, and Activities Director
-* JapaneseProfessor.com (06/2011--Present)  
-  Author and Webmaster
+* **Vice President, Secretary, and Activities Director** (02/2012--05/2014)  
+  q Undergraduate Association for Linguistics at Michigan State (qUALMS)
+
+* **Author and Webmaster** (06/2011--Present)  
+  JapaneseProfessor.com
 
 
 ## Awards and Honors
