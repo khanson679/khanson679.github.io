@@ -1,32 +1,109 @@
 ---
 title: About
 layout: default
-date: 2020-04-05
+date: 2021-09-25
 ---
 
-You've reached the homepage of...
+# About
 
-# Kenneth Hanson
+I'm a PhD student in [Stony Brook University Department of Linguistics][sbling] (entered 2020). My primary interests are in computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
-## About Me
+I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. From 2014 to 2018, I worked as an assistant English teacher in Kyoto Prefecture in Japan through the [JET Programme][jet]. 
 
-I'm a recent graduate from Michigan State, where I majored in [linguistics][] and Japanese, with (a bit more than) a minor in computer science. I will be starting a PhD in linguistics at Stony Brook University in Fall 2020.
+Some hobbies of mine include music (piano, [marimba][]), old video games, and experimenting with Linux and other tech stuff. I have another website, [JapaneseProfessor.com][jp], where I've written some beginning Japanese lessons and free learning materials (currently dormant).
 
-From 2014 to 2018, I worked as an assistant English teacher in Kyoto Prefecture in Japan through the [Japan Exchange and Teaching (JET) Programme][jet]. 
 
-In my last couple years at MSU, worked on several [research][] projects and served as vice president of [qUALMS][], our undergraduate linguistics organization. Earlier, I worked as a research assistant for the [MSU Language and Interaction Research Group (LAIR)][lair], and as a teaching assistant for [CSE 232 (Intro Programming II)][cse232].
+## Publications
 
-My hobbies include music (I play the piano and [marimba][]), old video games, running and lifting weights, and experimenting with Linux and other tech stuff. I have another website, [JapaneseProfessor.com][jp], where I've written some beginning Japanese lessons and free learning materials (currently dormant).
+* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson. Collaborative Effort towards Common Ground in Situated Human Robot Dialogue. 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany, March 3-6, 2014.
+
+
+## Presentations
+
+### Conferences
+
+* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular arguments and predicates in the history of English. Poster presented at the 16th Diachronic Generative Syntax (DiGS) Conference.
+
+### Undergraduate Conferences
+
+* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular noun phrases in the history of English. Great Lakes Expo for Experimental and Formal Undergraduate Linguistics (GLEEFUL), East Lansing, MI.
+
+* Hanson, Kenneth (2014). Quantitative methods for the analysis of Classical Japanese poetry. Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+
+* Hanson, Kenneth (2014). Methods for tracking lexical classes in parsed historical corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+
+* Hanson, Kenneth (2013). CorpusExtract: a tool for analyzing syntactically annotated corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+
+* Hanson, Kenneth (2012). Playing a naming game with Darwin: towards human-robot dialog. Presentation of research in collaboration with MSU LAIR at the MSU Summer Undergraduate Research Forum (SURF), East Lansing, MI.
+
+
+## Teaching
+
+### Professional Employment
+
+| **2014--2018** | Assistant English Teacher | [JET Programme][jet] |
+
+### University Teaching Assistantships
+
+Stony Brook University
+
+| **2021** | LIN 101 | Human Language | Instructor: Mark Aronoff |  
+| **2020** | LIN 120 | Language & Technology | Instructor: Kalina Kostyszyn |
+
+Michigan State University
+
+| **2012-2013** | CSE 232 | Introduction to Programming II | Instructor: Mark McCullen |
+
+### Volunteer
+
+| **2021** | Assistant instructor for [Summer Youth Camp for Computational Linguistics (SYCCL)][syccl] |
+
+[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-1/
+
+
+## Department Service
+
+* Skillz Hour Coordinator (2020)
+* Assistant Webmaster (2020)
+
+
+## Other Activities
+
+* **Vice President, Secretary, and Activities Director** (02/2012--05/2014)  
+  q Undergraduate Association for Linguistics at Michigan State (qUALMS)
+
+* **Author and Webmaster** (06/2011--Present)  
+  JapaneseProfessor.com
+
+
+## Awards and Honors
+
+### Fellowships/Funding
+
+* SBU Graduate Council Fellowship (08/2020--05/2025)
+* MSU College of Arts and Letters Undergraduate Research Initiative (05/2013--05/2014)
+* MSU Engineering Summer Undergraduate Research Experience Grantee (05/2012--07/2012)
+
+### Funded Awards
+
+* MSU Board of Trustees Scholarship Award (05/2014)
+* MSU College of Arts and Letters Outstanding Senior Achievement Award (05/2014)
+
+### Other Awards
+
+* Michigan State Undergraduate Linguistics Conference (MSULC) Presentation Award (04/2014)
+
 
 ## Contact
 
 Email me at my first initial + last name + six seven nine at gmail dot com.
 
-[linguistics]: http://en.wikipedia.org/wiki/linguistics
-[jet]: http://www.jetprogramme.org/
-[qUALMS]: http://www.msu.edu/~qualms
-[lair]: http://lair.cse.msu.edu/
-[cse232]: http://www.cse.msu.edu/~cse232
-[marimba]: http://en.wikipedia.org/wiki/Marimba
-[jp]: http://www.japaneseprofessor.com
+[sbling]: linguistics.stonybrook.edu
+[graf]: thomasgraf.net
+[jet]: www.jetprogramme.org
+[qUALMS]: www.msu.edu/~qualms
+[lair]: lair.cse.msu.edu/
+[cse232]: www.cse.msu.edu/~cse232
+[marimba]: en.wikipedia.org/wiki/Marimba
+[jp]: www.japaneseprofessor.com
 [research]: /research

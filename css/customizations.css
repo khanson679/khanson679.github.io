@@ -5,7 +5,7 @@
 }
 
 
-/* Formatting */
+/* Topnav Formatting */
 
 /* 
   Allow two <a>s in on <li> 
@@ -158,18 +158,40 @@ h2, .h2 {
   font-size: 24px;
 }
 h3, .h3 {
-  font-size: 20px;
-}
-h4, .h4 {
   font-size: 18px;
 }
+h4, .h4 {
+  font-size: 14px;
+}
 h5, .h5 {
-  font-size: 16px;
+  font-size: 14px;
 }
 h6, .h6 {
   font-size: 14px;
 }
 body {
-  font-size: 14px;
+  font-size: 16px;
   margin: 0 0 10px;
 }
+
+/* Table formatting */
+
+table {
+  margin-bottom: 10px;
+}
+
+td, th {
+  padding: 3px 10px;
+}
+
+/*table.teaching th {
+  padding: 4px 0;
+}
+
+table.teaching td {
+  padding: 4px 20px 4px 0;
+}
+
+table.teaching td:first-child {
+  font-weight: bold;
+}*/
