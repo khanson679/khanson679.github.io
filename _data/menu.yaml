@@ -4,23 +4,23 @@
 #   url: /cv/
 - text: Research
   url: /research/
-- text: For MSU Students
-  url: /for_msu_students/
-  subitems:
-    - text: CSE 232 SS13 Section 1 Site
-      url: /for_msu_students/cse232
-    - text: Japanese Flashcards
-      url: /for_msu_students/jpn
-    - text: LaTeX and Tree Drawing Workshops
-      url: /for_msu_students/latex
-    - text: qUALMS Conlanging Workshop (FS13)
-      url: /for_msu_students/conlanging
-- text: Hobbies
-  url: /hobbies/
-  subitems:
-    - text: Computer Stuff
-      url: /hobbies/computer_stuff/
-    - text: Music
-      url: /hobbies/music/
+- text: Resources
+  url: /resources/
+  # subitems:
+  #   - text: CSE 232 SS13 Section 1 Site
+  #     url: /for_msu_students/cse232
+  #   - text: Japanese Flashcards
+  #     url: /for_msu_students/jpn
+  #   - text: LaTeX and Tree Drawing Workshops
+  #     url: /for_msu_students/latex
+  #   - text: qUALMS Conlanging Workshop (FS13)
+  #     url: /for_msu_students/conlanging
+# - text: Hobbies
+#   url: /hobbies/
+#   subitems:
+#     - text: Computer Stuff
+#       url: /hobbies/computer_stuff/
+#     - text: Music
+#       url: /hobbies/music/
 - text: Links
   url: /links/
