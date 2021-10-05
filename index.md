@@ -4,7 +4,9 @@ layout: default
 date: 2021-09-25
 ---
 
-# About
+# Kenneth Hanson
+
+## About Me
 
 I'm a PhD student in [Stony Brook University Department of Linguistics][sbling] (entered 2020). My primary interests are in computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
@@ -82,7 +84,7 @@ Michigan State University
 
 * SBU Graduate Council Fellowship (08/2020--05/2025)
 * MSU College of Arts and Letters Undergraduate Research Initiative (05/2013--05/2014)
-* MSU Engineering Summer Undergraduate Research Experience Grantee (05/2012--07/2012)
+* MSU Engineering Summer Undergraduate Research Experience (05/2012--07/2012)
 
 ### Funded Awards
 
