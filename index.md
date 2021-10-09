@@ -10,7 +10,7 @@ date: 2021-09-25
 
 I'm a PhD student in [Stony Brook University Department of Linguistics][sbling] (entered 2020). My primary interests are in computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
-I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. From 2014 to 2018, I worked as an assistant English teacher in Kyoto Prefecture in Japan through the [JET Programme][jet]. 
+I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet].
 
 Some hobbies of mine include music (piano, [marimba][]), old video games, and experimenting with Linux and other tech stuff. I have another website, [JapaneseProfessor.com][jp], where I've written some beginning Japanese lessons and free learning materials (currently dormant).
 
@@ -49,7 +49,7 @@ Some hobbies of mine include music (piano, [marimba][]), old video games, and ex
 
 Stony Brook University
 
-| **2021** | LIN 101 | Human Language | Instructor: Mark Aronoff |  
+| **2021** | LIN 101 | Human Language | Instructor: Mark Aronoff |
 | **2020** | LIN 120 | Language & Technology | Instructor: Kalina Kostyszyn |
 
 Michigan State University
@@ -59,8 +59,6 @@ Michigan State University
 ### Volunteer
 
 | **2021** | Assistant instructor for [Summer Youth Camp for Computational Linguistics (SYCCL)][syccl] |
-
-[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-1/
 
 
 ## Department Service
@@ -100,12 +98,12 @@ Michigan State University
 
 Email me at my first initial + last name + six seven nine at gmail dot com.
 
-[sbling]: linguistics.stonybrook.edu
-[graf]: thomasgraf.net
-[jet]: www.jetprogramme.org
-[qUALMS]: www.msu.edu/~qualms
-[lair]: lair.cse.msu.edu/
-[cse232]: www.cse.msu.edu/~cse232
-[marimba]: en.wikipedia.org/wiki/Marimba
-[jp]: www.japaneseprofessor.com
-[research]: /research
+[cse232]: https://www.cse.msu.edu/~cse232
+[graf]: https://thomasgraf.net
+[jet]: https://www.jetprogramme.org
+[jp]: https://www.japaneseprofessor.com
+[lair]: https://lair.cse.msu.edu/
+[marimba]: https://en.wikipedia.org/wiki/Marimba
+[qUALMS]: https://www.msu.edu/~qualms
+[sbling]: https://linguistics.stonybrook.edu
+[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-1/
