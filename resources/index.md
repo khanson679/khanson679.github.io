@@ -10,7 +10,10 @@ date: 2021-10-04
 
 ## Workshops
 
-### [LaTeX and Tree Drawing Workshops](latex)
+### [LaTeX Tree Drawing Workshops (2021)](latex-trees-2021)
+For SBU Linguistics Skillz Hour.
+
+### [LaTeX Tree Drawing Workshops (2013)](latex-trees-2013)
 For LIN 434 (Intro to Syntax).
 
 ### [qUALMS Conlanging Workshop (FS13)](conlanging)
