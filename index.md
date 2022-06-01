@@ -92,6 +92,7 @@ Michigan State University
 
 ### Other Awards
 
+* Honorable Mention, NSF Graduate Research Fellowship Program (04/2022)
 * Michigan State Undergraduate Linguistics Conference (MSULC) Presentation Award (04/2014)
 
 
