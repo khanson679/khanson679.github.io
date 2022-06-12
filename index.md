@@ -8,7 +8,7 @@ date: 2022-06-01
 
 ## About Me
 
-I'm a PhD student in [Stony Brook University Department of Linguistics][sbling] (entered 2020). My [research](research) focuses on computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
+I'm a PhD student in the [Stony Brook University Department of Linguistics][sbling] (entered 2020). My [research](research) focuses on computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
 I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
 
