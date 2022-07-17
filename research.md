@@ -47,7 +47,7 @@ Part of the bare noun project involved tracking lexical classes of nouns, first 
 
 A program called [CorpusSearch][cs], developed at the University of Pennsylvania, allows automated searching and coding of syntactically annotated corpora, such as the [Penn Corpora of Historical English][pche]. In order to make the next step, data analysis, easier, I wrote a program I call CorpusExtract, which converts the output of a CorpusSearch coding query to spreadsheet form. See the poster linked below for a more complete explanation of the purpose behind CorpusExtract and its implementation.
 
-* [Poster (MSULC 2013)](/files/corpusextract-poster-2013.pdf)
+* [Poster (MSULC 2013)](/files/hanson-corpusextract-poster-2013.pdf)
 
 The current program is built with ANTLR3 and Java, and is fast but limited and inflexible. I may rewrite it in the future.
 
