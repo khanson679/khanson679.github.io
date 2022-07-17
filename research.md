@@ -1,17 +1,27 @@
 ---
 title: Research
 layout: default
-date: 2022-01-08
+date: 2022-07-17
 ---
 
 I'm primarily interested in natural language syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects.
 
+## Are case patterns TSL?
+
+Recent work [[1][graf2022-typology], [2][graf.shafiei2019]] suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. The purpose of this project is to confirm whether the syntactic distribution of case morphology is also TSL.
+
+[graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
+[graf.shafiei2019]: https://aclanthology.org/W19-0121/
+
 
 ## Are syntactic features SL-2 recoverable?
 
-I'm working with Thomas Graf to test his [2020 conjecture][graf-curbing] that syntactic features on lexical categories are SL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by.
+I'm working with [Thomas Graf][graf] to test his [2020 conjecture][graf-curbing] that syntactic features on lexical categories are SL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by. We're doing this using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank.
 
-[graf-curbing]: https://thomasgraf.net/output/graf20sciltalk.html
+[graf]: https://thomasgraf.net
+[graf-curbing]: https://aclanthology.org/2020.scil-1.27/
+<!-- [graf-curbing]: https://thomasgraf.net/output/graf20sciltalk.html -->
+[mgbank]: https://aclanthology.org/E17-3021/
 
 
 ## Allomorph selection in the Japanese verb paradigm
@@ -24,7 +34,7 @@ In a recent presentation I examine a proposal by Ito and Mester (2004): lexicall
 * [Slides (SYNC 2021)](/files/hanson-sync2021-jpnvb-pres.pdf)
 
 
-## Bare noun phrases in English
+## Bare noun phrases in the history of English
 
 I worked with Cristina Schmitt and [Alan Munn][munn] on a diachronic corpus study of the loss of bare singular noun phrases (those lacking a determiner, quantifier, or possessor) in Middle English. Bare singular predicates (such as "doctor" in "He is doctor", with no preceding article) used to be common in Old and Middle English, as they still are in other Germanic and Romance languages, but are severely restricted in Modern English. Our goal is to determine how exactly these changes unfolded and why using statistical measures of their changes in frequency according to syntactic environment and the semantic class of the head noun.
 
@@ -49,14 +59,12 @@ A program called [CorpusSearch][cs], developed at the University of Pennsylvania
 
 * [Poster (MSULC 2013)](/files/hanson-corpusextract-poster-2013.pdf)
 
-The current program is built with ANTLR3 and Java, and is fast but limited and inflexible. I may rewrite it in the future.
 
+## Classical Japanese Poetry
 
-## Classical Japanese
+I worked with Catherine Ryu on a corpus study of the Classical Japanese text *Hyakunin Isshu*, a collection of 100 tanka (five line poems with a 5-7-5-7-7 mora structure). My part of the project was to generate statistics and visualizations to show macro-level patterns in the syntax of these poems: where, by line and within lines, do different syntactic categories occur, and in what combinations do they occur? This involved parsing the poems using the morphological analyzer MeCab (with the Early Middle Japanese version of the UniDic dictionary) and running the results through a suite of Python and R scripts.
 
-I worked with Catherine Ryu on a corpus study of the Classical Japanese text  Hyakunin Isshu, a collection of 100 tanka (five line poems with a 5-7-5-7-7 mora structure). My part of the project was to generate statistics and visualizations to show macro-level patterns in the syntax of these poems: where, by line and within lines, do different syntactic categories occur, and in what combinations do they occur? This involved parsing the poems using the morphological analyzer MeCab (with the Early Middle Japanese version of the UniDic dictionary) and running the results through a suite of Python and R scripts.
-
-* [Abstract](/files/hanson-cjpn-poetry-abstract.pdf)
+* [Presentation (MSULC 2014)](/files/hanson-msulc2014-pres-cjpn-poetry.pdf)
 
 
 ## Human-robot interaction
@@ -64,6 +72,6 @@ I worked with Catherine Ryu on a corpus study of the Classical Japanese text  Hy
 When I was a research assistant for the [MSU Language and Interaction Research Group (LAIR)][lair], I worked on a project to create an end-to-end system allowing a robot to collaborate with a human partner in a game of object naming, which required to the robot to speech and gesture to proactively mediate its representation of the visual scene with that of its human partner.
 
 * [Conference proceedings](http://dx.doi.org/10.1145/2559636.2559677)
-* [Presentation of an early stage of the project](/files/hanson-darwin-presentation-2012.pdf)
+* [Presentation from an early stage of the project](/files/hanson-darwin-presentation-2012.pdf)
 
 [lair]: http://lair.cse.msu.edu/
