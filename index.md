@@ -1,14 +1,14 @@
 ---
 title: About
 layout: default
-date: 2022-06-01
+date: 2022-07-17
 ---
 
 # Kenneth Hanson
 
 ## About Me
 
-I'm a PhD student in the [Stony Brook University Department of Linguistics][sbling] (entered 2020). My [research](research) focuses on computational linguistics, syntax, and Japanese linguistics. My advisor is [Thomas Graf][graf].
+I'm a PhD student in the [Stony Brook University Department of Linguistics][sbling] (entered 2020). My research focuses on syntax, computational linguistics, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
 I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
 
@@ -17,7 +17,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## Publications
 
-* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson. Collaborative Effort towards Common Ground in Situated Human Robot Dialogue. 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany, March 3-6, 2014.
+* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). Collaborative Effort towards Common Ground in Situated Human Robot Dialogue. 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany.
 
 
 ## Presentations
@@ -59,7 +59,7 @@ Michigan State University
 
 ### Volunteer
 
-| **2021** | Assistant instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl] |
+| **2021-2022** | Assistant instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl] |
 
 
 ## Departmental Service
@@ -71,10 +71,10 @@ Michigan State University
 ## Other Activities
 
 * Vice President, Secretary, and Activities Director (02/2012--05/2014)<br/>
-  q Undergraduate Association for Linguistics at Michigan State (qUALMS)
+  q Undergraduate Association for Linguistics at Michigan State ([qUALMS][qualms])
 
 * Author and Webmaster (06/2011--Present)<br/>
-  JapaneseProfessor.com
+  [JapaneseProfessor.com][jp]
 
 
 ## Awards and Honors
@@ -100,7 +100,7 @@ Michigan State University
 
 Email me at my first initial + last name + six seven nine at gmail dot com.
 
-[cse232]: https://www.cse.msu.edu/~cse232
+
 [graf]: https://thomasgraf.net
 [jet]: https://www.jetprogramme.org
 [jp]: https://www.japaneseprofessor.com
@@ -108,4 +108,4 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 [marimba]: https://en.wikipedia.org/wiki/Marimba
 [qUALMS]: https://www.msu.edu/~qualms
 [sbling]: https://linguistics.stonybrook.edu
-[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-1/
+[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-2/
