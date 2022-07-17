@@ -11,7 +11,7 @@ date: 2020-04-05
 
 ## LaTeX
 
-* [Alan Munn's LaTeX Resources](https://www.msu.edu/~amunn/latex/) -- tutorials, packages, more links
+* [Alan Munn's LaTeX Resources](https://amunn.github.io/latex/) -- tutorials, packages, more links
 * [LaTeX Previewer](https://www.tlhiv.org/ltxpreview/) -- enter LaTeX code into a web form, run it, and download the result
 
 
@@ -35,7 +35,7 @@ date: 2020-04-05
 
 [cse]: https://www.cse.msu.edu
 [jp]: https://www.japaneseprofessor.com
-[lair]: https://links.cse.msu.edu:8000/lair/
+[lair]: http://lair.cse.msu.edu/
 [linlang]: https://linglang.msu.edu
 [msuacq]: http://www.msuacquisition.wordpress.com/
-[qualms]: https://www.msu.edu/~qualms
+[qualms]: https://sites.google.com/site/msuqualms/

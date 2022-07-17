@@ -21,7 +21,7 @@ Allomorphy in the forms of Japanese verbal stems and suffixes appears to be phon
 In a recent presentation I examine a proposal by Ito and Mester (2004): lexically specified allomorphs which are selected by the phonology via the mechanisms of Optimality Theory. While the approach elegantly derives much of the verbal paradigm, extending it to the suffixes *-te*, *-ta*, *-tara*, and *-tari* fails due to opacity in the allomorphy of these suffixes, and also results in severe overgeneration. These results suggests that the grammar of Japanese does in fact include phonological processes which are restricted in application to certain verbal suffixes.
 
 * [Abstract (SYNC 2021)](/files/hanson-sync2021-jpnvb-abstract.pdf)
-* [Slides (SYNC 2021)](/files/hanson-sync2021-jpnvb-poster.pdf)
+* [Slides (SYNC 2021)](/files/hanson-sync2021-jpnvb-pres.pdf)
 
 
 ## Bare noun phrases in English
@@ -30,7 +30,7 @@ I worked with Cristina Schmitt and [Alan Munn][munn] on a diachronic corpus stud
 
 * [Poster (DiGS 2014)](/files/hanson-etal-digs-2014-poster.pdf)
 
-[munn]: http://www.msu.edu/~amunn
+[munn]: https://amunn.github.io/
 [pche]: http://www.ling.upenn.edu/hist-corpora/
 [cs]: http://corpussearch.sourceforge.net/
 
