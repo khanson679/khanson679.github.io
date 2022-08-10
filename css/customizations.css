@@ -5,147 +5,37 @@
 }
 
 
-/* Topnav Formatting */
+/* Navbar Formatting */
 
 /* 
-  Allow two <a>s in on <li> 
+  Allow two <a>'s in one <li> 
   Necessary due to structure of bootstrap navigation
 */
-.nav > li > a {
+.nav-link {
   display: inline-block;
 }
 
-/* 
-  Remove padding betweem label and dropdown toggle caret
-*/
-.nav > li > a.dropdown-toggle {
-  padding-left: 0px;
+/* Remove padding betweem label and dropdown toggle caret */
+.nav-link + .nav-link.dropdown-toggle {
+  padding-left:  0pt;
+}
+
+/* Lighten navbar text. */
+.navbar-dark {
+  --bs-navbar-color: rgba(255, 255, 255, 0.75);
 }
 
 
-/* Colors */
+/* Basic Colors */
 
-.navbar-default {
-  background-color: Green;
-  border-color: DarkGreen;
+:root {
+  --bs-dark-rgb: 20, 109, 68;
+  --bs-link-color: #0d6efd;
+  --bs-link-hover-color: #0a58ca;
 }
-.navbar-default .navbar-brand {
-  color: White;
-}
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
-  color: PaleGreen;
-}
-.navbar-default .navbar-text {
-  color: White;
-}
-.navbar-default .navbar-nav > li > a {
-  color: White;
-}
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-  color: PaleGreen;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu {
-  background-color: Green;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
-  color: White;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
-.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
-  color: PaleGreen;
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-  color: PaleGreen;
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-  color: PaleGreen;
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
-  color: PaleGreen;
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-toggle {
-  border-color: DarkGreen;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: DarkGreen;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: White;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: White;
-}
-.navbar-default .navbar-link {
-  color: White;
-}
-.navbar-default .navbar-link:hover {
-  color: PaleGreen;
-}
-
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: White;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: PaleGreen;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: PaleGreen;
-    background-color: DarkGreen;
-  }
-}
-
-/*.navbar-inverse {
-  background-color: DarkGreen;
-  border-color: DarkGreen;
-}
-
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  background-color: Green;
-}
-
-.navbar-inverse .navbar-brand,
-.navbar-inverse .navbar-nav > li > a
-{
-  color: #f2f2f2;
-}
-
-.navbar-inverse .navbar-brand:hover,
-.navbar-inverse .navbar-brand:focus,
-.navbar-inverse .navbar-nav > li > a:hover,
-.navbar-inverse .navbar-nav > li > a:focus {
-  
-  color: White;
-}*/
 
 
 /* Text */
-
-body {
-    padding-top: 60px;
-}
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: bold;
@@ -174,24 +64,13 @@ body {
   margin: 0 0 10px;
 }
 
-/* Table formatting */
+/* Table Formatting */
 
 table {
+  /*margin-top: 10px;*/
   margin-bottom: 10px;
 }
 
 td, th {
   padding: 3px 10px;
 }
-
-/*table.teaching th {
-  padding: 4px 0;
-}
-
-table.teaching td {
-  padding: 4px 20px 4px 0;
-}
-
-table.teaching td:first-child {
-  font-weight: bold;
-}*/

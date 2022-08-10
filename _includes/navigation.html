@@ -15,19 +15,21 @@ http://christianspecht.de/2014/06/18/building-a-pseudo-dynamic-tree-menu-with-je
     {% endif %}
 
     {% if item.subitems %}
-        <li class="dropdown {{ active }}">
-            <a href="{{ item.url }}" >
-                {{ item.text }} 
-            </a><a href="{{ item.url }}" class="dropdown-toggle" data-toggle="dropdown">
-            <b class="caret"></b>
-            <ul class="dropdown-menu">
-                {% include navigation.html nav=item.subitems %}
+        <li class="nav-item dropdown">
+            <a class="nav-link {{ active }}" href="{{ item.url }}">{{ item.text }}</a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"></a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <!-- {% include navigation.html nav=item.subitems %} -->
+                {% for item in item.subitems %}
+                    <li ><a class="dropdown-item" href="{{ item.url }}">
+                        {{ item.text }}
+                    </a></li>
+                {% endfor %}
             </ul>
-        </a>
         </li>
     {% else %}
-        <li class="{{ active }}">
-            <a href="{{ item.url }}">
+        <li class="nav-item">
+            <a class="nav-link {{ active }}" href="{{ item.url }}">
                 {{ item.text }}
             </a>
         </li>
