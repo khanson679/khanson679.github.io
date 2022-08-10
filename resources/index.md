@@ -14,9 +14,6 @@ Supplmental materials for a second semester programming class. Beginning program
 [LaTeX Tree Drawing Workshops (2021)](latex-trees-2021)<br/>
 For SBU Linguistics Skillz Hour.
 
-[LaTeX Tree Drawing Workshops (2013)](latex-trees-2013)<br/>
-For LIN 434 (Intro to Syntax).
-
 [qUALMS Conlanging Workshop (FS13)](conlanging)<br/>
 An attempt at making a system for designing a [conlang](https://en.wikipedia.org/wiki/Constructed_language) in a single sitting. We determined that 90 minutes wasn't long enough.
 
