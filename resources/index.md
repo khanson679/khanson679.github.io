@@ -1,15 +1,15 @@
 ---
 title: Resources
 layout: default
-date: 2022-08-10
+date: 2022-08-11
 ---
 
-## Course materials
+## Course Materials
 
 [CSE 232 -- Intro to Programming II (SS13)](/teaching/cse232)<br/>
-Supplmental materials for a second semester programming class. Beginning programmers might find the C++ examples and Linux guides to be useful.
+Supplmental materials for a second semester programming class. Beginning programmers might find the C++ examples and Linux guides useful.
 
-## Workshops
+## Workshops/Tutorials
 
 [LaTeX Tree Drawing Workshop](latex-tree-drawing)<br/>
 For SBU Linguistics Skillz Hour.
