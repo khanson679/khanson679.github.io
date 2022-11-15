@@ -1,7 +1,7 @@
 ---
 title: LaTeX Tree Drawing Workshop
 layout: default
-date: 2022-08-11
+date: 2022-11-15
 ---
 
 This tutorial covers the following topics:
@@ -60,7 +60,7 @@ Sublime is not picky -- it will happily de-indent multiple lines even if the fir
 
 Now, let's add some brackets.
 Type a left square bracket '['.
-Many editors will automatically insert a matching right bracket immedately after the cursor.
+Many editors will automatically insert a matching right bracket immediately after the cursor.
 You can type whatever should go between the brackets, then type a right bracket to move the cursor through it (alternatively, press the right arrow key).
 
 If you find this feature more annoying that helpful, you can usually disable it. In Sublime: go to `Preferences / Settings - User` and insert the following line between the brackets in the settings file, then save and close:
@@ -345,14 +345,11 @@ Show Answer
 </code></pre>
 </details>
 
-**Excercise 5**
+**Exercise 5**
 
-Draw the tree for "Bill thinks [that Mary ate the cupcake]".
+Draw the tree for "Bill thinks that Mary ate the cupcake".
 
-Hints:
-- "That" complements are CPs.
-- Assume infinital clauses are TPs.
-- Use PRO for the subject of an infinitival clause.
+Hint: "that" clauses are CPs.
 
 <details>
 <summary>
@@ -379,8 +376,11 @@ Show Answer
 
 **Exercise 6**
 
-Draw the tree for "Tom wants [PRO to be a syntactician]".
-Hint: "to" is a T.
+Draw the tree for "Tom wants to be a syntactician".
+
+Hints:
+- Infinitival clauses are TPs.
+- This is a control structure, so the embedded subject is PRO.
 
 <details>
 <summary>
