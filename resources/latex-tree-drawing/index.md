@@ -1,7 +1,7 @@
 ---
 title: LaTeX Tree Drawing Workshop
 layout: default
-date: 2022-11-15
+date: 2022-11-16
 ---
 
 This tutorial covers the following topics:
@@ -9,12 +9,12 @@ This tutorial covers the following topics:
 2. Using an online tree-drawing program to generate images
 3. Drawing trees with LaTeX
 
-Part 1 covers editing bracketed trees and using using the web app [jsSyntaxTree][jssyntaxtree] to generate images.
+We will start by creating simple bracketed trees in a text document, then copying them into the web app [jsSyntaxTree][jssyntaxtree] to generate images.
 This may be all you need if you just want to copy the images into another document.
 
-Part 2 covers tree drawing in LaTeX using the package [tikz-qtree].
-The same basic principles apply, but there is a lot more that you can do, and there are minor gotchas with the syntax.
-If you want to keep everything in one file rather that keeping track of many separate image files, or need more control over the formatting, this is the way to go.
+From there, we will turn to drawing trees in LaTeX using the package [tikz-qtree].
+The same basic principles apply, but LaTeX gives you much more control over the formatting, and can do things that the web apps simply cannot.
+And of course, if you want to keep everything in a single document, and not have to deal with managing a bunch of separate image files, this is the only way to go.
 
 <h2>Contents</h2>
 * Kramdown TOC (this line will be deleted)
@@ -45,17 +45,17 @@ If you don't want to go through the trouble right now, make a free account with 
 
 ## Part 1: Using a text editor
 
-While you can certainly type bracketed trees right into the web app, large trees quickly become unreadable, and it's difficult to fix bracketing problems.
+While you can certainly type bracketed trees right into the text box in a web app, large trees quickly become unreadable, and it's difficult to fix bracketing problems.
 Furthermore, if you're working on a paper, you probably want to keep the source data for all your trees so you can easily change them later.
-The solution is to write everything in your text editor, then copy and paste into the web app to generate the images.
+The solution is keep the source trees in a text document on your computer, then copy and paste into the web app to generate the images.
 
 First, familiarize yourself how to indent and de-indent text.
-Open a new file and type a few lines of text.
+Create a new file and type a few lines of text.
 Set your cursor and the start of a line, then press tab to indent, shift+tab to de-indent.
-Usually, have the cursor at the first non-space character is good enough for de-indenting to work.
+Depending on your text editor, de-indenting may only work if the cursor is before the first non-space character.
 
 Next, select several lines, and do the same thing.
-Depending on your editor, you might need to make sure the cursor is at the beginning of the first selected line (perhaps with spaces in front).
+You might need to make sure the cursor is at the beginning of the first selected line (perhaps with spaces in front).
 Sublime is not picky -- it will happily de-indent multiple lines even if the first and last are only partially selected.
 
 Now, let's add some brackets.
@@ -64,7 +64,7 @@ Many editors will automatically insert a matching right bracket immediately afte
 You can type whatever should go between the brackets, then type a right bracket to move the cursor through it (alternatively, press the right arrow key).
 
 If you find this feature more annoying that helpful, you can usually disable it. In Sublime: go to `Preferences / Settings - User` and insert the following line between the brackets in the settings file, then save and close:
--   "auto\_match\_enabled": false
+- "auto\_match\_enabled": false
 
 Finally, test bracket highlighting.
 Type a simple bracketed tree, or copy this one:
@@ -463,14 +463,17 @@ There are multiple tree-drawing packages for LaTeX.
 In this tutorial we will use [tikz-qtree].
 This package simulates an older packaged named "qtree", but allows you to use TikZ drawing commands in the tree, which is useful for movement arrows among other things.
 
+
 ### Tikz-qtree basics
 
 If you have LaTeX installed, or Overleaf open, you should test the examples in this section in a LaTeX document.
 You can use the following template.
 
 ```
-\documentclass[12pt]{article}
+\documentclass{standalone}  % class to make a single image
+\usepackage{newtx}  % Times font clone
 \usepackage{tikz-qtree}
+\tikzset{edge from parent/.append style={semithick}}  % thicker edges
 \begin{document}
 YOUR TREE HERE
 \end{document}
@@ -482,20 +485,22 @@ Qtree syntax is slightly unusual, and very strict:
 2. All node labels must start with a period.
 3. All closing brackets must be directly preceded by whitespace.
 
-A simple example:
+Here's a simple example.
+You can get proper "prime" signs by writing `$'$` (dollar signs stand for math mode).
+Use `\textsc{...}` to get small caps.
 
 ```
 (11)
 \Tree
 [.TP
     [.DP [.D a ] [.NP [.AP wild ] [.NP Pikachu ] ] ]
-    [.T'
-        [.T PAST ]
+    [.T$'$
+        [.T \textsc{past} ]
         [.VP appeared ] ] ]
 ```
 
 In order to get rid of the lines between terminal nodes and their labels, you can connect the label to the node with a `\\`, which creates a manual newline.
-In order for this to work, you need to first set node alignment:
+In order for this to work, you need to first set the node alignment:
 
 ```
 \tikzset{every tree node/.style={align=center,anchor=north}}
@@ -508,28 +513,16 @@ Here's an example using this format.
 \Tree
 [.TP
     [.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
-    [.T'
-        [.T\\PAST ]
+    [.T$'$
+        [.T\\\textsc{past} ]
         [.VP\\appeared ] ] ]
 ```
 
-You can get nicer "bars" (primes signs, really) by appending `$'$` to a label.
-Use `\textsc{...}` to get small caps.
-
-```
-(13)
-\Tree
-[.TP
-    [.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
-    [.T\1
-        [.T\\\textsc{PAST} ]
-        [.VP\\appeared ] ] ]
-```
 
 ### A more complex example
 
 Now, an example with little *v*.
-The sentence we will use is "John rolled the ball down the hill".
+The sentence we'll use is "John rolled the ball down the hill".
 First, the simple structure.
 
 ```
@@ -537,8 +530,8 @@ First, the simple structure.
 \Tree
 [.TP
     [.DP\\John ]
-    [.T\1
-        [.T\\PAST ]
+    [.T$'$
+        [.T\\\textsc{past} ]
         [.VP
             [.V\\roll ]
             [.DP
@@ -559,7 +552,7 @@ Next, we add movement with traces using ordinary LaTeX subscripts.
 [.TP
     [.DP\\John$_1$ ]
     [.T$'$
-        [.T\\PAST ]
+        [.T\\\textsc{past} ]
         [.vP
             [.DP\\t$_1$ ]
             [.v$'$
@@ -591,7 +584,7 @@ All of this must go inside a `tikzpicture` environment.
 [.TP
     [.DP \node(tgt1){John}; ]
     [.T$'$
-        [.T\\PAST ]
+        [.T\\\textsc{past} ]
         [.vP
             [.\node(src1){t}; ]
             [.v$'$
