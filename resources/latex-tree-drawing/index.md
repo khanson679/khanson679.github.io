@@ -14,8 +14,8 @@ This tutorial covers the following topics:
 2. Using an online tree-drawing program to generate images
 3. Drawing trees with LaTeX
 
-We will start by creating simple bracketed trees in a text document, then copying them into the web app [jsSyntaxTree][jssyntaxtree] to generate images.
-This may be all you need if you just want to copy the images into another document.
+We will start by creating simple bracketed trees in a text document, then using the web app [jsSyntaxTree][jssyntaxtree] to generate images.
+This may be all you need if you just want to copy the results into another document.
 
 From there, we will turn to drawing trees in LaTeX using the [Forest] package.
 The same basic principles apply, but LaTeX gives you much more control over the formatting, and can do things that the web apps simply cannot.
@@ -51,8 +51,8 @@ If you don't want to go through the trouble right now, make a free account with 
 ## Part 1: Using a text editor
 
 While you can certainly type bracketed trees right into the text box in a web app, large trees quickly become unreadable, and it's difficult to fix bracketing problems.
-Furthermore, if you're working on a paper, you probably want to keep the source data for all your trees so you can easily change them later.
-The solution is keep the source trees in a text document on your computer, then copy and paste into the web app to generate the images.
+Furthermore, you probably want to keep the source data for all your trees so you can easily change them later.
+The solution is maintain all of your bracketed trees in a text document on your computer, then copy and paste into the web app to generate the images.
 
 First, familiarize yourself how to indent and de-indent text.
 Create a new file and type a few lines of text.
@@ -60,11 +60,11 @@ Set your cursor and the start of a line, then press tab to indent, shift+tab to 
 Depending on your text editor, de-indenting may only work if the cursor is before the first non-space character.
 
 Next, select several lines, and do the same thing.
-You might need to make sure the cursor is at the beginning of the first selected line (perhaps with spaces in front).
-Sublime is not picky -- it will happily de-indent multiple lines even if the first and last are only partially selected.
+You may need to make sure every selected line is completely highlighted, and you many need to place the cursor at the beginning of the first selected line (again, meaning before the first non-space character).
+Sublime is not picky about either of these things.
 
 Now, let's add some brackets.
-Type a left square bracket '['.
+Type a left square bracket (`[`).
 Many editors will automatically insert a matching right bracket immediately after the cursor.
 You can type whatever should go between the brackets, then type a right bracket to move the cursor through it (alternatively, press the right arrow key).
 
@@ -167,7 +167,7 @@ Continue the process of converting the linear format until each child is indente
 ```
 
 You also give each closing bracket its own line (the typical format used in
-programming languages like C and C++).
+many programming languages).
 
 This makes it easier to see that the brackets are matched, and it also makes
 it easier to modify the tree, but the result takes up much more vertical
@@ -471,8 +471,7 @@ In this tutorial we will use [Forest][forest], which is built on the general dra
 We will only use a small fraction of its features here.
 
 There is another tree drawing package based on TikZ that is also in common use, which is [tikz-qtree].
-As the name implies, this package simulates an older (defunct) packaged named "qtree", while allowing you to use TikZ drawing and formatting features.
-The main reason to be aware of it is that programs which claims to export tree structures as LaTeX often use qtree formatting, which is different from both Forest and the simple bracketing used above.
+I will briefly describe this package later.
 
 
 ### Forest basics
@@ -572,22 +571,25 @@ Then, you can use any TikZ drawing commands you want.
 ### Next steps
 
 We haven't even scratched the surface of what Forest can do.
-One of its superpowers is that it allows you to customize the node spacing extremely easily, which is a godsend when trying to get figures to fit properly in papers.
+Forest excels at automatic customization of the tree formatting.
+For example, you can change the node spacing extremely easily, which is a godsend when trying to get figures to fit properly in papers.
 The [Forest manual][forest], like the TikZ manual, is extensive but somewhat overwhelming.
 Fortunately, there is also a [quickstart guide][forest-quickstart] which is much more accessible.
 At some point, you will also want to try out the tutorials in the [TikZ manual][tikz] in order to better understand how drawing in TikZ works.
 
 
-### A bit about tikz-qtree
+### A bit about *tikz-qtree*
 
-While Forest is probably the best option for drawing linguistic trees nowadays, you may want to give the older tikz-qtree a try.
-I think that overall, it is somewhat easier for beginners to understand, in part because it doesn't try to do as much.
+While Forest is probably the best option for drawing linguistic trees nowadays, you may want to give the older *tikz-qtree* a try.
+This package simulates an older (defunct) packaged named *qtree* while allowing you to use TikZ drawing and formatting features.
+I think that the interface to TikZ is easier for beginners to understand, but it can't do as much as Forest.
+Perhaps the most important reason to be aware of it is that programs which claim to export tree structures as LaTeX often use *qtree* syntax, which is different from both Forest and the simple bracketing used in jsSyntaxTree.
 
-Qtree syntax is slightly unusual, and very strict:
+*Qtree* syntax is slightly unusual, and very strict:
 
 1. The bracketed tree must be directly preceded by the `\Tree` command.
-2. All non-leaf node labels must start with a period.
-3. All closing brackets must be directly preceded by whitespace.
+2. Non-leaf node labels must start with a period.
+3. Closing brackets must be directly preceded by whitespace.
 
 Here's the qtree-version of the basic Forest example from earlier.
 
@@ -600,7 +602,7 @@ Here's the qtree-version of the basic Forest example from earlier.
         [.VP appeared ] ] ]
 ```
 
-That's it! For details, consult the [tikz-qtree documentation][tikz-qtree], which is quite good.
+For details, consult the [tikz-qtree documentation][tikz-qtree], which is quite good.
 
 
 [forest]: https://www.ctan.org/pkg/forest
