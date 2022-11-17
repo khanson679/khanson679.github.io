@@ -1,0 +1,17 @@
+\documentclass{standalone}
+\usepackage{newtx} % Times font clone
+\usepackage[linguistics]{forest}
+\forestset{default preamble={for tree={edge=semithick}}} % thicker edges
+
+\begin{document}
+\begin{forest}
+[TP [DP\\John$_1$]
+    [T$'$ [T\\\textsc{past}]
+        [vP [DP\\t$_1$]
+            [v$'$ [v [V\\roll$_2$] [v]]
+                [VP [DP [D\\the] [NP\\ball]]
+                    [V$'$ [V\\t$_2$]
+                        [PP [P\\down]
+                            [DP [D\\the] [NP\\hill]]]]]]]]]
+\end{forest}
+\end{document}

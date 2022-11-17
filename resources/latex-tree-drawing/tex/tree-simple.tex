@@ -1,0 +1,14 @@
+\documentclass{standalone}
+\usepackage{newtx} % Times font clone
+\usepackage[linguistics]{forest}
+\forestset{default preamble={for tree={edge=semithick}}} % thicker edges
+
+\begin{document}
+\begin{forest}
+[TP
+    [DP [D [a]] [NP [AP [wild]] [NP [Pikachu]]]]
+    [T$'$
+        [T [\textsc{past}]]
+        [VP [appeared]]]]
+\end{forest}
+\end{document}

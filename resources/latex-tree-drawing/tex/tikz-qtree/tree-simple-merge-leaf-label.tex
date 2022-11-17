@@ -1,0 +1,13 @@
+\documentclass{standalone}
+\usepackage{newtx}
+\usepackage{tikz-qtree}
+\tikzset{edge from parent/.append style={semithick}} % thicker edges
+\tikzset{every tree node/.style={align=center,anchor=north}}
+\begin{document}
+\Tree
+[.TP
+    [.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
+    [.T$'$
+        [.T\\\textsc{past} ]
+        [.VP\\appeared ] ] ]
+\end{document}

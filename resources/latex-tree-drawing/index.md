@@ -4,6 +4,11 @@ layout: default
 date: 2022-11-16
 ---
 
+<style>
+img { margin: 20px; }
+</style>
+
+
 This tutorial covers the following topics:
 1. Creating bracketed trees using a text editor
 2. Using an online tree-drawing program to generate images
@@ -12,7 +17,7 @@ This tutorial covers the following topics:
 We will start by creating simple bracketed trees in a text document, then copying them into the web app [jsSyntaxTree][jssyntaxtree] to generate images.
 This may be all you need if you just want to copy the images into another document.
 
-From there, we will turn to drawing trees in LaTeX using the package [tikz-qtree].
+From there, we will turn to drawing trees in LaTeX using the [Forest] package.
 The same basic principles apply, but LaTeX gives you much more control over the formatting, and can do things that the web apps simply cannot.
 And of course, if you want to keep everything in a single document, and not have to deal with managing a bunch of separate image files, this is the only way to go.
 
@@ -459,12 +464,18 @@ Show Answer
 
 ## Part 3: Tree drawing with LaTeX
 
-There are multiple tree-drawing packages for LaTeX.
-In this tutorial we will use [tikz-qtree].
-This package simulates an older packaged named "qtree", but allows you to use TikZ drawing commands in the tree, which is useful for movement arrows among other things.
+There are several tree drawing packages for LaTeX.
+Each has their own strengths, weaknesses, and quirks.
+
+In this tutorial we will use [Forest][forest], which is built on the general drawing package [TikZ][tikz] and is explicitly designed to make it easy to draw linguistic trees with maximal control over the formatting.
+We will only use a small fraction of its features here.
+
+There is another tree drawing package based on TikZ that is also in common use, which is [tikz-qtree].
+As the name implies, this package simulates an older (defunct) packaged named "qtree", while allowing you to use TikZ drawing and formatting features.
+The main reason to be aware of it is that programs which claims to export tree structures as LaTeX often use qtree formatting, which is different from both Forest and the simple bracketing used above.
 
 
-### Tikz-qtree basics
+### Forest basics
 
 If you have LaTeX installed, or Overleaf open, you should test the examples in this section in a LaTeX document.
 You can use the following template.
@@ -472,25 +483,115 @@ You can use the following template.
 ```
 \documentclass{standalone}  % class to make a single image
 \usepackage{newtx}  % Times font clone
-\usepackage{tikz-qtree}
-\tikzset{edge from parent/.append style={semithick}}  % thicker edges
+\usepackage[linguistics]{forest}
+\forestset{default preamble={for tree={edge=semithick}}} % thicker edges
 \begin{document}
 YOUR TREE HERE
 \end{document}
 ```
 
-Qtree syntax is slightly unusual, and very strict:
-
-1. The bracketed tree must be directly preceded by "\Tree".
-2. All node labels must start with a period.
-3. All closing brackets must be directly preceded by whitespace.
-
-Here's a simple example.
+Let's start with a simple example.
+Forest trees are placed in an environment named `forest`.
+There is one major pecularity about Forest's syntax, which is that leaf nodes must be wrapped in brackets.
 You can get proper "prime" signs by writing `$'$` (dollar signs stand for math mode).
 Use `\textsc{...}` to get small caps.
 
 ```
-(11)
+\begin{forest}
+[TP
+    [DP [D [a]] [NP [AP [wild]] [NP [Pikachu]]]]
+    [T$'$
+        [T [\textsc{past}]]
+        [VP [appeared]]]]
+\end{forest}
+```
+
+<img src="./images/tree-simple.svg" width=250/>
+
+In order to get rid of the edges between terminal nodes and their labels, you can combine them in a single node with `\\`, which creates a manual newline.
+This will not work if you forget to add the `linguistics` option when loading Forest.
+Here's an example using this format.
+
+```
+\begin{forest}
+[TP
+    [DP [D\\a] [NP [AP\\wild] [NP\\Pikachu]]]
+    [T$'$
+        [T\\\textsc{past}]
+        [VP\\appeared]]]
+\end{forest}
+```
+
+<img src="./images/tree-simple-merge-leaf-label.svg" width=250/>
+
+
+### A more complex example
+
+Now, an example with little *v* and movement.
+The sentence we'll use is "John rolled the ball down the hill".
+First, here's a version with coindexed traces.
+
+```
+\begin{forest}
+[TP [DP\\John$_1$]
+    [T$'$ [T\\\textsc{past}]
+        [vP [DP\\t$_1$]
+            [v$'$ [v [V\\roll$_2$] [v]]
+                [VP [DP [D\\the] [NP\\ball]]
+                    [V$'$ [V\\t$_2$]
+                        [PP [P\\down]
+                            [DP [D\\the] [NP\\hill]]]]]]]]]
+\end{forest}
+```
+
+<img src="./images/tree-mvmt-trace.svg" width=350/>
+
+Next, we add movement arrows.
+To do this, you must give a name to any nodes you want to refer to, in this case the source and target of movement.
+With Forest, you can simply add this after the label of the node, using `name=`.
+Then, you can use any TikZ drawing commands you want.
+
+```
+\begin{forest}
+[TP [DP\\John, name=SpecTP]
+    [T$'$ [T\\\textsc{past}]
+        [vP [DP\\t, name=SpecvP]
+            [v$'$ [v [V\\roll, name=littlev] [v]]
+                [VP [DP [D\\the] [NP\\ball]]
+                    [V$'$ [V\\t, name=bigV]
+                        [PP [P\\down]
+                            [DP [D\\the] [NP\\hill]]]]]]]]]
+\draw[->] (SpecvP) to[out=south west, in=south] (SpecTP);
+\draw[->] (bigV) to[out=south, in=south] (littlev);
+\end{forest}
+```
+
+<img src="./images/tree-mvmt-arrows.svg" width=350/>
+
+
+### Next steps
+
+We haven't even scratched the surface of what Forest can do.
+One of its superpowers is that it allows you to customize the node spacing extremely easily, which is a godsend when trying to get figures to fit properly in papers.
+The [Forest manual][forest], like the TikZ manual, is extensive but somewhat overwhelming.
+Fortunately, there is also a [quickstart guide][forest-quickstart] which is much more accessible.
+At some point, you will also want to try out the tutorials in the [TikZ manual][tikz] in order to better understand how drawing in TikZ works.
+
+
+### A bit about tikz-qtree
+
+While Forest is probably the best option for drawing linguistic trees nowadays, you may want to give the older tikz-qtree a try.
+I think that overall, it is somewhat easier for beginners to understand, in part because it doesn't try to do as much.
+
+Qtree syntax is slightly unusual, and very strict:
+
+1. The bracketed tree must be directly preceded by the `\Tree` command.
+2. All non-leaf node labels must start with a period.
+3. All closing brackets must be directly preceded by whitespace.
+
+Here's the qtree-version of the basic Forest example from earlier.
+
+```
 \Tree
 [.TP
     [.DP [.D a ] [.NP [.AP wild ] [.NP Pikachu ] ] ]
@@ -499,123 +600,8 @@ Use `\textsc{...}` to get small caps.
         [.VP appeared ] ] ]
 ```
 
-In order to get rid of the lines between terminal nodes and their labels, you can connect the label to the node with a `\\`, which creates a manual newline.
-In order for this to work, you need to first set the node alignment:
+That's it! For details, consult the [tikz-qtree documentation][tikz-qtree], which is quite good.
 
-```
-\tikzset{every tree node/.style={align=center,anchor=north}}
-```
-
-Here's an example using this format.
-
-```
-(12)
-\Tree
-[.TP
-    [.DP [.D\\a ] [.NP [.AP\\wild ] [.NP\\Pikachu ] ] ]
-    [.T$'$
-        [.T\\\textsc{past} ]
-        [.VP\\appeared ] ] ]
-```
-
-
-### A more complex example
-
-Now, an example with little *v*.
-The sentence we'll use is "John rolled the ball down the hill".
-First, the simple structure.
-
-```
-(14)
-\Tree
-[.TP
-    [.DP\\John ]
-    [.T$'$
-        [.T\\\textsc{past} ]
-        [.VP
-            [.V\\roll ]
-            [.DP
-                [.D\\the ]
-                [.NP\\ball ] ]
-            [.PP
-                [.P\\down ]
-                [.DP
-                    [.D\\the ]
-                    [.NP\\hill ] ] ] ] ] ]
-```
-
-Next, we add movement with traces using ordinary LaTeX subscripts.
-
-```
-(15)
-\Tree
-[.TP
-    [.DP\\John$_1$ ]
-    [.T$'$
-        [.T\\\textsc{past} ]
-        [.vP
-            [.DP\\t$_1$ ]
-            [.v$'$
-                [.v
-                    [.V\\roll$_2$ ]
-                    [.v ] ]
-                [.VP
-                    [.DP
-                        [.D\\the ]
-                        [.NP\\ball ] ]
-                    [.V$'$
-                        [.V\\t$_2$ ]
-                        [.PP
-                            [.P\\down ]
-                            [.DP
-                                [.D\\the ]
-                                [.NP\\hill ] ] ] ] ] ] ] ] ]
-```
-
-And finally, a version movement with arrows.
-In a nutshell, you must create a "node" with a name for the start and end of each arrow using the TikZ `\node` command.
-Then, use `\draw` commands for the arrows.
-All of this must go inside a `tikzpicture` environment.
-
-```
-(16)
-\begin{tikzpicture}
-\Tree
-[.TP
-    [.DP \node(tgt1){John}; ]
-    [.T$'$
-        [.T\\\textsc{past} ]
-        [.vP
-            [.\node(src1){t}; ]
-            [.v$'$
-                [.v
-                    [.\node(tgt2){V\\roll}; ]
-                    [.v ] ]
-                [.VP
-                    [.DP
-                        [.D\\the ]
-                        [.NP\\ball ] ]
-                    [.V$'$
-                        [.\node(src2){t}; ]
-                        [.PP
-                            [.P\\down ]
-                            [.DP
-                                [.D\\the ]
-                                [.NP\\hill ] ] ] ] ] ] ] ] ]
-\draw[semithick,->] (src1)..controls +(south west:2) and +(south:2)..(tgt1);
-\draw[semithick,->] (src2)..controls +(south:2) and +(south:3)..(tgt2);
-\end{tikzpicture}
-```
-
-That's it! For details, consult the [tikz-qtree documentation][tikz-qtree].
-For more on drawing with TikZ, see the monstrous, but very good [manual][tikz].
-
-
-### An alternative: Forest
-
-[Forest][forest] is a newer package for drawing trees that is completely unrelated to qtree, and excels at fine-grained control over the formatting of the tree.
-Like tikz-qtree, it is based on TikZ, allowing you to overlay additional drawings over the tree structure.
-For an easy introduction, see the [quickstart guide][forest-quickstart] on CTAN.
 
 [forest]: https://www.ctan.org/pkg/forest
 [forest-quickstart]: https://www.ctan.org/pkg/forest-quickstart
