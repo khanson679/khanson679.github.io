@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2022-07-17
+date: 2022-12-08
 ---
 
 # Kenneth Hanson
@@ -64,7 +64,8 @@ Michigan State University
 
 ## Departmental Service
 
-* Skillz Hour Coordinator (2021)
+* Brown Bag Organizer (2022)
+* Skillz Hour Organizer (2021)
 * Assistant Webmaster (2020)
 
 

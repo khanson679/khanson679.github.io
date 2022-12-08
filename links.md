@@ -1,12 +1,12 @@
 ---
 title: Links
 layout: default
-date: 2022-07-17
+date: 2022-12-08
 ---
 
 ## My Other Sites
 
-* [JapaneseProfessor.com][jp] -- beginning Japanese lessons and other resources
+* [JapaneseProfessor.com](https://www.japaneseprofessor.com) -- beginning Japanese lessons and other resources
 
 
 ## LaTeX
@@ -28,12 +28,9 @@ date: 2022-07-17
 - [Think Python](https://greenteapress.com/wp/think-python-2e/) -- intro programming with Python
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/) -- intermediate and advanced Python programming
 - [How to Design Programs](http://htdp.org/) -- Intro programming with Racket (a LISP dialect)
-- [Why Java Sucks](https://tech.jonathangardner.net/wiki/Why_Java_Sucks)
+- [Why Java Sucks](https://tech.jonathangardner.net/wiki/Why_Java_Sucks) -- self-explanatory
 
 
 ## Miscellaneous
 
 - [Practical Typography](https://practicaltypography.com/)
-
-
-[jp]: https://www.japaneseprofessor.com
