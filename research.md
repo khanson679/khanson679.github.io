@@ -9,7 +9,7 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work [[1][graf2022-typology], [2][graf.shafiei2019]] suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. [3][vu.etal2019] argue that the syntactic distribution of case morphology is also TSL, but the large degree of cross-linguistic variation means that more work is required to confirm this hypothesis. In an upcoming paper, I show that a wide sample of case patterns in Japanese are TSL.
+Recent work [[1][graf2022-typology], [2][graf.shafiei2019]] suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. [[3][vu.etal2019]] argue that the syntactic distribution of case morphology is also TSL, but the large degree of cross-linguistic variation means that more work is required to confirm this hypothesis. In an upcoming paper, I show that a wide sample of case patterns in Japanese are TSL.
 
 [graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
