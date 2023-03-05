@@ -23,22 +23,22 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 ## Presentations
 
 ### Conferences
-* Hanson, Kenneth (2023). Strict Locality in Syntax. SYNC 23, Yale University, New Haven,
+* Hanson, Kenneth (2023). Strict Locality in Syntax. SYNC 23. Yale University, New Haven,
 CT.
-* Hanson, Kenneth (2021). Allomorph Selection in the Japanese Verb Paradigm. SYNC 2021, CUNY, New York, NY.
-* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular arguments and predicates in the history of English. Poster presented at the 16th Diachronic Generative Syntax (DiGS) Conference.
+* Hanson, Kenneth (2021). Allomorph Selection in the Japanese Verb Paradigm. SYNC 2021. CUNY, New York, NY.
+* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular arguments and predicates in the history of English. Poster presented at the 16th Diachronic Generative Syntax (DiGS) Conference. Budapest, Hungary.
 
 ### Undergraduate Conferences
 
-* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular noun phrases in the history of English. Great Lakes Expo for Experimental and Formal Undergraduate Linguistics (GLEEFUL), East Lansing, MI.
+* Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular noun phrases in the history of English. Great Lakes Expo for Experimental and Formal Undergraduate Linguistics (GLEEFUL). East Lansing, MI.
 
-* Hanson, Kenneth (2014). Quantitative methods for the analysis of Classical Japanese poetry. Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+* Hanson, Kenneth (2014). Quantitative methods for the analysis of Classical Japanese poetry. Michigan State Undergraduate Linguistics Conference (MSULC). East Lansing, MI.
 
-* Hanson, Kenneth (2014). Methods for tracking lexical classes in parsed historical corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+* Hanson, Kenneth (2014). Methods for tracking lexical classes in parsed historical corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC). East Lansing, MI.
 
-* Hanson, Kenneth (2013). CorpusExtract: a tool for analyzing syntactically annotated corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC), East Lansing, MI.
+* Hanson, Kenneth (2013). CorpusExtract: a tool for analyzing syntactically annotated corpora. Poster presented at the Michigan State Undergraduate Linguistics Conference (MSULC). East Lansing, MI.
 
-* Hanson, Kenneth (2012). Playing a naming game with Darwin: towards human-robot dialog. Presentation of research in collaboration with MSU LAIR at the MSU Summer Undergraduate Research Forum (SURF), East Lansing, MI.
+* Hanson, Kenneth (2012). Playing a naming game with Darwin: towards human-robot dialog. Presentation of research in collaboration with MSU LAIR at the MSU Summer Undergraduate Research Forum (SURF). East Lansing, MI.
 
 
 ## Teaching
