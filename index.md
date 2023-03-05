@@ -23,7 +23,8 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 ## Presentations
 
 ### Conferences
-
+* Hanson, Kenneth (2023). Strict Locality in Syntax. SYNC 23, Yale University, New Haven,
+CT.
 * Hanson, Kenneth (2021). Allomorph Selection in the Japanese Verb Paradigm. SYNC 2021, CUNY, New York, NY.
 * Hanson, Kenneth, Cristina Schmitt, and Alan Munn (2014). The loss of bare singular arguments and predicates in the history of English. Poster presented at the 16th Diachronic Generative Syntax (DiGS) Conference.
 
