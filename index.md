@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2022-12-08
+date: 2023-03-05
 ---
 
 # Kenneth Hanson
@@ -51,6 +51,7 @@ CT.
 
 Stony Brook University
 
+| **2023** | LIN 311 | Syntax | Supervisor: Andrei Antonenko |
 | **2021** | LIN 101 | Human Language | Supervisor: Mark Aronoff |
 | **2020** | LIN 120 | Language & Technology | Supervisor: Kalina Kostyszyn |
 
@@ -58,7 +59,7 @@ Michigan State University
 
 | **2012-2013** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
 
-### Volunteer
+### Miscellaneous
 
 | **2021-2022** | Assistant instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl] |
 
@@ -89,6 +90,7 @@ Michigan State University
 
 ### Funded Awards
 
+* SUNY GREAT Award (03/2023)
 * MSU Board of Trustees Scholarship Award (05/2014)
 * MSU College of Arts and Letters Outstanding Senior Achievement Award (05/2014)
 
