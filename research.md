@@ -43,7 +43,7 @@ In an upcoming paper, I propose an answer as to what is really going on, and dis
 I worked with Cristina Schmitt and [Alan Munn][munn] on a diachronic corpus study of the loss of bare singular noun phrases (those lacking a determiner, quantifier, or possessor) in Middle English. Bare singular predicates (such as "doctor" in "He is doctor", with no preceding article) used to be common in Old and Middle English, as they still are in other Germanic and Romance languages, but are severely restricted in Modern English. Our goal is to determine how exactly these changes unfolded and why using statistical measures of their changes in frequency according to syntactic environment and the semantic class of the head noun.
 
 * [Poster (DiGS 2014)](/files/hanson-etal-digs-2014-poster.pdf)
-* [Presentation (GLEEFUL 2014)](files/hanson-etal-gleeful2014-pres-bare-nps.pdf)
+* [Presentation (GLEEFUL 2014)](/files/hanson-etal-gleeful2014-pres-bare-nps.pdf)
 
 [munn]: https://amunn.github.io/
 [pche]: http://www.ling.upenn.edu/hist-corpora/
