@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 2022-12-08
+date: 2023-03-05
 ---
 
 I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects.
@@ -9,7 +9,11 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work [[1][graf2022-typology], [2][graf.shafiei2019]] suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. [[3][vu.etal2019]] argue that the syntactic distribution of case morphology is also TSL, but the large degree of cross-linguistic variation means that more work is required to confirm this hypothesis. In an upcoming paper, I show that a wide sample of case patterns in Japanese are TSL.
+Recent work suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Previous studies focus on [movement][graf2022-typology], [case][vu.etal2019], and [licensing of anaphora and NPIs][graf.shafiei2019].
+These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed.
+
+My work focuses on the syntactic distribution of morphological case and the restrictions on agreement configurations.
+In an upcoming paper, I analyze a wide range of case patterns in Japanese and show that they are TSL. In another, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement, and agreement across finite clauses all fit neatly into the typology predicted by TSL.
 
 [graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
@@ -18,7 +22,7 @@ Recent work [[1][graf2022-typology], [2][graf.shafiei2019]] suggests that a wide
 
 ## Restrictions on syntactic feature systems
 
-I'm working with [Thomas Graf][graf] to test his [2020 conjecture][graf2020-curbing] that syntactic features on lexical categories are SL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by. We're doing this using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank.
+I'm working with [Thomas Graf][graf] to test his [2020 conjecture][graf2020-curbing] that syntactic features on lexical categories are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by. We're doing this using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank.
 
 [graf]: https://thomasgraf.net
 [graf2020-curbing]: https://aclanthology.org/2020.scil-1.27/
