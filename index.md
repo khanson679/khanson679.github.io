@@ -1,39 +1,38 @@
 ---
 title: About
 layout: default
-date: 2023-05-03
+date: 2023-08-02
 ---
 
 # Kenneth Hanson
 
 ## About Me
 
-I'm a PhD student in the [Stony Brook University Department of Linguistics][sbling] (entered 2020). My research focuses on syntax, computational linguistics, and Japanese linguistics. My advisor is [Thomas Graf][graf].
+I'm a PhD student in the [Department of Linguistics][sbling] at Stony Brook University (entered 2020). My research focuses on syntax, computational linguistics, and Japanese linguistics. My advisor is [Thomas Graf][graf].
 
-I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with (a bit more than) a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
+I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
 
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
 
 ## Publications
 
-* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (to appear). **Modeling island effects with probabilistic tier-based strictly local grammars over trees.** Proceedings of SCiL 2023.
+* Kenneth Hanson (2023). Strict Locality in Syntax. Proceedings of CLS 59. Chicago, IL.
 
-* Kenneth Hanson (to appear). **A TSL Analysis of Japanese Case.** Proceedings of SCiL 2023.
+* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](https://scholarworks.umass.edu/scil/vol6/iss1/15). Proceedings of SCiL 2023. Amherst, MA.
 
-* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). **Collaborative Effort towards Common Ground in Situated Human Robot Dialogue.** 2014 ACM/IEEE International Conference on Human-Robot Interaction (HRI). Bielefeld, Germany.
+* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](https://scholarworks.umass.edu/scil/vol6/iss1/4). Proceedings of SCiL 2023. Amherst, MA.
+
+* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). [Collaborative Effort towards Common Ground in Situated Human Robot Dialogue](https://doi.org/10.1145/2559636.2559677). HRI 2014. Bielefeld, Germany.
 
 
 ## Presentations
-<!--
-### Upcoming
-
-* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). **Modeling island effects with probabilistic tier-based strictly local grammars over trees.** SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
-
-* Kenneth Hanson (2023). **A TSL Analysis of Japanese Case.** Poster presented at SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
--->
 
 ### Conferences
+
+* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-slides-pTreeTSL.pdf). SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
+
+* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](/files/hanson-scil2023-poster.pdf). Poster presented at SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls-2023-slides.pdf). CLS 59. University of Chicago, Chicago, IL.
 
@@ -81,17 +80,18 @@ Michigan State University
 
 ## Departmental Service
 
-* Brown Bag Organizer (2022)
-* Skillz Hour Organizer (2021)
-* Assistant Webmaster (2020)
+* Student Representative (2023-2024)
+* Brown Bag Organizer (Fall 2022)
+* Skillz Hour Organizer (Fall 2021)
+* Assistant Webmaster (2020-2021)
 
 
 ## Other Activities
 
-* Vice President, Secretary, and Activities Director (02/2012--05/2014)<br/>
+* Vice President, Secretary, and Activities Director (2012--2014)<br/>
   q Undergraduate Association for Linguistics at Michigan State ([qUALMS][qualms])
 
-* Author and Webmaster (06/2011--Present)<br/>
+* Author and Webmaster (2011--Present)<br/>
   [JapaneseProfessor.com][jp]
 
 
