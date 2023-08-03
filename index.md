@@ -50,7 +50,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 * Kenneth Hanson (2014). [Methods for tracking lexical classes in parsed historical corpora](/files/hanson-msulc2014-poster-corpus-methods.pdf). Poster presented at MSULC 2014. Michigan State University, East Lansing, MI.
 
-* Kenneth Hanson (2013). [CorpusExtract: a tool for analyzing syntactically annotated corpora](/files/hanson-corpusextract-poster-2013.pdf). Poster presented at MSULC 2013. Michigan State University, East Lansing, MI.
+* Kenneth Hanson (2013). [CorpusExtract: A tool for analyzing syntactically annotated corpora](/files/hanson-corpusextract-poster-2013.pdf). Poster presented at MSULC 2013. Michigan State University, East Lansing, MI.
 
 * Kenneth Hanson (2012). [Playing a naming game with Darwin: Towards human-robot dialog](/files/hanson-darwin-presentation-2012.pdf). SURF 2012. Michigan State University, East Lansing, MI.
 
@@ -75,7 +75,8 @@ Michigan State University
 
 ### Miscellaneous
 
-| **2021-2022** | Assistant instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl] |
+| **2023** | Lead instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl]
+| **2021-2022** | Assistant instructor for SYCCL |
 
 
 ## Departmental Service
@@ -127,4 +128,4 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 [marimba]: https://en.wikipedia.org/wiki/Marimba
 [qUALMS]: https://www.msu.edu/~qualms
 [sbling]: https://linguistics.stonybrook.edu
-[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-2/
+[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-3/
