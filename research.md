@@ -9,11 +9,13 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work suggests that a wide array of syntactic phenomena fall under the computational class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Previous studies focus on [movement][graf2022-typology], [case][vu.etal2019], and [licensing of anaphora and NPIs][graf.shafiei2019].
+Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include [movement][graf2022-typology], [case][vu.etal2019], and [licensing of anaphora and NPIs][graf.shafiei2019].
 These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed.
 
 My work focuses on the syntactic distribution of morphological case and the restrictions on agreement configurations.
-In an upcoming paper, I analyze a wide range of case patterns in Japanese and show that they are TSL. In another, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement, and agreement across finite clauses all fit neatly into the typology predicted by TSL.
+In [a recent paper](https://scholarworks.umass.edu/scil/vol6/iss1/4), I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL.
+
+In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality.
 
 [graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
@@ -34,7 +36,7 @@ I'm working with [Thomas Graf][graf] to test his [2020 conjecture][graf2020-curb
 
 Allomorphy in the forms of Japanese verbal stems and suffixes appears to be phonologically motivated, yet many of the patterns are unattested elsewhere in the language. This naturally raises the question of how such patterns are encoded in the grammar.
 
-In a recent presentation I examine a proposal by Ito and Mester (2004) in which lexically specified allomorphs are selected by the phonology via the mechanisms of Optimality Theory. While the approach elegantly derives much of the verbal paradigm, extending it to the suffixes *-te*, *-ta*, *-tara*, and *-tari* fails due to opacity in the allomorphy of these suffixes, and also results in severe overgeneration. These results suggests that the grammar of Japanese does in fact include phonological processes which are restricted in application to certain verbal suffixes.
+In a recent presentation I examine a proposal by Ito and Mester (2004) in which lexically specified allomorphs are selected by the phonology via the mechanisms of Optimality Theory. While the approach elegantly derives much of the verbal paradigm, extending it to the suffixes *-te*, *-ta*, *-tara*, and *-tari* fails due to opacity in the allomorphy of these suffixes, and also results in severe overgeneration. These results suggests that the grammar of Japanese does in fact include phonological processes which are restricted to certain verbal suffixes.
 
 * [Abstract (SYNC 2021)](/files/hanson-sync2021-jpnvb-abstract.pdf)
 * [Slides (SYNC 2021)](/files/hanson-sync2021-jpnvb-pres.pdf)
