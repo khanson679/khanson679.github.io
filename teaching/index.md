@@ -19,3 +19,11 @@ Most recent iteration for SBU Linguistics Skillz Hour.
 
 [qUALMS Conlanging Workshop (FS13)](conlanging)<br/>
 An attempt at making a system for designing a [conlang](https://en.wikipedia.org/wiki/Constructed_language) in a single sitting. We determined that 90 minutes wasn't long enough.
+
+## Miscellaneous
+
+[SYCCL 2023](syccl)<br/>
+Some insider info on our local computational linguistics summer camp.
+
+
+[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-3/
