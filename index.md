@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2023-08-02
+date: 2023-08-23
 ---
 
 # Kenneth Hanson
@@ -65,9 +65,10 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 Stony Brook University
 
-| **2023** | LIN 311 | Syntax | Supervisor: Andrei Antonenko |
-| **2021** | LIN 101 | Human Language | Supervisor: Mark Aronoff |
-| **2020** | LIN 120 | Language & Technology | Supervisor: Kalina Kostyszyn |
+| **Fall 2023** | LIN 655 | Doing Subregular Linguistics | Co-taught w/ Thomas Graf |
+| **Spring 2023** | LIN 311 | Syntax | Supervisor: Andrei Antonenko |
+| **Spring 2021** | LIN 101 | Human Language | Supervisor: Mark Aronoff |
+| **Fall 2020** | LIN 120 | Language & Technology | Supervisor: Kalina Kostyszyn |
 
 Michigan State University
 
