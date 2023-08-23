@@ -9,7 +9,10 @@ date: 2023-08-23
 [LIN 655.02 -- Doing Subregular Linguistics (FS23)](lin655)<br/>
 Introduction to subregular linguistics, with an emphasis on formulating analyses of patterns in syntax and phonology.
 
-[CSE 232 -- Intro to Programming II (SS13)](/teaching/cse232)<br/>
+[LIN 539 -- Mathematical Methods in Linguistics](https://github.com/stonybrook-lin539/main)<br/>
+Although I haven't been directly involved in teaching this course, I've worked behind the scenes on developing the materials, particularly the automatically generated practice exercises.
+
+[CSE 232 -- Intro to Programming II (SS13, MSU)](cse232)<br/>
 Supplmental materials for a second semester programming class. Beginning programmers might find the C++ examples and Linux guides useful.
 
 ## Workshops/Tutorials
