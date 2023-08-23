@@ -4,8 +4,10 @@
 #   url: /cv/
 - text: Research
   url: /research/
-- text: Resources
-  url: /resources/
+- text: Teaching
+  url: /teaching/
+# - text: Resources
+#   url: /resources/
   # subitems:
   #   - text: CSE 232 SS13 Section 1 Site
   #     url: /for_msu_students/cse232
