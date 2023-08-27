@@ -71,7 +71,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 Stony Brook University
 
-| **Fall 2023** | LIN 655 | Doing Subregular Linguistics | Co-taught w/ Thomas Graf |
+| **Fall 2023** | [LIN 655](/teaching/lin655) | Doing Subregular Linguistics | Co-taught w/ Thomas Graf |
 | **Spring 2023** | LIN 311 | Syntax | Supervisor: Andrei Antonenko |
 | **Spring 2021** | LIN 101 | Human Language | Supervisor: Mark Aronoff |
 | **Fall 2020** | LIN 120 | Language & Technology | Supervisor: Kalina Kostyszyn |
@@ -82,7 +82,7 @@ Michigan State University
 
 ### Miscellaneous
 
-| **2023** | Lead instructor for [SYCCL (Summer Youth Camp for Computational Linguistics)][syccl]
+| **2023** | Lead instructor for [SYCCL][syccl]
 | **2021-2022** | Assistant instructor for SYCCL |
 
 
@@ -133,6 +133,6 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 [jp]: https://www.japaneseprofessor.com
 [lair]: https://lair.cse.msu.edu/
 [marimba]: https://en.wikipedia.org/wiki/Marimba
-[qUALMS]: https://www.msu.edu/~qualms
+[qualms]: https://www.msu.edu/~qualms
 [sbling]: https://linguistics.stonybrook.edu
-[syccl]: https://calendar.stonybrook.edu/site/iacs/event/summer-youth-camp-for-computational-linguistics-syccl-3/
+[syccl]: /teaching/syccl
