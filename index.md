@@ -17,13 +17,13 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## Publications
 
-* Kenneth Hanson (2023). Strict Locality in Syntax. Proceedings of CLS 59. Chicago, IL.
+* Kenneth Hanson (2023). Strict locality in syntax. Proceedings of CLS 59. Chicago, IL.
 
 * Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](https://scholarworks.umass.edu/scil/vol6/iss1/15). Proceedings of SCiL 2023. Amherst, MA.
 
-* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](https://scholarworks.umass.edu/scil/vol6/iss1/4). Proceedings of SCiL 2023. Amherst, MA.
+* Kenneth Hanson (2023). [A TSL analysis of Japanese case](https://scholarworks.umass.edu/scil/vol6/iss1/4). Proceedings of SCiL 2023. Amherst, MA.
 
-* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). [Collaborative Effort towards Common Ground in Situated Human Robot Dialogue](https://doi.org/10.1145/2559636.2559677). HRI 2014. Bielefeld, Germany.
+* J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). [Collaborative effort towards common ground in situated human robot dialogue](https://doi.org/10.1145/2559636.2559677). HRI 2014. Bielefeld, Germany.
 
 
 ## Presentations
@@ -34,11 +34,11 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 * Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-slides-pTreeTSL.pdf). SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
 
-* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](/files/hanson-scil2023-poster.pdf). Poster presented at SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
-
-* Kenneth Hanson (2023). [Local and Long-Distance Dependencies in Syntax](/files/hanson-iacs2023-local-ld-syntax.pdf). IACS Student Seminar, Stony Brook University, Stony Brook, NY.
+* Kenneth Hanson (2023). [A TSL analysis of Japanese case](/files/hanson-scil2023-poster.pdf). Poster presented at SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls-2023-slides.pdf). CLS 59. University of Chicago, Chicago, IL.
+
+* Kenneth Hanson (2023). [Local and long-distance dependencies in syntax](/files/hanson-iacs2023-local-ld-syntax.pdf). IACS Student Seminar. Stony Brook University, Stony Brook, NY.
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-sync-2023-sl-in-syntax-slides.pdf). SYNC 23. Yale University, New Haven, CT.
 
