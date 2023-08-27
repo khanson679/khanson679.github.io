@@ -28,21 +28,27 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## Presentations
 
-### Conferences
+### 2023
 
-* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-slides-pTreeTSL.pdf). SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
+* Kenneth Hanson (2023). A Computational Perspective on the Typology of Agreement. MG+1. Stony Brook University, Stony Brook, NY.
 
-* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](/files/hanson-scil2023-poster.pdf). Poster presented at SCiL 2023. June 15-17, University of Massachusetts Amherst, Amherst, MA.
+* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-slides-pTreeTSL.pdf). SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
+
+* Kenneth Hanson (2023). [A TSL Analysis of Japanese Case](/files/hanson-scil2023-poster.pdf). Poster presented at SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
+
+* Kenneth Hanson (2023). [Local and Long-Distance Dependencies in Syntax](/files/hanson-iacs2023-local-ld-syntax.pdf). IACS Student Seminar, Stony Brook University, Stony Brook, NY.
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls-2023-slides.pdf). CLS 59. University of Chicago, Chicago, IL.
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-sync-2023-sl-in-syntax-slides.pdf). SYNC 23. Yale University, New Haven, CT.
 
-* Kenneth Hanson (2021). [Allomorph selection in the Japanese verb paradigm](/files/hanson-sync2021-jpnvb-pres.pdf). SYNC 22. CUNY, New York, NY.
+### 2021
+
+* Kenneth Hanson (2021). [Allomorph selection in the Japanese verb paradigm](/files/hanson-sync2021-jpnvb-pres.pdf). SYNC 22. CUNY Graduate Center, New York, NY.
+
+### Earlier Presentations
 
 * Kenneth Hanson, Cristina Schmitt, and Alan Munn (2014). [The loss of bare singular arguments and predicates in the history of English](/files/hanson-etal-digs-2014-poster.pdf). Poster presented at DiGS 16. Research Institute for Linguistics, Hungarian Academy of Sciences, Budapest, Hungary.
-
-### Undergraduate Conferences
 
 * Kenneth Hanson, Cristina Schmitt, and Alan Munn (2014). [The loss of bare singular noun phrases in the history of English](/files/hanson-etal-gleeful2014-pres-bare-nps.pdf). GLEEFUL 2014. Michigan State University, East Lansing, MI.
 
