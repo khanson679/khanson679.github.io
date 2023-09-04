@@ -113,6 +113,7 @@ Michigan State University
 
 ### Funded Awards
 
+* [SBU IACS Junior Researcher Award][iacs-jra] (2023)
 * SUNY GREAT Award (03/2023)
 * MSU Board of Trustees Scholarship Award (05/2014)
 * MSU College of Arts and Letters Outstanding Senior Achievement Award (05/2014)
@@ -129,6 +130,7 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 
 
 [graf]: https://thomasgraf.net
+[iacs-jra]: https://iacs.stonybrook.edu/opportunities/awards/junior-researcher-award
 [jet]: https://www.jetprogramme.org
 [jp]: https://www.japaneseprofessor.com
 [lair]: https://lair.cse.msu.edu/
