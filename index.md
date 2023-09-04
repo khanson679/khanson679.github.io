@@ -80,10 +80,12 @@ Michigan State University
 
 | **2012-2013** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
 
-### Miscellaneous
+
+## Outreach
 
 | **2023** | Lead instructor for [SYCCL][syccl]
-| **2021-2022** | Assistant instructor for SYCCL |
+| **2021-2022** | Assistant instructor for [SYCCL][syccl] |
+| **2021-2023** | Volunteer instructor for [SBU NACLO Practice Session][iacs-naclo] |
 
 
 ## Departmental Service
@@ -131,6 +133,7 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 
 [graf]: https://thomasgraf.net
 [iacs-jra]: https://iacs.stonybrook.edu/opportunities/awards/junior-researcher-award
+[iacs-naclo]: https://calendar.stonybrook.edu/site/iacs/event/naclo-2023/
 [jet]: https://www.jetprogramme.org
 [jp]: https://www.japaneseprofessor.com
 [lair]: https://lair.cse.msu.edu/
