@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 2023-03-05
+date: 2023-09-03
 ---
 
 I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects.
@@ -9,14 +9,17 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include [movement][graf2022-typology], [case][vu.etal2019], and [licensing of anaphora and NPIs][graf.shafiei2019].
-These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed.
+Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-typology]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
 
-My work focuses on the syntactic distribution of morphological case and the restrictions on agreement configurations.
-In [a recent paper](https://scholarworks.umass.edu/scil/vol6/iss1/4), I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL.
+- In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
+- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality.
+- While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [abstract][sl-in-syntax-abstract] / [slides][sl-in-syntax-slides]).
 
-In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality.
-
+[sl-in-syntax]: /files/hanson-cls-2023-sl-in-syntax.pdf
+[sl-in-syntax-slides]: /files/hanson-cls-2023-slides.pdf
+[sl-in-syntax-abstract]: /files/hanson-cls-2023-abstract.pdf
+[jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
+[jpn-case-poster]: /files/hanson-scil2023-poster.pdf
 [graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
 [vu.etal2019]: https://aclanthology.org/W19-0127/
@@ -82,7 +85,7 @@ I worked with Catherine Ryu on a corpus study of the Classical Japanese text *Hy
 
 When I was a research assistant for the [MSU Language and Interaction Research Group (LAIR)][lair], I worked on a project to create an end-to-end system allowing a robot to collaborate with a human partner in a game of object naming, which required to the robot to speech and gesture to proactively mediate its representation of the visual scene with that of its human partner.
 
-* [Conference proceedings](http://dx.doi.org/10.1145/2559636.2559677)
+* [Paper (HRI 2014)](http://dx.doi.org/10.1145/2559636.2559677)
 * [Presentation from an early stage of the project](/files/hanson-darwin-presentation-2012.pdf)
 
 [lair]: http://lair.cse.msu.edu/

@@ -1,5 +1,5 @@
 ---
-title: SYCCL Materials
+title: SYCCL
 layout: default
 date: 2023-08-23
 ---

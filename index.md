@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2023-08-23
+date: 2023-09-03
 ---
 
 # Kenneth Hanson
@@ -17,7 +17,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## Publications
 
-* Kenneth Hanson (2023). Strict locality in syntax. Proceedings of CLS 59. Chicago, IL.
+* Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls-2023-sl-in-syntax.pdf). Proceedings of CLS 59. Chicago, IL.
 
 * Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](https://scholarworks.umass.edu/scil/vol6/iss1/15). Proceedings of SCiL 2023. Amherst, MA.
 
@@ -116,7 +116,7 @@ Michigan State University
 ### Funded Awards
 
 * [SBU IACS Junior Researcher Award][iacs-jra] (2023)
-* SUNY GREAT Award (03/2023)
+* SUNY GREAT Award (2023)
 * MSU Board of Trustees Scholarship Award (2014)
 * MSU College of Arts and Letters Outstanding Senior Achievement Award (2014)
 
