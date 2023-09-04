@@ -107,21 +107,21 @@ Michigan State University
 
 ### Fellowships/Funding
 
-* SBU Graduate Council Fellowship (08/2020--05/2025)
-* MSU College of Arts and Letters Undergraduate Research Initiative (05/2013--05/2014)
-* MSU Engineering Summer Undergraduate Research Experience (05/2012--07/2012)
+* SBU Graduate Council Fellowship (2020--2025)
+* MSU College of Arts and Letters Undergraduate Research Initiative (2013--2014)
+* MSU Engineering Summer Undergraduate Research Experience (2012)
 
 ### Funded Awards
 
 * [SBU IACS Junior Researcher Award][iacs-jra] (2023)
 * SUNY GREAT Award (03/2023)
-* MSU Board of Trustees Scholarship Award (05/2014)
-* MSU College of Arts and Letters Outstanding Senior Achievement Award (05/2014)
+* MSU Board of Trustees Scholarship Award (2014)
+* MSU College of Arts and Letters Outstanding Senior Achievement Award (2014)
 
 ### Other Awards
 
-* Honorable Mention, NSF Graduate Research Fellowship Program (04/2022)
-* Michigan State Undergraduate Linguistics Conference (MSULC) Presentation Award (04/2014)
+* Honorable Mention, NSF Graduate Research Fellowship Program (2022)
+* Michigan State Undergraduate Linguistics Conference (MSULC) Presentation Award (2014)
 
 
 ## Contact
@@ -135,6 +135,6 @@ Email me at my first initial + last name + six seven nine at gmail dot com.
 [jp]: https://www.japaneseprofessor.com
 [lair]: https://lair.cse.msu.edu/
 [marimba]: https://en.wikipedia.org/wiki/Marimba
-[qualms]: https://www.msu.edu/~qualms
+[qualms]: https://sites.google.com/site/msuqualms/
 [sbling]: https://linguistics.stonybrook.edu
 [syccl]: /teaching/syccl
