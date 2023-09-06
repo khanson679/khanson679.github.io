@@ -9,6 +9,7 @@ date: 2023-08-23
 * [JapaneseProfessor.com](https://www.japaneseprofessor.com) -- beginning Japanese lessons and other resources
 * [My GitHub Page](https://github.com/khanson679)
 
+
 ## LaTeX
 
 * [Learn LaTeX](https://www.learnlatex.org/en/) -- modern LaTeX tutorial
@@ -21,6 +22,14 @@ date: 2023-08-23
 * [jsSyntaxTree](https://ironcreek.net/syntaxtree/) -- converts bracketed sentences to tree diagrams
 * [Online IPA Character Picker](https://r12a.github.io/pickers/ipa/) -- offers point and click character/diacritic selection as well as typing assistance
 * [Phonetic Keyboard for Windows](https://www.phon.ucl.ac.uk/resource/phonetics/) -- temporarily switch your keyboard to IPA input mode
+
+
+## Compling
+
+* [SBU Mathling Reading Group](https://complab-stonybrook.github.io/mlrg/)
+* [SBU LIN 539 (Math Methods)](https://github.com/stonybrook-lin539/main)
+    * [HTML course notes](https://stonybrook-lin539.github.io/main/)
+* [The Outdex](https://outde.xyz/) (Thomas Graf's Blog)
 
 
 ## Programming
