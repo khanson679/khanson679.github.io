@@ -27,6 +27,6 @@ You will need to access it using your SBU email.
 
 - [Link here](https://drive.google.com/drive/folders/1Sm7U5s4d5uYzllJhcY1ivhkUeXIbiO6P?usp=sharing)
 
-I'm also working on a bibliography for subregular linguistics, which is much more complete than the above syllabus
+I'm also working on a bibliography for subregular linguistics, which is much more complete than the above syllabus.
 
 - [Draft here](/files/subregular-bibliography.pdf)
