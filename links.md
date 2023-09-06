@@ -1,7 +1,7 @@
 ---
 title: Links
 layout: default
-date: 2023-08-23
+date: 2023-09-06
 ---
 
 ## My Other Sites
@@ -10,11 +10,12 @@ date: 2023-08-23
 * [My GitHub Page](https://github.com/khanson679)
 
 
-## LaTeX
+## Compling
 
-* [Learn LaTeX](https://www.learnlatex.org/en/) -- modern LaTeX tutorial
-* [Overleaf guides](https://overleaf.com/learn) -- excellent guides for basic LaTeX topics
-* [LaTeX Font Catalogue](https://www.tug.org/FontCatalogue/) -- database of LaTeX fonts with previews and sample code
+* [SBU Mathling Reading Group](https://complab-stonybrook.github.io/mlrg/)
+* [SBU LIN 539 (Math Methods)](https://github.com/stonybrook-lin539/main)
+    * [HTML course notes](https://stonybrook-lin539.github.io/main/)
+* [The Outdex](https://outde.xyz/) (Thomas Graf's Blog)
 
 
 ## Linguistics
@@ -24,12 +25,11 @@ date: 2023-08-23
 * [Phonetic Keyboard for Windows](https://www.phon.ucl.ac.uk/resource/phonetics/) -- temporarily switch your keyboard to IPA input mode
 
 
-## Compling
+## LaTeX
 
-* [SBU Mathling Reading Group](https://complab-stonybrook.github.io/mlrg/)
-* [SBU LIN 539 (Math Methods)](https://github.com/stonybrook-lin539/main)
-    * [HTML course notes](https://stonybrook-lin539.github.io/main/)
-* [The Outdex](https://outde.xyz/) (Thomas Graf's Blog)
+* [Learn LaTeX](https://www.learnlatex.org/en/) -- modern LaTeX tutorial
+* [Overleaf guides](https://overleaf.com/learn) -- excellent guides for basic LaTeX topics
+* [LaTeX Font Catalogue](https://www.tug.org/FontCatalogue/) -- database of LaTeX fonts with previews and sample code
 
 
 ## Programming
