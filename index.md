@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2023-09-03
+date: 2023-09-06
 ---
 
 # Kenneth Hanson
@@ -115,7 +115,7 @@ Michigan State University
 
 ### Funded Awards
 
-* [SBU IACS Junior Researcher Award][iacs-jra] (2023)
+* SBU IACS Junior Researcher Award (2023)
 * SUNY GREAT Award (2023)
 * MSU Board of Trustees Scholarship Award (2014)
 * MSU College of Arts and Letters Outstanding Senior Achievement Award (2014)
