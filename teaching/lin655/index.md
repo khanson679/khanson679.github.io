@@ -1,14 +1,14 @@
 ---
 title: "LIN 655.02 (Fall 2023): Doing Subregular Linguistics"
 layout: default
-date: 2023-09-05
+date: 2023-09-14
 ---
 
 **Time** | Fri 10:00–12:50
 **Place** | SBS N250 (Compling Lab)
 **Instructors** | Kenneth Hanson and Thomas Graf
 **Office Hours** | Kenneth: SBS N-210, Tu/Th 1:00--2:30pm
- | Thomas: SBS N-249, W 10--11am, Tu/Th 11:30--12:30
+ | Thomas: SBS N-249, Tu/Th 11:30--12:30, W 10--11am
 
 ## Course Description
 
@@ -18,12 +18,12 @@ These findings bring new insights into linguistic structure as well as opportuni
 This course aims to enable you to understand the mathematics behind subregular linguistic analyses as well as to produce your own.
 We will focus our attention on syntax to a large extent, but will also spend a fair bit of time on phonotactics and other topics along the way.
 
-For details, see the [syllabus](655-syllabus-23fa.pdf).
+For details, see the [syllabus](655-syllabus-23fa-rev.pdf).
 
 ## Materials
 
 Readings and other materials will be distributed using Google Drive.
-You will need to access it using your SBU email.
+Access the folder using your SBU email.
 
 - [Link here](https://drive.google.com/drive/folders/1Sm7U5s4d5uYzllJhcY1ivhkUeXIbiO6P?usp=sharing)
 
