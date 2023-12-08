@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2023-09-06
+date: 2023-12-08
 ---
 
 # Kenneth Hanson
@@ -29,6 +29,8 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 ## Presentations
 
 ### 2023
+
+* Kenneth Hanson (2023). [A Computational Perspective on the Typology of Agreement](/files/hanson-nyubb2023-agreement-slides.pdf). NYU Syntax Brown Bag. New York University, New York, NY.
 
 * Kenneth Hanson (2023). A Computational Perspective on the Typology of Agreement. MG+1. Stony Brook University, Stony Brook, NY.
 
