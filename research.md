@@ -12,7 +12,7 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-typology]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
 
 - In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
-- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality.
+- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([slides][tsl-agreement-slides], [handout][tsl-agreement-ho])
 - While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [abstract][sl-in-syntax-abstract] / [slides][sl-in-syntax-slides]).
 
 [sl-in-syntax]: /files/hanson-cls-2023-sl-in-syntax.pdf
@@ -20,6 +20,8 @@ Recent work suggests that a wide array of syntactic phenomena fall under the for
 [sl-in-syntax-abstract]: /files/hanson-cls-2023-abstract.pdf
 [jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
 [jpn-case-poster]: /files/hanson-scil2023-poster.pdf
+[tsl-agreement-slides]: /files/hanson-nyubb2023-agreement-slides.pdf
+[tsl-agreement-ho]: /files/hanson-nyubb2023-agreement-ho.pdf
 [graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
 [vu.etal2019]: https://aclanthology.org/W19-0127/
