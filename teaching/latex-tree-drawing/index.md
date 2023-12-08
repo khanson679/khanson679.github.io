@@ -1,7 +1,7 @@
 ---
-title: LaTeX Tree Drawing Workshop
+title: LaTeX Tree Drawing Tutorial
 layout: default
-date: 2022-11-16
+date: 2023-12-08
 ---
 
 <style>
