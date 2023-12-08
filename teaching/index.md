@@ -17,8 +17,8 @@ Supplmental materials for a second semester programming class. Beginning program
 
 ## Workshops/Tutorials
 
-[LaTeX Tree Drawing Workshop](latex-tree-drawing)<br/>
-Most recent iteration for SBU Linguistics Skillz Hour.
+[LaTeX Tree Drawing Tutorial](latex-tree-drawing)<br/>
+A tutorial for drawing trees using software. Starts with manipulation of simple bracketed trees using a text editor and converting them to images with a web-based tree drawing program. The second part introduces the Forest package for drawing fancy trees with LaTeX.
 
 [qUALMS Conlanging Workshop (FS13)](conlanging)<br/>
 An attempt at making a system for designing a [conlang](https://en.wikipedia.org/wiki/Constructed_language) in a single sitting. We determined that 90 minutes wasn't long enough.
