@@ -1,15 +1,15 @@
 ---
 title: Teaching
 layout: default
-date: 2023-08-23
+date: 2023-12-08
 ---
 
 ## Courses
 
-[LIN 655.02 -- Doing Subregular Linguistics (FS23)](lin655)<br/>
+[LIN 655.02 -- Doing Subregular Linguistics (FS23, SBU)](lin655)<br/>
 Introduction to subregular linguistics, with an emphasis on formulating analyses of patterns in syntax and phonology.
 
-[LIN 539 -- Mathematical Methods in Linguistics](https://github.com/stonybrook-lin539/main)<br/>
+[LIN 539 -- Mathematical Methods in Linguistics (SBU)](https://github.com/stonybrook-lin539/main)<br/>
 Although I haven't been directly involved in teaching this course, I've worked behind the scenes on developing the materials, particularly the automatically generated practice exercises.
 
 [CSE 232 -- Intro to Programming II (SS13, MSU)](cse232)<br/>
