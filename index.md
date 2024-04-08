@@ -15,6 +15,11 @@ I received a BA from Michigan State University in 2014, where I majored in lingu
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
 
+## What's new?
+
+* I'm presenting at [CLS 60](http://chicagolinguisticsociety.org/) on 4/28/2024, talk titled *A tier-based model of syntactic agreement*. \[[abstract](/files/hanson-cls-2024-abstract.pdf)\]
+* I'm presenting at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) on 6/13/2024, talk titled *The computational basis of locality in syntactic agreement.*. \[[abstract](/files/hanson-myopia-abstract.pdf)\]
+
 ## Publications
 
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls-2023-sl-in-syntax.pdf). Proceedings of CLS 59. Chicago, IL.
