@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2023-12-08
+date: 2024-04-08
 ---
 
 # Kenneth Hanson
@@ -80,22 +80,22 @@ Stony Brook University
 
 Michigan State University
 
-| **2012-2013** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
+| **2012--2013** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
 
 
 ## Outreach
 
 | **2023** | Lead instructor for [SYCCL][syccl]
-| **2021-2022** | Assistant instructor for [SYCCL][syccl] |
-| **2021-2023** | Volunteer instructor for [SBU NACLO Practice Session][iacs-naclo] |
+| **2021--2022** | Assistant instructor for [SYCCL][syccl] |
+| **2021--2023** | Volunteer instructor for [SBU NACLO Practice Session][iacs-naclo] |
 
 
 ## Departmental Service
 
-* Student Representative (2023-2024)
+* Student Representative (2023--2024)
 * Brown Bag Organizer (Fall 2022)
 * Skillz Hour Organizer (Fall 2021)
-* Assistant Webmaster (2020-2021)
+* Assistant Webmaster (2020--2021)
 
 
 ## Other Activities
