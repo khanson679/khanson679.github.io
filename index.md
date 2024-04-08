@@ -30,7 +30,9 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ### 2023
 
-* Kenneth Hanson (2023). [A Computational Perspective on the Typology of Agreement](/files/hanson-nyubb2023-agreement-slides.pdf). NYU Syntax Brown Bag. New York University, New York, NY.
+* Kenneth Hanson (2023). [Case domains in Japanese](/files/hanson-sync-2023-jpn-case.pdf). SYNC 2023, Stony Brook University, Stony Brook, NY.
+
+* Kenneth Hanson (2023). [A computational perspective on the typology of agreement](/files/hanson-nyubb2023-agreement-slides.pdf). NYU Syntax Brown Bag. New York University, New York, NY.
 
 * Kenneth Hanson (2023). A Computational Perspective on the Typology of Agreement. MG+1. Stony Brook University, Stony Brook, NY.
 
@@ -80,7 +82,7 @@ Stony Brook University
 
 Michigan State University
 
-| **2012--2013** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
+| **2012Sp, 2013Sp/Fa** | CSE 232 | Introduction to Programming II | Supervisor: Mark McCullen |
 
 
 ## Outreach
@@ -92,6 +94,7 @@ Michigan State University
 
 ## Departmental Service
 
+* Student Organizer, Mathematical Linguistics Reading Group (Spring 2024)
 * Student Representative (2023--2024)
 * Brown Bag Organizer (Fall 2022)
 * Skillz Hour Organizer (Fall 2021)
