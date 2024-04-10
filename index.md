@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2024-04-08
+date: 2024-04-09
 ---
 
 # Kenneth Hanson
@@ -17,8 +17,10 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## What's new?
 
-* I'm presenting at [CLS 60](http://chicagolinguisticsociety.org/) on 4/28/2024, talk titled *A tier-based model of syntactic agreement*. \[[abstract](/files/hanson-cls-2024-abstract.pdf)\]
-* I'm presenting at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) on 6/13/2024, talk titled *The computational basis of locality in syntactic agreement.*. \[[abstract](/files/hanson-myopia-abstract.pdf)\]
+* I'm presenting at [CLS 60](http://chicagolinguisticsociety.org/) (April 26--28), talk titled *A tier-based model of syntactic agreement*. \[[abstract](/files/hanson-cls-2024-abstract.pdf)\]
+* I'm presenting at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) (June 13--14), talk titled *The computational basis of locality in syntactic agreement*. \[[abstract](/files/hanson-myopia-abstract.pdf)\]
+* I'm presenting at [SCiL 2024](https://sites.uci.edu/scil2024/) (June 27--29), poster titled *Tiers, paths, and syntactic locality: The view from learning*.
+
 
 ## Publications
 
