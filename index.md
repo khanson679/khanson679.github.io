@@ -15,10 +15,15 @@ I received a BA from Michigan State University in 2014, where I majored in lingu
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
 
+## Contact
+
+Email me at my first initial + last name + six seven nine at gmail dot com.
+
+
 ## What's new?
 
 * I'm presenting at [CLS 60](http://chicagolinguisticsociety.org/) (April 26--28), talk titled *A tier-based model of syntactic agreement*. \[[abstract](/files/hanson-cls-2024-abstract.pdf)\]
-* I'm presenting at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) (June 13--14), talk titled *The computational basis of locality in syntactic agreement*. \[[abstract](/files/hanson-myopia-abstract.pdf)\]
+* I'm presenting at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) (June 13--14), talk titled *The computational basis of locality in syntactic agreement*. \[[abstract](/files/hanson-myopia-2024-abstract.pdf)\]
 * I'm presenting at [SCiL 2024](https://sites.uci.edu/scil2024/) (June 27--29), poster titled *Tiers, paths, and syntactic locality: The view from learning*.
 
 
@@ -136,11 +141,6 @@ Michigan State University
 
 * Honorable Mention, NSF Graduate Research Fellowship Program (2022)
 * Michigan State Undergraduate Linguistics Conference (MSULC) Presentation Award (2014)
-
-
-## Contact
-
-Email me at my first initial + last name + six seven nine at gmail dot com.
 
 
 [graf]: https://thomasgraf.net
