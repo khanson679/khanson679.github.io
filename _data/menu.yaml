@@ -1,7 +1,7 @@
 - text: About
   url: /
-# - text: CV
-#   url: /cv/
+- text: CV
+  url: /cv/
 - text: Research
   url: /research/
 - text: Teaching
