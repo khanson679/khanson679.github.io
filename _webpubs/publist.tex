@@ -1,0 +1,27 @@
+% !TeX program = pdflatex
+\documentclass{khplain}
+\usepackage{erewhon}
+\usepackage{webpubs}
+
+\setcounter{secnumdepth}{0}
+
+\setboldname{Hanson}{Kenneth}{K.}
+\addbibresource{hanson.bib}
+\addbibresource{hanson-pres.bib}
+\nocite{*}
+
+\begin{document}
+\raggedright
+
+\section*{Publications}
+
+\subsection*{Articles}
+\printbibliography[type=article, heading=none]
+
+\subsection*{Conference Proceedings}
+\printbibliography[type=inproceedings, heading=none]
+
+\subsection*{Other Manuscripts}
+\printbibliography[type=unpublished, heading=none]
+
+\end{document}

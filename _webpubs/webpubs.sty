@@ -1,0 +1,101 @@
+\ProvidesPackage{webpubs}
+
+%\usepackage{parskip}
+\usepackage[colorlinks=true,allcolors=blue]{hyperref}
+\usepackage[style=khlinguistics, sorting=ddnt, maxnames=99, block=par]{biblatex}
+\ExecuteBibliographyOptions{pubstatelabel=true, proceedingsvenue=true, proceedingspublisher=false}
+
+%% Print bibliography as simple list of blocks
+%\defbibenvironment{bibliography}
+%    {}
+%    {}
+%    {\endgraf}
+%\defbibenvironment{bibliography}
+%    {\raggedright\begin{list}{}{%
+%        \setlength{\leftmargin}{3em}
+%        \setlength{\labelwidth}{3em}
+%        \setlength{\labelsep}{1em}
+%        }}
+%    {\end{list}}
+%    {\item[\printfield{year}]}
+
+\renewcommand*{\newblockpunct}{\linebreak}
+
+%% No period at very end
+\renewcommand*{\finentrypunct}{}
+
+%% Don't print pages, presentation type
+\AtEveryBibitem{\clearfield{pages}}
+
+%% Supress letter after year
+\AtEveryBibitem{\clearfield{extradate}}
+
+%% Make all names firstname-lastname
+\DeclareNameAlias{author}{given-family}
+
+%% Automatically bold selected author name
+
+\newcommand*{\setboldname}[3]{%
+  \def\lastname{#1}%
+  \def\firstname{#2}%
+  \def\firstinit{#3}
+}
+
+\renewcommand{\mkbibcompletename}[1]{%
+  \ifboolexpr{
+    ( test {\ifdefequal{\firstname}{\namepartgiven}}
+      or test {\ifdefequal{\firstinit}{\namepartgiven}} )
+    and test {\ifdefequal{\lastname}{\namepartfamily}} }
+  {\mkbibbold{#1}}{#1}%
+}
+
+%% Pretty web links
+
+\renewbibmacro*{doi+eprint+url}{%
+  \printfield{doi}
+  \setunit*{\addspace}
+  \printfield{eprint}
+  \setunit*{\addspace}
+  \printfield{url}
+  \setunit*{\addspace}
+  \printfield{pdf-url}
+  \setunit*{\addspace}
+}
+
+\DeclareFieldFormat{doi}{%
+  \ifhyperref
+    {\href{https://doi.org/#1}{[\mkbibacro{DOI}]}}
+    {\mkbibacro{DOI}\addcolon\space\nolinkurl{#1}}}
+\DeclareFieldFormat{eprint}{%
+  \ifhyperref
+    {\href{/#1}{[\mkbibacro{prepub}]}}
+    {\mkbibacro{prepub}\addcolon\space\nolinkurl{#1}}}
+\DeclareFieldFormat{url}{%
+  \ifhyperref
+    {\href{#1}{[\mkbibacro{link}]}}
+    {\mkbibacro{DOI}\addcolon\space\nolinkurl{#1}}}
+\DeclareFieldFormat{pdf-url}{%
+  \def\linklabel{PDF}
+  \ifentrytype{presentation}
+    {\iffieldequalstr{type}{invitedtalk}{\def\linklabel{slides}}{}
+     \iffieldequalstr{type}{oralpres}{\def\linklabel{slides}}{}
+     \iffieldequalstr{type}{posterpres}{\def\linklabel{poster}}{}
+    }
+    {}
+  \ifhyperref
+    {\href{#1}{[\mkbibacro{\linklabel}]}}
+    {\mkbibacro{\linklabel}\addcolon\space\nolinkurl{#1}}}
+
+%% split bibliography into CV-relevant categories
+
+\defbibfilter{article}{type=article}
+\defbibfilter{paperrevproceedings}{type=inproceedings and keyword=paperreviewed}
+\defbibfilter{abstractrevproceedings}{type=inproceedings and keyword=abstractreviewed}
+\defbibfilter{peerreviewed}{type=article or keyword=paperreviewed}
+\defbibfilter{unpublished}{type=unpublished}
+\defbibfilter{otherms}{type=unpublished or type=thesis}
+
+\defbibfilter{invitedtalk}{keyword=invitedtalk}
+\defbibfilter{confpres}{keyword=conftalk or keyword=confposter}
+\defbibfilter{otherpres}{keyword=othertalk or keyword=otherposter}
+

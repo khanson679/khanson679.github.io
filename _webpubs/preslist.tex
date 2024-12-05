@@ -1,0 +1,27 @@
+% !TeX program = pdflatex
+\documentclass{khplain}
+\usepackage{erewhon}
+\usepackage{webpubs}
+
+\setcounter{secnumdepth}{0}
+
+\setboldname{Hanson}{Kenneth}{K.}
+\addbibresource{hanson.bib}
+\addbibresource{hanson-pres.bib}
+\nocite{*}
+
+\begin{document}
+\raggedright
+
+\section*{Presentations}
+
+\subsection{Invited Talks}
+\printbibliography[filter=invitedtalk, heading=none]
+
+\subsection{Conference Presentations}
+\printbibliography[filter=confpres, heading=none]
+
+\subsection{Other Presentations}
+\printbibliography[filter=otherpres, heading=none]
+
+\end{document}

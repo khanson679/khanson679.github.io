@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
-BUILDDIR=bibtex2html
+BUILDDIR=build
 INCLUDEDIR=_includes
 BIBSRCDIR=/home/kenneth/.texmf/bibtex/bib/
 PAPERBIBSRC=hanson.bib
