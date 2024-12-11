@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 2023-09-03
+date: 2024-12-11
 ---
 
 I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects.
@@ -9,27 +9,37 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-typology]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
+Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-movement]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
 
+- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([preprint](/files/hanson-ms-tsl-agreement.pdf))
+    - For a less technical presentation, see my [CLS 60 paper](/files/hanson-cls60-tier-based-agreement.pdf).
 - In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
-- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([slides][tsl-agreement-slides], [handout][tsl-agreement-ho])
-- While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [abstract][sl-in-syntax-abstract] / [slides][sl-in-syntax-slides]).
+- While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [slides][sl-in-syntax-slides]).
 
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
-[sl-in-syntax-abstract]: /files/hanson-cls59-abstract.pdf
 [jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
 [jpn-case-poster]: /files/hanson-scil2023-poster.pdf
-[tsl-agreement-slides]: /files/hanson-nyubb2023-agreement-slides.pdf
-[tsl-agreement-ho]: /files/hanson-nyubb2023-agreement-ho.pdf
-[graf2022-typology]: https://aclanthology.org/2022.scil-1.15/
+[graf2022-movement]: https://aclanthology.org/2022.scil-1.15/
 [graf.shafiei2019]: https://aclanthology.org/W19-0121/
 [vu.etal2019]: https://aclanthology.org/W19-0127/
 
 
+## Syntactic learning
+
+The above work suggests that many, perhaps even most long-distance linguistic dependencies are TSL-2, meaning that all constraints can be stated in a window of two elements on a tier.
+This is interesting, as TSL-2 is one of the simplest classes of formal languages which can handle long-distance dependencies at all.
+Recent research (e.g. [Lambert et al 2021][lambert.etal2021]) argue that this simplicity is intimately related to efficient learnability, providing an important clue for developing a computational theory of how such dependencies are learned.
+
+- Inspired by recent work from a group at UPenn using the Tolerance Principle to learn syntactic islands, I sketch how their system could be adapted to produce a TSL-2 grammar, and discuss the relative roles of the grammar and the acquisition theory in explaining the constraints on long-distance syntactic dependencies. ([paper][tiers-paths])
+
+[tiers-paths]: /files/hanson-scil2024-tiers-paths-locality.pdf
+[lambert.etal2021]: https://jlm.ipipan.waw.pl/index.php/JLM/article/view/262
+
+
 ## Restrictions on syntactic feature systems
 
-I'm working with [Thomas Graf][graf] to test his [2020 conjecture][graf2020-curbing] that syntactic features on lexical categories are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by. We're doing this using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank.
+I'm working with Logan Swanson and [Thomas Graf][graf] to test Thomas's [2020 conjecture][graf2020-curbing] that syntactic category features are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by, using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank. Such a principle could plug a hole found in many grammatical formalisms which allows linguistically unnatural patterns to be encoded via the feature system.
 
 [graf]: https://thomasgraf.net
 [graf2020-curbing]: https://aclanthology.org/2020.scil-1.27/

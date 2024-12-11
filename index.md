@@ -23,7 +23,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 * My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
   \[ [preprint](/files/hanson-ms-tsl-agreement.pdf) \]
-* My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is a Minimalist version of the analysis in the JLM paper.
+* My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[  [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I'm presenting at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
   \[ [abstract](/files/hanson-lsa2025-abstract.pdf) \]
