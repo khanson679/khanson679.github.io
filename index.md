@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2024-12-04
+date: 2024-12-11
 ---
 
 # Kenneth Hanson
@@ -21,8 +21,10 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## What's new?
 
-* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the Jornal of Language Modeling. (manscript available upon request)
-* My CLS 60 proceedings paper is available. This is a Minimalist implementation of the analysis in the JLM paper. (see links below)
+* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the Jornal of Language Modeling.
+  \[ [preprint](/files/hanson-ms-tsl-agreement.pdf) \]
+* My CLS 60 proceedings paper is available. This is a Minimalist version of the analysis in the JLM paper.
+  \[  [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I'm presenting at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
   \[ [abstract](/files/hanson-lsa2025-abstract.pdf) \]
 * I'm presenting at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
@@ -41,9 +43,8 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
   \]
 * I presented at [CLS 60](http://chicagolinguisticsociety.org/) (April 26--28), talk titled *A tier-based model of syntactic agreement*.
   \[
-  [paper](/files/hanson-cls60-tier-based-agreement.pdf)
 <!--   | [abstract](/files/hanson-cls-2024-abstract.pdf) -->
-  | [slides](/files/hanson-cls-2024-slides-noanim.pdf)
+  [slides](/files/hanson-cls-2024-slides-noanim.pdf)
   | [handout](/files/hanson-cls-2024-ho.pdf)
   \]
 
