@@ -13,7 +13,7 @@ Introduction to subregular linguistics, with an emphasis on formulating analyses
 Although I haven't been directly involved in teaching this course, I've worked behind the scenes on developing the materials, particularly the automatically generated practice exercises.
 
 [CSE 232 -- Intro to Programming II (SS13, MSU)](cse232)<br/>
-Supplmental materials for a second semester programming class. Beginning programmers might find the C++ examples and Linux guides useful.
+Supplemental materials for a second semester programming class. Beginning programmers might find the C++ examples and Linux guides useful.
 
 ## Workshops/Tutorials
 

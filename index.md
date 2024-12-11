@@ -21,15 +21,16 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## What's new?
 
-* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the Jornal of Language Modeling.
+* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
   \[ [preprint](/files/hanson-ms-tsl-agreement.pdf) \]
-* My CLS 60 proceedings paper is available. This is a Minimalist version of the analysis in the JLM paper.
+* My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is a Minimalist version of the analysis in the JLM paper.
   \[  [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I'm presenting at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
   \[ [abstract](/files/hanson-lsa2025-abstract.pdf) \]
-* I'm presenting at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
-  \[ [abstract](/files/hanson-sync2024-abstract.pdf) 
-<!--  \ [handout](/files/hanson-sync2024-ho.pdf) -->
+* I presented at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
+  \[
+<!--   [abstract](/files/hanson-sync2024-abstract.pdf)  -->
+  [handout](/files/hanson-sync2024-parasitic-agreement-ho.pdf)
   \]
 * I presented at [SCiL 2024](https://sites.uci.edu/scil2024/) (June 27--29), poster titled *Tiers, paths, and syntactic locality: The view from learning*.
   \[ [paper](/files/hanson-scil2024-tiers-paths-locality.pdf)
@@ -37,15 +38,15 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
   \]
 * I presented at the [Workshop on Myopia in Grammar](https://home.uni-leipzig.de/tebay/myopia.htm) (June 13--14), talk titled *The computational basis of locality in syntactic agreement*.
   \[
-<!--   [abstract](/files/hanson-myopia-2024-abstract.pdf) -->
-  [slides](/files/hanson-myopia-2024-slides-noanim.pdf)
-  | [handout](/files/hanson-myopia-2024-ho.pdf)
+<!--   [abstract](/files/hanson-myopia2024-abstract.pdf) -->
+  [slides](/files/hanson-myopia2024-slides-noanim.pdf)
+  | [handout](/files/hanson-myopia2024-ho.pdf)
   \]
-* I presented at [CLS 60](http://chicagolinguisticsociety.org/) (April 26--28), talk titled *A tier-based model of syntactic agreement*.
+* I presented at [CLS 60](http://chicagolinguisticsociety.com/) (April 26--28), talk titled *A tier-based model of syntactic agreement*.
   \[
-<!--   | [abstract](/files/hanson-cls-2024-abstract.pdf) -->
-  [slides](/files/hanson-cls-2024-slides-noanim.pdf)
-  | [handout](/files/hanson-cls-2024-ho.pdf)
+<!--   | [abstract](/files/hanson-cls60-abstract.pdf) -->
+  [slides](/files/hanson-cls60-slides-noanim.pdf)
+  | [handout](/files/hanson-cls60-ho.pdf)
   \]
 
 

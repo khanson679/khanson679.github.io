@@ -15,9 +15,9 @@ Recent work suggests that a wide array of syntactic phenomena fall under the for
 - In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([slides][tsl-agreement-slides], [handout][tsl-agreement-ho])
 - While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [abstract][sl-in-syntax-abstract] / [slides][sl-in-syntax-slides]).
 
-[sl-in-syntax]: /files/hanson-cls-2023-sl-in-syntax.pdf
-[sl-in-syntax-slides]: /files/hanson-cls-2023-slides.pdf
-[sl-in-syntax-abstract]: /files/hanson-cls-2023-abstract.pdf
+[sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
+[sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
+[sl-in-syntax-abstract]: /files/hanson-cls59-abstract.pdf
 [jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
 [jpn-case-poster]: /files/hanson-scil2023-poster.pdf
 [tsl-agreement-slides]: /files/hanson-nyubb2023-agreement-slides.pdf
