@@ -12,7 +12,7 @@ li {margin-bottom: 0.5em; }
 My full CV is available here: [hanson-cv.pdf](/files/hanson-cv.pdf).
 
 ## Publications
-* Kenneth Hanson (to appear). [Tier-based strict locality and the typology of agreement](/files/hanson-ms-tsl-agreement.pdf). Journal of Language Modeling.
+* Kenneth Hanson (to appear). [Tier-based strict locality and the typology of agreement](/files/hanson-jlm-tsl-agreement-preprint.pdf). Journal of Language Modeling.
 * Kenneth Hanson (2024). [A tier-based model of syntactic agreement](/files/hanson-cls60-tier-based-agreement.pdf). Proceedings of CLS 60. University of Chicago, Chicago, IL.
 * Kenneth Hanson (2024). [Tiers, paths, and syntactic locality: The view from learning](/files/hanson-scil2024-tiers-paths-locality.pdf).  Proceedings of SCiL 2024. UC Irvine, Irvine, CA.
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls59-sl-in-syntax.pdf). Proceedings of CLS 59. University of Chicago, Chicago, IL.

@@ -11,11 +11,13 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-movement]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
 
-- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([preprint](/files/hanson-ms-tsl-agreement.pdf))
-    - For a less technical presentation, see my [CLS 60 paper](/files/hanson-cls60-tier-based-agreement.pdf).
+- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([preprint][jlm-agreement])
+    - For a less technical presentation, see my [CLS 60 paper][cls-agreement].
 - In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
 - While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [slides][sl-in-syntax-slides]).
 
+[jlm-agreement]: /files/hanson-jlm-tsl-agreement-preprint.pdf
+[cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
 [jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
