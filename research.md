@@ -16,6 +16,9 @@ Recent work suggests that a wide array of syntactic phenomena fall under the for
 - In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
 - While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [slides][sl-in-syntax-slides]).
 
+Related: I'm working on a bibliography of subregular linguistics, covering phonology and morphology as well as syntax.
+- [subregular bibliography](/files/subregular-bibliography.pdf)
+
 [jlm-agreement]: /files/hanson-jlm-tsl-agreement-preprint.pdf
 [cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
@@ -41,7 +44,7 @@ Recent research (e.g. [Lambert et al 2021][lambert.etal2021]) argue that this si
 
 ## Restrictions on syntactic feature systems
 
-I'm working with Logan Swanson and [Thomas Graf][graf] to test Thomas's [2020 conjecture][graf2020-curbing] that syntactic category features are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by, using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank. Such a principle could plug a hole found in many grammatical formalisms which allows linguistically unnatural patterns to be encoded via the feature system.
+I'm working with Logan Swanson and [Thomas Graf][graf] to test Thomas's [2020 conjecture][graf2020-curbing] that syntactic category features are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by, using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank. Such a principle could plug a hole found in many grammatical formalisms which allows linguistically unnatural patterns to be encoded via category features.
 
 [graf]: https://thomasgraf.net
 [graf2020-curbing]: https://aclanthology.org/2020.scil-1.27/
