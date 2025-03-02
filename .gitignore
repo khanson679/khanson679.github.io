@@ -1,3 +1,8 @@
 # Jekyll generated site
 _site
+
+# LaTeX generated files
 */build
+
+# misc
+.directory
