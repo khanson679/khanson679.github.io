@@ -9,25 +9,39 @@ I'm primarily interested in syntax (sentence structure), computational linguisti
 
 ## Computational complexity of syntactic dependencies
 
-Recent work suggests that a wide array of syntactic phenomena fall within the formal class TSL (tier-based strictly local) over trees, mirroring the earlier finding that phonological and morphological patterns are predominantly TSL over strings. TSL is a very restrictive class, and therefore puts tight limits on what is predicted to be possible. But what is even more interesting is that the range of patterns within this space appear to correspond closely to attested linguistic phenomena.
+Recent work suggests that a wide array of syntactic phenomena are **subregular** over trees, meaning that they occupy strict subclasses of the regular (finite-state) tree languages.
+This provides a much tighter bound than previous string-based characterizations, provides insight into the specific formal patterns utilized by natural language, and helps us understand how such patterns can be learned from positive data.
+What's more, phonological patterns are also overwhelming subregular over strings, allowing direct comparisons between syntax and phonology.
 
-### Case and agreement
+Among the various subregular classes, **TSL (tier-based strictly local)** seems to be the upper bound for most individual dependencies.
+My current work argues that case and agreement dependencies are TSL-2, which means that all constraints can be stated in a window of two elements on a tier of salient elements, and that this provides an explanation of several key properties of their formal typology.
 
-My current work argues that the formal typology of case and agreement dependencies is well explained by the assumption that they are TSL-2, which means that all constraints can be stated in a window of two elements on a tier.
+### Agreement
 
-In an upcoming paper, I show how the natural parameters of the TSL-2 model correspond to attested variation in visibility, directionality, and iteration.
-Even seemingly complex patterns from the literature can be provided a simple analysis in terms of these parameters.
+Using a formal model of agreement based on paths though MG (Minimalist Grammar) derivation trees, I show how the natural parameters of the TSL-2 model correspond to attested variation in visibility, directionality, and iteration.
+Even seemingly complex patterns from the literature can be provided a simple analysis without resorting to any additional mechanisms.
 
-- [preprint (JLM)][jlm-agreement]
-- For a less technical presentation, see my [CLS 60 paper][cls-agreement].
+- For a comprehensive and self-contained presentation, see my [JLM paper][jlm-agreement].
+- For a shorter and less technical overview, see my [CLS 60 paper][cls-agreement].
+- My talk at the [2024 Workshop on Myopia in Grammar][myopia] focused on locality and the parallel with long-distance harmony in phonology.
 
-I have also developed an analysis of Hindi agreement in two tiers, which demonstrates how the theoretically problematic phenomenon of parasitic infinitival agreement arises from the intersection of two very ordinary TSL-2 patterns.
+I have also developed an analysis of Hindi verbal agreement in two tiers, which demonstrates how the theoretically problematic phenomenon of parasitic agreement arises from the intersection of two very ordinary TSL-2 patterns.
 
 - [handout (SYNC 2024)][sync-parasitic]
 
-In recent paper, I provide an in-depth TSL-2 analysis of case in Japanese, including structural and lexical case, valency alternations, and long-distance case assignment.
+### Case
 
-- [paper][jpn-case] / [poster][jpn-case-poster] (SCiL 2023)
+Case also appears to be TSL-2, though it differs from movement and agreement in that it does not (obviously) involve feature matching.
+I am currently exploring a model which assigns case to the string of noun phrases in a given domain (ordered by c-command) according to a TSL-2 string language.
+
+In recent paper, I provide an in-depth analysis of case in Japanese, including structural and lexical case, valency alternations, and long-distance case assignment.
+
+- [paper][scil-jpn-case] / [poster][scil-jpn-case-poster] (SCiL 2023)
+- [informal presentation (SYNC 2023)][sync-jpn-case]
+
+I am currently expanding the analysis to other languages, mirroring my work on agreement.
+
+- [recent handout][tsl-case]
 
 ### Local dependencies
 
@@ -46,11 +60,11 @@ I'm working on a bibliography of subregular linguistics, including not just synt
 [sync-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
-[jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
-[jpn-case-poster]: /files/hanson-scil2023-poster.pdf
-[graf2022-movement]: https://aclanthology.org/2022.scil-1.15/
-[graf.shafiei2019]: https://aclanthology.org/W19-0121/
-[vu.etal2019]: https://aclanthology.org/W19-0127/
+[scil-jpn-case]: /files/hanson-scil2023-tsl-jpn-case.pdf
+[scil-jpn-case-poster]: /files/hanson-scil2023-poster.pdf
+[sync-jpn-case]: /files/hanson-sync2023-jpn-case.pdf
+[tsl-case]: /files/hanson-synfl-2025sp-tsl-case.pdf
+[myopia]: https://home.uni-leipzig.de/tebay/myopia.htm
 
 
 ## Syntactic learning
