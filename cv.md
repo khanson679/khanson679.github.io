@@ -1,7 +1,7 @@
 ---
 title: CV
 layout: default
-date: 2024-12-11
+date: 2025-03-02
 published: true
 ---
 
@@ -12,6 +12,7 @@ li {margin-bottom: 0.5em; }
 My full CV is available here: [hanson-cv.pdf](/files/hanson-cv.pdf).
 
 ## Publications
+
 * Kenneth Hanson (to appear). [Tier-based strict locality and the typology of agreement](/files/hanson-jlm-tsl-agreement-preprint.pdf). Journal of Language Modeling.
 * Kenneth Hanson (2024). [A tier-based model of syntactic agreement](/files/hanson-cls60-tier-based-agreement.pdf). Proceedings of CLS 60. University of Chicago, Chicago, IL.
 * Kenneth Hanson (2024). [Tiers, paths, and syntactic locality: The view from learning](/files/hanson-scil2024-tiers-paths-locality.pdf).  Proceedings of SCiL 2024. UC Irvine, Irvine, CA.
@@ -23,22 +24,27 @@ My full CV is available here: [hanson-cv.pdf](/files/hanson-cv.pdf).
 
 ## Presentations
 
+### 2025
+
+* Kenneth Hanson (2025). *Two Steps to Parasitic Agreement in Hindi-Urdu*. PLC 49, University of Pennsylvania, Philadelphia, PA.
+  \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) \]
+* Kenneth Hanson (2025). *On the Computational Complexity of Syntactic Dependencies*. Queen Mary University of London, London, UK.
+* Kenneth Hanson (2025). *Upward Agreement and Syntactic Counterfeeding in Lubukusu*. LSA 2025, Philadelphia, PA.
+  \[&nbsp;[poster](/files/hanson-lsa2025-poster-upward-agreement.pdf) \]
+
 ### 2024
 
-* Kenneth Hanson (2024). **A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu**. SYNC 2024, New York University, New York, NY.
-  \[
-<!--   [abstract](/files/hanson-sync2024-parasitic-agreement-abstract.pdf) -->
-  [handout](/files/hanson-sync2024-parasitic-agreement-ho.pdf)
-  \]
-* Kenneth Hanson (2024). **Tiers, Paths, and Syntactic Locality: The View from Learning**. Poster presentation. SCiL 2024, University of California Irvine, Irvine, CA. 
+* Kenneth Hanson (2024). *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*. SYNC 2024, New York University, New York, NY.
+  \[ [handout](/files/hanson-sync2024-parasitic-agreement-ho.pdf) \]
+* Kenneth Hanson (2024). *Tiers, Paths, and Syntactic Locality: The View from Learning*. SCiL 2024, University of California Irvine, Irvine, CA. 
   \[ [poster](/files/hanson-scil2024-poster.pdf) \]
-* Kenneth Hanson (2024). **The computational basis of locality in syntactic agreement**. Oral presentation. Workshop on Myopia in Grammar, Leipzig University, Leipzig, Germany. 
+* Kenneth Hanson (2024). *The computational basis of locality in syntactic agreement*. Workshop on Myopia in Grammar, Leipzig University, Leipzig, Germany. 
   \[
 <!--   [abstract](/files/hanson-myopia2024-abstract.pdf) -->
   [slides](/files/hanson-myopia2024-slides-noanim.pdf)
   | [handout](/files/hanson-myopia2024-ho.pdf)
   \]
-* Kenneth Hanson (2024). **A Tier-Based Model of Syntactic Agreement**. Oral presentation. CLS 60, University of Chicago, Chicago, IL. 
+* Kenneth Hanson (2024). *A Tier-Based Model of Syntactic Agreement*. CLS 60, University of Chicago, Chicago, IL. 
   \[
 <!--   [abstract](/files/hanson-cls60-abstract.pdf) -->
   [slides](/files/hanson-cls60-slides-noanim.pdf)
