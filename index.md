@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2024-12-11
+date: 2025-03-28
 ---
 
 # Kenneth Hanson
@@ -14,7 +14,7 @@ I'm a PhD student in the [Department of Linguistics][sbling] at Stony Brook Univ
 
 I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
 
-My research focuses on computational syntax. I use subregular formal languages to understand the formal restrictions on long-distance syntactic phenomena, especially case and agreement. I am also interested in Japanese linguistics.
+My research focuses on computational syntax. I am studying syntactic dependencies such as case and agreement from the perspective of computational complexity in order to understand their locality properties, range of formal variation, and how they can be learned from positive data. I am also interested in Japanese linguistics.
 
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
@@ -25,7 +25,9 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
   \[ [preprint](/files/hanson-jlm-tsl-agreement-preprint.pdf) \]
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[  [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
-* I'm presenting at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
+* I will be presenting at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
+  \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) \]
+* I presented at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
   \[ [abstract](/files/hanson-lsa2025-abstract.pdf) \]
 * I presented at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
   \[
