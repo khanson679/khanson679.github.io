@@ -1,26 +1,49 @@
 ---
 title: Research
 layout: default
-date: 2024-12-11
+date: 2025-03-02
 ---
 
-I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects.
+I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects. [See my CV](/cv) for a more complete list of papers and presentations.
 
 
 ## Computational complexity of syntactic dependencies
 
-Recent work suggests that a wide array of syntactic phenomena fall under the formal class TSL (tier-based strictly local), mirroring earlier findings in phonology and morphology. Syntactic phenomena studied to date include movement ([Graf 2022][graf2022-movement]), case ([Vu et al. 2019][vu.etal2019]), and licensing of anaphora and NPIs ([Graf & Shafiei 2019][graf.shafiei2019]). These results are promising, but the large degree of variation across languages combined the with abstractness of syntactic representations means that further cross-linguistic surveys and in-depth case studies are needed. My work focuses on the the typology of case and agreement configurations.
+Recent work suggests that a wide array of syntactic phenomena fall within the formal class TSL (tier-based strictly local) over trees, mirroring the earlier finding that phonological and morphological patterns are predominantly TSL over strings. TSL is a very restrictive class, and therefore puts tight limits on what is predicted to be possible. But what is even more interesting is that the range of patterns within this space appear to correspond closely to attested linguistic phenomena.
 
-- In an upcoming paper, I show that "exotic" forms of agreement such as case-sensitive agreement, upward agreement, A' agreement all fit neatly into the typology predicted by TSL, by virtue of its ability to specify invisible and blocking elements, and flexible directionality. ([preprint][jlm-agreement])
-    - For a less technical presentation, see my [CLS 60 paper][cls-agreement].
-- In a recent paper, I analyze a wide range of case patterns in Japanese, including long-distance licensing of accusative and genitive case, and show that they are TSL. ([paper][jpn-case] / [poster][jpn-case-poster])
-- While long-distance dependencies get most of the attention, the computational perspective can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper. ([paper][sl-in-syntax] / [slides][sl-in-syntax-slides]).
+### Case and agreement
 
-Related: I'm working on a bibliography of subregular linguistics, covering phonology and morphology as well as syntax.
+My current work argues that the formal typology of case and agreement dependencies is well explained by the assumption that they are TSL-2, which means that all constraints can be stated in a window of two elements on a tier.
+
+In an upcoming paper, I show how the natural parameters of the TSL-2 model correspond to attested variation in visibility, directionality, and iteration.
+Even seemingly complex patterns from the literature can be provided a simple analysis in terms of these parameters.
+
+- [preprint (JLM)][jlm-agreement]
+- For a less technical presentation, see my [CLS 60 paper][cls-agreement].
+
+I have also developed an analysis of Hindi agreement in two tiers, which demonstrates how the theoretically problematic phenomenon of parasitic infinitival agreement arises from the intersection of two very ordinary TSL-2 patterns.
+
+- [handout (SYNC 2024)][sync-parasitic]
+
+In recent paper, I provide an in-depth TSL-2 analysis of case in Japanese, including structural and lexical case, valency alternations, and long-distance case assignment.
+
+- [paper][jpn-case] / [poster][jpn-case-poster] (SCiL 2023)
+
+### Local dependencies
+
+While long-distance dependencies get most of the attention, the study of computational complexity can reveal insights about local dependencies as well. I tackle this issue through the lens of finite-state automata in a recent paper.
+
+- [paper][sl-in-syntax] / [slides][sl-in-syntax-slides] (CLS 59)
+
+### Further reading
+
+I'm working on a bibliography of subregular linguistics, including not just syntax, but also phonology, morphology, and formal learnability.
+
 - [subregular bibliography](/files/subregular-bibliography.pdf)
 
 [jlm-agreement]: /files/hanson-jlm-tsl-agreement-preprint.pdf
 [cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
+[sync-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
 [jpn-case]: https://scholarworks.umass.edu/scil/vol6/iss1/4
@@ -32,11 +55,13 @@ Related: I'm working on a bibliography of subregular linguistics, covering phono
 
 ## Syntactic learning
 
-The above work suggests that many, perhaps even most long-distance linguistic dependencies are TSL-2, meaning that all constraints can be stated in a window of two elements on a tier.
-This is interesting, as TSL-2 is one of the simplest classes of formal languages which can handle long-distance dependencies at all.
-Recent research (e.g. [Lambert et al 2021][lambert.etal2021]) argue that this simplicity is intimately related to efficient learnability, providing an important clue for developing a computational theory of how such dependencies are learned.
+The above work suggests that many types of long-distance linguistic dependencies are TSL-2, meaning that all constraints can be stated in a window of two elements on a tier.
+This is interesting, as TSL-2 is one of the simplest classes of formal languages which can handle long-distance dependencies at all, and is in principle efficiently learnable.
+But there is a lot more that must be done to incorporate this knowledge into a theory of syntactic learning.
 
-- Inspired by recent work from a group at UPenn using the Tolerance Principle to learn syntactic islands, I sketch how their system could be adapted to produce a TSL-2 grammar, and discuss the relative roles of the grammar and the acquisition theory in explaining the constraints on long-distance syntactic dependencies. ([paper][tiers-paths])
+In a recent paper, I adapt a system by a group at UPenn, which learns syntactic islands from movement path using the Tolerance Principle, to produce a TSL-2 grammar, and discuss the relative roles of the grammar formalism and the learning theory in explaining the constraints on long-distance syntactic dependencies.
+
+- [Paper (SCiL 2024)][tiers-paths]
 
 [tiers-paths]: /files/hanson-scil2024-tiers-paths-locality.pdf
 [lambert.etal2021]: https://jlm.ipipan.waw.pl/index.php/JLM/article/view/262
