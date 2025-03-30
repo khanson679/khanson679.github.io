@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 2025-03-02
+date: 2025-03-28
 ---
 
 I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects. [See my CV](/cv) for a more complete list of papers and presentations.
