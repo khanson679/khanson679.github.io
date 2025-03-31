@@ -21,14 +21,19 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## What's new?
 
+2025
 * My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
   \[ [preprint](/files/hanson-jlm-tsl-agreement-preprint.pdf) \]
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[ [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I will be presenting at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
-  \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) \]
+  \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) 
+   | [poster](/files/hanson-plc49-poster.pdf)
+  \]
 * I presented at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
   \[ [poster](/files/hanson-lsa2025-poster-upward-agreement.pdf) \]
+
+2024
 * I presented at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
   \[
 <!--   [abstract](/files/hanson-sync2024-abstract.pdf)  -->
