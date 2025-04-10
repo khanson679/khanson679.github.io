@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2025-03-28
+date: 2025-04-09
 ---
 
 # Kenneth Hanson
@@ -26,7 +26,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
   \[ [preprint](/files/hanson-jlm-tsl-agreement-preprint.pdf) \]
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[ [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
-* I will be presenting at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
+* I presented at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
   \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) 
    | [poster](/files/hanson-plc49-poster.pdf)
   \]
@@ -59,7 +59,7 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 
 ## Contact
 
-Email me at my first initial + last name + six seven nine at gmail dot com.
+Email me at: mail at first name + last name dot net.
 
 
 [graf]: https://thomasgraf.net
