@@ -17,7 +17,7 @@ My full CV is available here: [hanson-cv.pdf](/files/hanson-cv.pdf).
 * Kenneth Hanson (2024). [A tier-based model of syntactic agreement](/files/hanson-cls60-tier-based-agreement.pdf). Proceedings of CLS 60. University of Chicago, Chicago, IL.
 * Kenneth Hanson (2024). [Tiers, paths, and syntactic locality: The view from learning](/files/hanson-scil2024-tiers-paths-locality.pdf).  Proceedings of SCiL 2024. UC Irvine, Irvine, CA.
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls59-sl-in-syntax.pdf). Proceedings of CLS 59. University of Chicago, Chicago, IL.
-* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-slides-pTreeTSL.pdf). Proceedings of SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
+* Charles Torres, Kenneth Hanson, Thomas Graf, and Connor Mayer (2023). [Modeling island effects with probabilistic tier-based strictly local grammars over trees](/files/torres-etal-scil2023-pTreeTSL.pdf). Proceedings of SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
 * Kenneth Hanson (2023). [A TSL analysis of Japanese case](/files/hanson-scil2023-tsl-jpn-case.pdf). Proceedings of SCiL 2023. University of Massachusetts Amherst, Amherst, MA.
 * J. Y. Chai, L. She, R. Fang, S. Ottarson, C. Littley, C. Liu, and K. Hanson (2014). [Collaborative effort towards common ground in situated human robot dialogue](https://doi.org/10.1145/2559636.2559677). HRI 2014. Bielefeld, Germany.
 
