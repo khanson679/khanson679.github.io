@@ -1,7 +1,7 @@
 ---
 title: Research
 layout: default
-date: 2025-04-09
+date: 2025-04-15
 ---
 
 I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects. [See my CV](/cv) for a more complete list of papers and presentations.
@@ -27,6 +27,7 @@ Even seemingly complex patterns from the literature can be provided a simple ana
 
 I have also developed an analysis of Hindi verbal agreement in two tiers, which demonstrates how the theoretically problematic phenomenon of parasitic agreement arises from the intersection of two very ordinary TSL-2 patterns.
 
+- [poster (PLC 49)][plc-parasitic]
 - [handout (SYNC 2024)][sync-parasitic]
 
 ### Case
@@ -58,7 +59,8 @@ I'm working on a bibliography of subregular linguistics, including not just synt
 
 [jlm-agreement]: /files/hanson-jlm-tsl-agreement-preprint.pdf
 [cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
-[sync-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
+[plc-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
+[sync-parasitic]: /files/hanson-plc49-poster.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
 [scil-jpn-case]: /files/hanson-scil2023-tsl-jpn-case.pdf
