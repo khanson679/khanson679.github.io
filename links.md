@@ -1,13 +1,15 @@
 ---
 title: Links
 layout: default
-date: 2023-09-06
+date: 2024-04-16
 ---
 
-## My Other Sites
+## My Other Sites/Profiles
 
 * [JapaneseProfessor.com](https://www.japaneseprofessor.com) -- beginning Japanese lessons and other resources
-* [My GitHub Page](https://github.com/khanson679)
+* [GitHub Profile](https://github.com/khanson679)
+* [Google Scholar Profile](https://scholar.google.com/citations?user=AkuNv2oAAAAJ)
+* [ORCID Profile](https://orcid.org/0009-0005-4243-3976)
 
 
 ## Compling
