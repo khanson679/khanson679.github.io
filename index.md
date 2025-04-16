@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2025-04-09
+date: 2025-04-15
 ---
 
 # Kenneth Hanson
@@ -26,7 +26,11 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
   \[ [preprint](/files/hanson-jlm-tsl-agreement-preprint.pdf) \]
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[ [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
-* I presented at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
+* I am on three papers to be presented at [SCiL 2025](https://wellesley-easel-lab.github.io/SCiL2025/index.html) (July 18-20):
+  * *Adjunction in (T)SL Syntax*
+  * (w/ Logan Swanson and Thomas Graf) *Are syntactic categories ISL-2 inferrable? A corpus study*
+  * (w/ Thomas Graf) *Syntax with strings attached*
+* I presented at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/) (April 4-6), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
   \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) 
    | [poster](/files/hanson-plc49-poster.pdf)
   \]
