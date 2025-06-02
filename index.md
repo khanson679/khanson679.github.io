@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2025-04-15
+date: 2025-06-02
 ---
 
 # Kenneth Hanson
@@ -27,15 +27,16 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
   \[ [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I am on three papers to be presented at [SCiL 2025](https://wellesley-easel-lab.github.io/SCiL2025/index.html) (July 18-20):
-  * *Adjunction in (T)SL Syntax*
-  * (w/ Logan Swanson and Thomas Graf) *Are syntactic categories ISL-2 inferrable? A corpus study*
-  * (w/ Thomas Graf) *Syntax with strings attached*
+  * *Adjunction in (T)SL Syntax* \[ [paper](/files/hanson-2025-adjunction.pdf)\]
+  * (w/ Logan Swanson and Thomas Graf) *Are syntactic categories ISL-2 inferrable? A corpus study* \[ [paper](/files/swanson-etal-2025-categories.pdf) \]
+  * (w/ Thomas Graf) *Automata for subregular syntax: Syntax with strings attached* \[ [paper](/files/graf-hanson-2025-automata.pdf)\]
 * I presented at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/) (April 4-6), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
   \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) 
    | [poster](/files/hanson-plc49-poster.pdf)
   \]
 * I presented at the [LSA 2025 Annual Meeting](https://web.cvent.com/event/40d9411e-b965-4659-b9c3-63046eeed3d4/summary) (Jan. 9-12), poster titled *Upward Agreement and Syntactic Counterfeeding in Lubukusu*.
-  \[ [poster](/files/hanson-lsa2025-poster-upward-agreement.pdf) \]
+  \[ [paper](/files/hanson-lsa2025-upward-agreement.pdf)
+  | [poster](/files/hanson-lsa2025-poster-upward-agreement.pdf) \]
 
 2024
 * I presented at [SYNC 2024](https://sites.google.com/nyu.edu/sync-2024/) (Dec. 7), talk titled *A Tier-Based Analysis of Parasitic Agreement in Hindi-Urdu*.
