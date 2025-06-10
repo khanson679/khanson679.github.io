@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2025-06-02
+date: 2025-06-09
 ---
 
 # Kenneth Hanson
@@ -22,14 +22,16 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 ## What's new?
 
 2025
-* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been accepted for publication by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
-  \[ [preprint](/files/hanson-jlm-tsl-agreement-preprint.pdf) \]
+* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been published by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
+  \[ [pdf](/files/hanson-2025-tsl-agreement.pdf)
+  |  [doi](https://doi.org/10.15398/jlm.v13i1.411)
+  \]
 * My [CLS 60](http://chicagolinguisticsociety.com/) proceedings paper is available. This is less technical version of the analysis in the JLM paper.
-  \[ [paper](/files/hanson-cls60-tier-based-agreement.pdf) \]
+  \[ [pdf](/files/hanson-cls60-tier-based-agreement.pdf) \]
 * I am on three papers to be presented at [SCiL 2025](https://wellesley-easel-lab.github.io/SCiL2025/index.html) (July 18-20):
-  * *Adjunction in (T)SL Syntax* \[ [paper](/files/hanson-2025-adjunction.pdf)\]
+  * *Adjunction in (T)SL Syntax* \[ [paper](/files/hanson-2025-adjunction.pdf) \]
   * (w/ Logan Swanson and Thomas Graf) *Are syntactic categories ISL-2 inferrable? A corpus study* \[ [paper](/files/swanson-etal-2025-categories.pdf) \]
-  * (w/ Thomas Graf) *Automata for subregular syntax: Syntax with strings attached* \[ [paper](/files/graf-hanson-2025-automata.pdf)\]
+  * (w/ Thomas Graf) *Automata for subregular syntax: Syntax with strings attached* \[ [paper](/files/graf-hanson-2025-automata.pdf) \]
 * I presented at [PLC 49](https://sites.google.com/sas.upenn.edu/plc49/) (April 4-6), poster titled *Two Steps to Parasitic Agreement in Hindi-Urdu*.
   \[ [abstract](/files/hanson-plc49-abstract-deanon.pdf) 
    | [poster](/files/hanson-plc49-poster.pdf)

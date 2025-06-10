@@ -17,7 +17,7 @@ My full CV is available here: [hanson-cv.pdf](/files/hanson-cv.pdf).
 * Logan Swanson, Kenneth Hanson, and Thomas Graf (to appear). [Are syntactic categories ISL-2 inferrable? A corpus study](/files/swanson-etal-2025-categories.pdf). Proceedings of SCiL 2025. University of Oregon, Eugene, OR.
 * Thomas Graf and Kenneth Hanson (to appear). [Automata for subregular syntax: Syntax with strings attached](/files/graf-hanson-2025-automata.pdf). Proceedings of SCiL 2025. University of Oregon, Eugene, OR.
 * Kenneth Hanson (to appear) [Upward Agreement and Syntactic Counterfeeding in Lubukusu](/files/hanson-lsa2025-upward-agreement.pdf). Proceedings of LSA 2025. Philadephia, PA.
-* Kenneth Hanson (2025). [Tier-based strict locality and the typology of agreement](/files/hanson-jlm-tsl-agreement-preprint.pdf). Journal of Language Modeling.
+* Kenneth Hanson (2025). [Tier-based strict locality and the typology of agreement](/files/hanson-2025-tsl-agreement.pdf). Journal of Language Modeling.
 * Kenneth Hanson (2024). [A tier-based model of syntactic agreement](/files/hanson-cls60-tier-based-agreement.pdf). Proceedings of CLS 60. University of Chicago, Chicago, IL.
 * Kenneth Hanson (2024). [Tiers, paths, and syntactic locality: The view from learning](/files/hanson-scil2024-tiers-paths-locality.pdf).  Proceedings of SCiL 2024. UC Irvine, Irvine, CA.
 * Kenneth Hanson (2023). [Strict locality in syntax](/files/hanson-cls59-sl-in-syntax.pdf). Proceedings of CLS 59. University of Chicago, Chicago, IL.

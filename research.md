@@ -57,7 +57,7 @@ I'm working on a bibliography of subregular linguistics, including not just synt
 
 - [subregular bibliography](/files/subregular-bibliography.pdf)
 
-[jlm-agreement]: /files/hanson-jlm-tsl-agreement-preprint.pdf
+[jlm-agreement]: /files/hanson-2025-tsl-agreement.pdf
 [cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
 [plc-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
 [sync-parasitic]: /files/hanson-plc49-poster.pdf
