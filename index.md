@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2025-06-09
+date: 2025-12-08
 ---
 
 # Kenneth Hanson
@@ -10,11 +10,13 @@ date: 2025-06-09
 
 ![Headshot](/files/me-crystal-bridges.jpg){: style="float: right; width: 250px; margin-left: 10px"}
 
-I'm a PhD student in the [Department of Linguistics][sbling] at Stony Brook University (entered 2020). My advisor is [Thomas Graf][graf].
-
-I received a BA from Michigan State University in 2014, where I majored in linguistics and Japanese, with a minor in computer science. After graduating, I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
+I'm a lecturer in the [Linguistics Department][yaleling] at Yale University.
+I received my PhD from [Stony Brook University][sbling] in 2025.
+My disseration advisor is [Thomas Graf][graf].
 
 My research focuses on computational syntax. I am studying syntactic dependencies such as case and agreement from the perspective of computational complexity in order to understand their locality properties, range of formal variation, and how they can be learned from positive data. I am also interested in Japanese linguistics.
+
+After graduating with a BA from Michigan State University (majoring in linguistics and Japanese), I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
 
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
@@ -74,3 +76,4 @@ Email me at: mail at first name + last name dot net.
 [jp]: https://www.japaneseprofessor.com
 [marimba]: https://en.wikipedia.org/wiki/Marimba
 [sbling]: https://linguistics.stonybrook.edu
+[yaleling]: http://ling.yale.edu
