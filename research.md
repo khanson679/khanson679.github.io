@@ -59,8 +59,8 @@ I'm working on a bibliography of subregular linguistics, including not just synt
 
 [jlm-agreement]: /files/hanson-2025-tsl-agreement.pdf
 [cls-agreement]: /files/hanson-cls60-tier-based-agreement.pdf
-[plc-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
-[sync-parasitic]: /files/hanson-plc49-poster.pdf
+[plc-parasitic]: /files/hanson-plc49-poster.pdf
+[sync-parasitic]: /files/hanson-sync2024-parasitic-agreement-ho.pdf
 [sl-in-syntax]: /files/hanson-cls59-sl-in-syntax.pdf
 [sl-in-syntax-slides]: /files/hanson-cls59-slides.pdf
 [scil-jpn-case]: /files/hanson-scil2023-tsl-jpn-case.pdf
