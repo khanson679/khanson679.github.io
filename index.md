@@ -30,7 +30,8 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 * I presented the keynote speech at [MSULC 2026](https://www.qualmsmsu.com/msulc-2026) (April 25), titled *Case Made Uncomplex: A Computational Perspective on the Syntax of Case*.
 
 2025
-* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been published by the [Journal of Language Modeling](https://jlm.ipipan.waw.pl/index.php/JLM).
+* My [dissertation](/files/hanson-2025-dissertation.pdf) is available.
+* My paper titled *Tier-Based Strict Locality and the Typology of Agreement* has been published in the *Journal of Language Modeling*.
   \[ [pdf](/files/hanson-2025-tsl-agreement.pdf)
   |  [doi](https://doi.org/10.15398/jlm.v13i1.411)
   \]
