@@ -1,10 +1,10 @@
 ---
 title: Research
 layout: default
-date: 2026-04-27
+date: 2026-10-20
 ---
 
-I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects. [See my CV](/cv) for a more complete list of papers and presentations.
+I'm primarily interested in syntax (sentence structure), computational linguistics, and Japanese linguistics. Below are some current and past projects. [See my CV](/cv) for a complete list of papers and presentations.
 
 
 ## Computational complexity of syntax
@@ -15,6 +15,9 @@ What's more, phonological patterns are also overwhelming subregular over strings
 
 Among the various subregular classes, **TSL (tier-based strictly local)** seems to be the upper bound for most individual dependencies.
 My current work argues that case and agreement dependencies are TSL-2, which means that all constraints can be stated in a window of two elements on a tier of salient elements, and that this provides an explanation of several key properties of their formal typology.
+
+My [dissertation](/research/dissertation) provides a recent snapshot of my thinking on this topic.
+Also see my [2026 review article](/files/hanson-2026-islands.pdf) on syntactic islands and related locality phenomena.
 
 ### Agreement
 
@@ -95,10 +98,9 @@ In a recent paper, I adapt a system by a group at UPenn, which learns syntactic 
 
 ## Restrictions on syntactic feature systems
 
-In a join project with Logan Swanson and [Thomas Graf][graf], we test the conjecture in [Graf 2020][graf2020-curbing] that syntactic category features are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by, using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank. Such a principle could plug a hole found in many grammatical formalisms which allows linguistically unnatural patterns to be encoded via category features. We find that this is true, but that there are 
+In a join project with Logan Swanson and [Thomas Graf][graf], we test the conjecture in [Graf 2020][graf2020-curbing] that syntactic category features are ISL-2 recoverable, that is, that they can be inferred only from the categories of heads that they select or are selected by, using data from [MGBank][mgbank], an MG corpus built from the Penn Treebank. Such a principle could plug a hole found in many grammatical formalisms which allows linguistically unnatural patterns to be encoded via category features. We find that this is true, but that the data could also be explained in other ways.
 
-
-
+- [Paper (SCiL 2025)](/files/swanson-etal-2025-categories.pdf)
 
 [graf]: https://thomasgraf.net
 [graf2020-curbing]: https://aclanthology.org/2020.scil-1.27/
@@ -115,7 +117,11 @@ In a recent presentation I examine a proposal by Ito and Mester (2004) in which 
 * [Abstract (SYNC 2021)](/files/hanson-sync2021-jpnvb-abstract.pdf)
 * [Slides (SYNC 2021)](/files/hanson-sync2021-jpnvb-pres.pdf)
 
-In an upcoming paper, I propose an answer as to what is really going on, and discuss avenues for further exploration.
+<!-- In an upcoming paper, I propose an answer as to what is really going on, and discuss avenues for further exploration. -->
+
+As for what is really going on, I believe that the current paradigm encodes the remnants of historical phonological alternations as morphologically conditioned allomorphy.
+The system seems to be at least partly productive, though possibly in a way that contradicts earlier analyses.
+(Manuscript available upon request.)
 
 
 ## Bare noun phrases in the history of English
