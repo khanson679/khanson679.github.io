@@ -23,6 +23,10 @@ Some other interests of mine include: music (piano, [marimba][], music theory), 
 ## What's new?
 
 2026
+* My paper titled *Not Just Islands: Relativized Blocking Throughout the Grammar*, has been published in the Special Issue *New Trends in Syntactic Islands* of *Languages*.
+  \[ [pdf](/files/hanson-2026-islands.pdf)
+  |  [doi](https://doi.org/10.3390/languages11100204)
+  \]
 * I presented the keynote speech at [MSULC 2026](https://www.qualmsmsu.com/msulc-2026) (April 25), titled *Case Made Uncomplex: A Computational Perspective on the Syntax of Case*.
 
 2025
