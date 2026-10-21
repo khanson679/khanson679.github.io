@@ -1,7 +1,7 @@
 ---
 title: About
 layout: default
-date: 2026-04-26
+date: 2026-10-20
 ---
 
 # Kenneth Hanson
@@ -10,13 +10,12 @@ date: 2026-04-26
 
 ![Headshot](/files/me-crystal-bridges.jpg){: style="float: right; width: 250px; margin-left: 10px"}
 
-I'm a lecturer in the [Linguistics Department][yaleling] at Yale University.
-I received my PhD from [Stony Brook University][sbling] in 2025.
-My disseration advisor is [Thomas Graf][graf].
+I'm a linguist specializing in computational syntax.
+I study syntactic dependencies such as case and agreement from the perspective of computational complexity in order to understand their locality properties, cross-linguistic variation, and how they can be learned efficiently. I am also interested in Japanese linguistics.
 
-My research focuses on computational syntax. I am studying syntactic dependencies such as case and agreement from the perspective of computational complexity in order to understand their locality properties, range of formal variation, and how they can be learned efficiently. I am also interested in Japanese linguistics.
-
-After graduating with a BA from Michigan State University (majoring in linguistics and Japanese), I worked for four years as an assistant English teacher in Japan through the [JET Programme][jet]. I've also created some free [Japanese language education materials][jp].
+I received my PhD from [Stony Brook University][sbling] in 2025, advised by [Thomas Graf][graf].
+I taught as a lecturer in the [Yale Linguistics Department][yaleling] during the 2025--2026 academic year.
+Previously, I worked for four years teaching English in Japan through the [JET Programme][jet].
 
 Some other interests of mine include: music (piano, [marimba][], music theory), physics & astronomy, operating systems, typography, cognitive psychology, and European history.
 
