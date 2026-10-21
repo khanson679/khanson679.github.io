@@ -7,7 +7,8 @@ permalink: /research/dissertation
 
 My 2025 dissertation is linked below.
 Any updated versions will also be posted here.
-I expect to make only minor corrections.
+I plan to make only minor corrections.
+Please let me know if you find any errors or inconsistencies in the current version! (email address on homepage)
 
 - official dissertation:
     [pdf](/files/hanson-2025-dissertation.pdf)
@@ -43,12 +44,15 @@ Chaper 1 covers the history and motivation of the project.
 Chapter 2 provides a crash course in subregular syntax. It surveys past work from around 2011--2023 as it relates to the present project. Also see my [2026 review article](/files/hanson-2026-islands.pdf), which borrows a few examples from this chapter.
 
 The main content chapers (3--8) are based on existing papers/presentations.
-There is almost no difference in the core analysis or conclusions presented in each version, though the paper version of Chapter 8 will include some new material.
-The correspondences between dissertation chapters and the standalone papers are shown below.
+There is almost no difference in the core analysis or conclusions presented in each version.
+The correspondence between dissertation chapters and the standalone papers is shown below.
 
-| Ch. 3/4 | The Typology of TSL Case Assignment | [pdf](/files/hanson-2025-tsl-case.pdf)
-| Ch. 5   | A TSL Analysis of Japanese Case | [pdf](/files/hanson-scil2023-tsl-jpn-case.pdf)
-| Ch. 6/7 | Tier-based strict locality and the typology of agreement | [pdf](/files/hanson-2025-tsl-agreement.pdf)
-| Ch. 8   | When syntactic tiers collide: Parasitic agreement in Hindi-Urdu | (in progress)
+| Ch. 3/4 | The Typology of TSL Case Assignment (MoL 2025)
+| Ch. 5   | A TSL Analysis of Japanese Case (SCiL 2023)
+| Ch. 6/7 | Tier-based strict locality and the typology of agreement (Journal of Language Modelling, 2025)
+| Ch. 8   | Two Steps to Parasitic Agreement in Hindi-Urdu (PLC 2025)
 
-Please let me know if you find any errors or inconsistencies in the current version! (email address on homepage)
+Chapters 3/6 contain extended theoretical background for the analysis which is not present in the standalone papers.
+Chapter 5 proposes a small update to the analysis of complex verbal constructions.
+Chapter 7 adds some examples of impossible agreement patterns.
+Chapter 8 reverts from bare phrase structure trees (as in my 2025 CLS paper) to MG dependency trees (as in the rest of the dissertation).
